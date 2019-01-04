@@ -1,4 +1,4 @@
-﻿Log file open, 01/03/19 15:13:02
+﻿Log file open, 01/04/19 15:08:27
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: BattleTank
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.537665
+LogStats: Stats thread started at 0.544223
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -94,7 +94,7 @@ LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.052s to configure plugins.
+LogStreaming: Display: Took  0.054s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -154,784 +154,866 @@ LogInit: Presizing for max 8388607 objects, including 0 objects not considered b
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.01.03-06.13.03:211][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.01.03-06.13.03:211][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.01.03-06.13.03:211][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/Unreal4/Section_04/BattleTank/BattleTank/Saved/Config/Windows/Engine.ini]
-[2019.01.03-06.13.03:211][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.01.03-06.13.03:211][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/Unreal4/Section_04/BattleTank/BattleTank/Saved/Config/Windows/Engine.ini]
-[2019.01.03-06.13.03:211][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/Unreal4/Section_04/BattleTank/BattleTank/Saved/Config/Windows/Engine.ini]
-[2019.01.03-06.13.03:211][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.01.03-06.13.03:211][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.01.03-06.13.03:211][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.01.03-06.13.03:211][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.01.03-06.13.03:211][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.01.03-06.13.03:211][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.01.03-06.13.03:211][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.01.03-06.13.03:211][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.01.03-06.13.03:211][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.01.03-06.13.03:211][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.01.03-06.13.03:211][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.01.03-06.13.03:211][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.01.03-06.13.03:211][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.01.03-06.13.03:211][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/Unreal4/Section_04/BattleTank/BattleTank/Saved/Config/Windows/Engine.ini]
-[2019.01.03-06.13.03:211][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.01.03-06.13.03:211][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.01.03-06.13.03:211][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.01.03-06.13.03:211][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.01.03-06.13.03:211][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.01.03-06.13.03:211][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.01.03-06.13.03:211][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
-[2019.01.03-06.13.03:211][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.01.03-06.13.03:211][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.01.03-06.13.03:211][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
-[2019.01.03-06.13.03:211][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.01.03-06.13.03:211][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.01.03-06.13.03:212][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.01.03-06.13.03:212][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.01.03-06.13.03:212][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/Unreal4/Section_04/BattleTank/BattleTank/Saved/Config/Windows/Engine.ini]
-[2019.01.03-06.13.03:212][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/Unreal4/Section_04/BattleTank/BattleTank/Saved/Config/Windows/Engine.ini]
-[2019.01.03-06.13.03:215][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Unreal4/Section_04/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
-[2019.01.03-06.13.03:215][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.01.03-06.13.03:215][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Unreal4/Section_04/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Unreal4/Section_04/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Unreal4/Section_04/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Unreal4/Section_04/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Unreal4/Section_04/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Unreal4/Section_04/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.01.03-06.13.03:216][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.01.03-06.13.03:216][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.03-06.13.03:216][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.01.03-06.13.03:227][  0]LogHAL: Display: Platform has ~ 16 GB [17107632128 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.01.03-06.13.03:227][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
-[2019.01.03-06.13.03:227][  0]LogInit: Going up to parent DeviceProfile []
-[2019.01.03-06.13.03:228][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Unreal4/Section_04/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Unreal4/Section_04/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Unreal4/Section_04/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Unreal4/Section_04/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Unreal4/Section_04/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Unreal4/Section_04/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Unreal4/Section_04/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.01.03-06.13.03:228][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.01.03-06.13.03:229][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.01.03-06.13.03:229][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/Unreal4/Section_04/BattleTank/BattleTank/Saved/Config/Windows/Engine.ini]
-[2019.01.03-06.13.03:229][  0]LogInit: Computer: DESKTOP-2BM5QKQ
-[2019.01.03-06.13.03:229][  0]LogInit: User: joshu
-[2019.01.03-06.13.03:229][  0]LogInit: CPU Page size=4096, Cores=8
-[2019.01.03-06.13.03:229][  0]LogInit: High frequency timer resolution =3.606500 MHz
-[2019.01.03-06.13.03:229][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.01.03-06.13.03:229][  0]LogMemory: Platform Memory Stats for Windows
-[2019.01.03-06.13.03:229][  0]LogMemory: Process Physical Memory: 103.61 MB used, 103.61 MB peak
-[2019.01.03-06.13.03:229][  0]LogMemory: Process Virtual Memory: 91.84 MB used, 91.84 MB peak
-[2019.01.03-06.13.03:229][  0]LogMemory: Physical Memory: 6407.01 MB used,  9908.10 MB free, 16315.11 MB total
-[2019.01.03-06.13.03:229][  0]LogMemory: Virtual Memory: 4685.97 MB used,  134213040.00 MB free, 134217728.00 MB total
-[2019.01.03-06.13.03:247][  0]LogInit: Overriding language with editor language configuration option (en).
-[2019.01.03-06.13.03:247][  0]LogInit: Overriding locale with editor locale configuration option (en).
-[2019.01.03-06.13.03:578][  0]LogStreaming: Display: Took  0.331s to InitEngineTextLocalization.
-[2019.01.03-06.13.03:578][  0]LogInit: Setting process to per monitor DPI aware
-[2019.01.03-06.13.03:611][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.01.03-06.13.03:611][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.01.03-06.13.03:814][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.01.03-06.13.03:814][  0]LogD3D11RHI: D3D11 adapters:
-[2019.01.03-06.13.03:898][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080' (Feature Level 11_0)
-[2019.01.03-06.13.03:898][  0]LogD3D11RHI:       8010/0/8157 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.01.03-06.13.03:899][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.01.03-06.13.03:899][  0]LogD3D11RHI:       0/0/8157 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.01.03-06.13.03:899][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.01.03-06.13.03:906][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.01.03-06.13.03:906][  0]LogD3D11RHI:     GPU DeviceId: 0x1e87 (for the marketing name, search the web for "GPU Device Id")
-[2019.01.03-06.13.03:906][  0]LogWindows: EnumDisplayDevices:
-[2019.01.03-06.13.03:906][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080' (P:1 D:1)
-[2019.01.03-06.13.03:907][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
-[2019.01.03-06.13.03:908][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
-[2019.01.03-06.13.03:908][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
-[2019.01.03-06.13.03:908][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.01.03-06.13.03:909][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080
-[2019.01.03-06.13.03:909][  0]LogD3D11RHI:   Driver Version: 417.35 (internal:25.21.14.1735, unified:417.35)
-[2019.01.03-06.13.03:909][  0]LogD3D11RHI:      Driver Date: 12-11-2018
-[2019.01.03-06.13.03:909][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
-[2019.01.03-06.13.03:961][  0]LogD3D11RHI: Async texture creation enabled
-[2019.01.03-06.13.03:987][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.01.03-06.13.04:030][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061086).
-[2019.01.03-06.13.04:297][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.01.03-06.13.04:310][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.01.03-06.13.04:323][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.01.03-06.13.04:337][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.01.03-06.13.04:350][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.01.03-06.13.04:364][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.01.03-06.13.04:377][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.01.03-06.13.04:390][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.01.03-06.13.04:397][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.01.03-06.13.04:472][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.03-06.13.04:472][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.03-06.13.04:472][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.03-06.13.04:472][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.03-06.13.04:472][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.03-06.13.04:472][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.03-06.13.04:472][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.03-06.13.04:472][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.03-06.13.04:472][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.03-06.13.04:472][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.03-06.13.04:472][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.03-06.13.04:472][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.03-06.13.04:472][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.03-06.13.04:472][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.03-06.13.04:472][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.03-06.13.04:472][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.03-06.13.04:472][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.03-06.13.04:472][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.03-06.13.04:474][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.01.03-06.13.04:534][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.01.03-06.13.04:534][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.01.03-06.13.04:557][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.01.03-06.13.04:557][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.01.03-06.13.04:569][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.01.03-06.13.04:581][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.01.03-06.13.04:593][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.01.03-06.13.04:606][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.01.03-06.13.04:649][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.01.03-06.13.04:649][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.01.03-06.13.04:649][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.01.03-06.13.04:704][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (E:/Unreal4/Section_04/BattleTank/BattleTank/Intermediate/Shaders/WorkingDirectory/2880/).
-[2019.01.03-06.13.04:704][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/joshu/AppData/Local/Temp/UnrealShaderWorkingDir/2E1EF43A4CF84E170E98CF946410DA72/'.
-[2019.01.03-06.13.04:706][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.01.03-06.13.04:706][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.01.03-06.13.04:706][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.01.03-06.13.05:145][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.01.03-06.13.05:182][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/joshu/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.01.03-06.13.05:182][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/joshu/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
-[2019.01.03-06.13.05:182][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Unreal4/Section_04/BattleTank/BattleTank/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.01.03-06.13.05:182][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.01.03-06.13.05:182][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Unreal4/Section_04/BattleTank/BattleTank/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.01.03-06.13.05:183][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.01.03-06.13.05:194][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.01.03-06.13.05:194][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.01.03-06.13.05:194][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.01.03-06.13.05:206][  0]LogDerivedDataCache: Using Local data cache path C:/Users/joshu/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.01.03-06.13.05:206][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.01.03-06.13.05:206][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.01.03-06.13.05:227][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.01.03-06.13.05:228][  0]LogSlate: Using FreeType 2.6.0
-[2019.01.03-06.13.05:229][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.01.03-06.13.05:314][  0]LogAssetRegistry: FAssetRegistry took 0.0333 seconds to start up
-[2019.01.03-06.13.05:605][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.03-06.13.05:665][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.01.03-06.13.05:668][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.01.03-06.13.05:668][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.01.03-06.13.05:668][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.01.03-06.13.05:668][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.01.03-06.13.05:742][  0]LogNetVersion: BattleTank 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1064757075)
-[2019.01.03-06.13.06:119][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.036439 seconds
-[2019.01.03-06.13.06:124][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
-[2019.01.03-06.13.06:124][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
-[2019.01.03-06.13.06:124][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.01.03-06.13.06:897][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.01.03-06.13.06:911][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.01.03-06.13.07:518][  0]SourceControl: Source control is disabled
-[2019.01.03-06.13.07:518][  0]SourceControl: Source control is disabled
-[2019.01.03-06.13.07:519][  0]SourceControl: Source control is disabled
-[2019.01.03-06.13.07:520][  0]SourceControl: Source control is disabled
-[2019.01.03-06.13.07:677][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.01.03-06.13.07:790][  0]LogOcInput: OculusInput pre-init called
-[2019.01.03-06.13.07:919][  0]LogEngine: Initializing Engine...
-[2019.01.03-06.13.07:919][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.01.03-06.13.07:921][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.01.03-06.13.07:921][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.01.03-06.13.07:921][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.01.03-06.13.07:921][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.01.03-06.13.08:108][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.01.03-06.13.08:120][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.01.03-06.13.08:160][  0]LogInit: XAudio2 using '헤드셋 이어폰(Corsair VOID PRO Surround USB Sound Adapter)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2019.01.03-06.13.08:297][  0]LogInit: FAudioDevice initialized.
-[2019.01.03-06.13.08:297][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.01.03-06.13.08:373][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/joshu/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.01.03-06.13.08:382][  0]LogInit: Texture streaming: Enabled
-[2019.01.03-06.13.08:400][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.01.03-06.13.08:413][  0]LogInit: Transaction tracking system initialized
-[2019.01.03-06.13.08:435][  0]BlueprintLog: New page: Editor Load
-[2019.01.03-06.13.08:506][  0]LocalizationService: Localization service is disabled
-[2019.01.03-06.13.08:970][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal4/Section_04/BattleTank/BattleTank/Content/' took 0.01s
-[2019.01.03-06.13.08:970][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.01.03-06.13.08:970][  0]LogCook: Display: Mobile HDR setting 1
-[2019.01.03-06.13.08:970][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.01.03-06.13.08:970][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.01.03-06.13.08:970][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.01.03-06.13.08:970][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.01.03-06.13.08:970][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.01.03-06.13.09:087][  0]SourceControl: Source control is disabled
-[2019.01.03-06.13.09:087][  0]Cmd: MAP LOAD FILE="E:/Unreal4/Section_04/BattleTank/BattleTank/Content/FlatShading/BattleGround_FlatShading.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.01.03-06.13.09:088][  0]LightingResults: New page: Lighting Build
-[2019.01.03-06.13.09:090][  0]MapCheck: New page: Map Check
-[2019.01.03-06.13.09:090][  0]LightingResults: New page: Lighting Build
-[2019.01.03-06.13.09:160][  0]LogLinker: Warning: Can't find file '/Game/Blueprints/PlayerController_BP'
-[2019.01.03-06.13.09:161][  0]LogLinker: Warning: Can't find file for asset '/Game/Blueprints/PlayerController_BP' while loading E:/Unreal4/Section_04/BattleTank/BattleTank/Content/Blueprints/BattleTankGameMode_BP.uasset.
-[2019.01.03-06.13.09:161][  0]LoadErrors: Error: /Game/Blueprints/BattleTankGameMode_BP : Can't find file for asset. /Game/Blueprints/PlayerController_BP
-[2019.01.03-06.13.09:173][  0]LogLinker: Warning: Can't find file '/Game/Blueprints/PlayerController_BP'
-[2019.01.03-06.13.09:173][  0]LogLinker: Warning: Can't find file for asset '/Game/Blueprints/PlayerController_BP' while loading E:/Unreal4/Section_04/BattleTank/BattleTank/Content/Blueprints/BattleTankGameMode_BP.uasset.
-[2019.01.03-06.13.09:173][  0]LoadErrors: Error: /Game/Blueprints/BattleTankGameMode_BP : Can't find file for asset. /Game/Blueprints/PlayerController_BP
-[2019.01.03-06.13.09:173][  0]LogLinker: Warning: Can't find file '/Game/Blueprints/PlayerController_BP'
-[2019.01.03-06.13.09:173][  0]LogLinker: Warning: Can't find file for asset '/Game/Blueprints/PlayerController_BP' while loading E:/Unreal4/Section_04/BattleTank/BattleTank/Content/FlatShading/BattleGround_FlatShading.umap.
-[2019.01.03-06.13.09:173][  0]LoadErrors: Error: /Game/FlatShading/BattleGround_FlatShading : Can't find file for asset. /Game/Blueprints/PlayerController_BP
-[2019.01.03-06.13.09:174][  0]LogLinker: Warning: Can't find file '/Game/Blueprints/PlayerController_BP'
-[2019.01.03-06.13.09:174][  0]LogLinker: Warning: Can't find file for asset '/Game/Blueprints/PlayerController_BP' while loading E:/Unreal4/Section_04/BattleTank/BattleTank/Content/FlatShading/BattleGround_FlatShading.umap.
-[2019.01.03-06.13.09:174][  0]LoadErrors: Error: /Game/FlatShading/BattleGround_FlatShading : Can't find file for asset. /Game/Blueprints/PlayerController_BP
-[2019.01.03-06.13.09:174][  0]LogLinker: Warning: Can't find file '/Game/Blueprints/PlayerController_BP'
-[2019.01.03-06.13.09:174][  0]LoadErrors: Failed to load /Game/Blueprints/PlayerController_BP.PlayerController_BP_C Referenced by Default__BattleTankGameMode_BP_C
-[2019.01.03-06.13.09:174][  0]LogLinker: Warning: Can't find file for asset '/Game/Blueprints/PlayerController_BP' while loading E:/Unreal4/Section_04/BattleTank/BattleTank/Content/FlatShading/BattleGround_FlatShading.umap.
-[2019.01.03-06.13.09:174][  0]LoadErrors: Failed to load /Game/Blueprints/PlayerController_BP.PlayerController_BP_C Referenced by Default__BattleTankGameMode_BP_C
-[2019.01.03-06.13.09:174][  0]LoadErrors: Error: /Game/FlatShading/BattleGround_FlatShading : Can't find file for asset. /Game/Blueprints/PlayerController_BP
-[2019.01.03-06.13.09:527][  0]LogAIModule: Creating AISystem for world BattleGround_FlatShading
-[2019.01.03-06.13.09:552][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.01.03-06.13.09:582][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.01.03-06.13.09:582][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.09ms to complete.
-[2019.01.03-06.13.09:582][  0]LogFileHelpers: Loading map 'BattleGround_FlatShading' took 0.495
-[2019.01.03-06.13.09:695][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.03-06.13.09:702][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.03-06.13.09:708][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.03-06.13.09:715][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.03-06.13.09:721][  0]LogCollectionManager: Loaded 0 collections in 0.001547 seconds
-[2019.01.03-06.13.09:748][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal4/Section_04/BattleTank/BattleTank/Saved/Collections/' took 0.01s
-[2019.01.03-06.13.09:748][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal4/Section_04/BattleTank/BattleTank/Content/Developers/joshu/Collections/' took 0.01s
-[2019.01.03-06.13.09:748][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal4/Section_04/BattleTank/BattleTank/Content/Collections/' took 0.00s
-[2019.01.03-06.13.09:748][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.01.03-06.13.09:756][  0]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2652 classes and 622 folders.
-[2019.01.03-06.13.09:762][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.01.03-06.13.09:763][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.03-06.13.09:764][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.03-06.13.09:764][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.03-06.13.09:765][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.03-06.13.09:765][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.03-06.13.09:765][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.03-06.13.09:766][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.03-06.13.09:766][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.03-06.13.09:766][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.03-06.13.09:767][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.03-06.13.09:767][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.03-06.13.09:768][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.03-06.13.09:768][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.03-06.13.09:768][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.03-06.13.09:769][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.03-06.13.09:769][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.03-06.13.09:770][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.03-06.13.09:770][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.03-06.13.09:771][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.03-06.13.09:771][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.03-06.13.09:771][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.03-06.13.09:772][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.03-06.13.09:772][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.03-06.13.09:773][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.03-06.13.09:773][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.03-06.13.09:774][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.03-06.13.09:810][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.01.03-06.13.09:816][  0]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.01.03-06.13.09:818][  0]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.01.03-06.13.09:823][  0]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.01.03-06.13.09:889][  0]LogRenderer: Reallocating scene render targets to support 2144x1040 Format 10 NumSamples 1 (Frame:1).
-[2019.01.03-06.13.10:037][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.01.03-06.13.10:037][  0]LogLoad: (Engine Initialization) Total time: 8.97 seconds
-[2019.01.03-06.13.10:037][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.01.03-06.13.10:048][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
-[2019.01.03-06.13.10:114][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.01.03-06.13.10:117][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.03-06.13.10:159][  1]LogAssetRegistry: Asset discovery search completed in 4.8677 seconds
-[2019.01.03-06.13.10:160][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.01.03-06.13.10:161][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000067 seconds (updated 0 objects)
-[2019.01.03-06.13.14:140][475]LogSlate: Took 0.001192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2019.01.03-06.13.23:573][602]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2019.01.03-06.13.23:965][645]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.03-06.13.24:056][656]LogSlate: Window 'Message Log' being destroyed
-[2019.01.03-06.13.24:100][656]LogSlate: Window 'Message Log' being destroyed
-[2019.01.03-06.13.26:002][865]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.03-06.13.26:068][873]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.01.03-06.13.26:082][873]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel' has LevelScriptBlueprint '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading' with GeneratedClass '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading_C' with ClassGeneratedBy '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading'
-[2019.01.03-06.13.26:082][873]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.01.03-06.13.26:083][873]PIE: New page: PIE session: BattleGround_FlatShading (Jan 4, 2019, 12:13:26 AM)
-[2019.01.03-06.13.26:095][873]LogPlayLevel: Creating play world package: /Game/FlatShading/UEDPIE_0_BattleGround_FlatShading
-[2019.01.03-06.13.26:140][873]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045406s)
-[2019.01.03-06.13.26:141][873]LogAIModule: Creating AISystem for world BattleGround_FlatShading
-[2019.01.03-06.13.26:141][873]LogPlayLevel: PIE: World Init took: (0.000510s)
-[2019.01.03-06.13.26:141][873]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading to /Game/FlatShading/UEDPIE_0_BattleGround_FlatShading.BattleGround_FlatShading (0.046139s)
-[2019.01.03-06.13.26:207][873]LogInit: XAudio2 using '헤드셋 이어폰(Corsair VOID PRO Surround USB Sound Adapter)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2019.01.03-06.13.26:323][873]LogInit: FAudioDevice initialized.
-[2019.01.03-06.13.26:328][873]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.03-06.13.26:367][873]LogLoad: Game class is 'BattleTankGameMode_BP_C'
-[2019.01.03-06.13.26:370][873]LogWorld: Bringing World /Game/FlatShading/UEDPIE_0_BattleGround_FlatShading.BattleGround_FlatShading up for play (max tick rate 0) at 2019.01.03-15.13.26
-[2019.01.03-06.13.26:371][873]LogWorld: Bringing up level for play took: 0.002915
-[2019.01.03-06.13.26:382][873]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2019.01.03-06.13.26:382][873]LogGameMode: Login: Couldn't spawn player controller of class NULL
-[2019.01.03-06.13.26:382][873]LogSpawn: Warning: Login failed: Failed to spawn player controller
-[2019.01.03-06.13.29:991][873]LogSlate: Window 'Message' being destroyed
-[2019.01.03-06.13.30:035][873]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel' has LevelScriptBlueprint '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading' with GeneratedClass '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading_C' with ClassGeneratedBy '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading'
-[2019.01.03-06.13.30:035][873]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.03-06.13.30:052][873]LogSlate: Window 'BattleTank Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.01.03-06.13.30:124][873]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.01.03-06.13.30:124][873]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel' has LevelScriptBlueprint '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading' with GeneratedClass '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading_C' with ClassGeneratedBy '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading'
-[2019.01.03-06.13.30:154][873]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.03-06.13.30:162][874]LogPlayLevel: Display: Destroying online subsystem :Context_1
-[2019.01.03-06.13.33:660][271]MapCheck: New page: Map Check
-[2019.01.03-06.13.33:668][271]Cmd: MAP REBUILD ALLVISIBLE
-[2019.01.03-06.13.33:668][271]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2019.01.03-06.13.33:721][271]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
-[2019.01.03-06.13.33:731][271]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
-[2019.01.03-06.13.33:737][271]LogShaderCompilers: Display: Shaders left to compile 2
-[2019.01.03-06.13.33:737][271]LogShaderCompilers: Display: Shaders left to compile 1
-[2019.01.03-06.13.33:737][271]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
-[2019.01.03-06.13.34:154][271]LogShaderCompilers: Display: Shaders left to compile 1
-[2019.01.03-06.13.34:154][271]TextureStreamingBuild: Display: Compiling optional shaders took 0.437 seconds.
-[2019.01.03-06.13.34:162][271]LogLevel: Display: Export Material TexCoord Scales took 0.007 seconds.
-[2019.01.03-06.13.34:168][271]TextureStreamingBuild: Display: Build Texture Streaming took 0.006 seconds.
-[2019.01.03-06.13.34:197][271]LightingResults: New page: Lighting Build - Jan 4, 2019, 12:13:34 AM
-[2019.01.03-06.13.34:236][271]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2019.01.03-06.13.34:329][271]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2019.01.03-06.13.34:344][271]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2019.01.03-06.13.34:862][271]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2019.01.03-06.13.34:862][271]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2880
-[2019.01.03-06.13.37:416][271]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2019.01.03-06.13.37:416][271]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2019.01.03-06.13.37:416][271]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2019.01.03-06.13.37:416][271]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2019.01.03-06.13.37:416][271]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2019.01.03-06.13.37:614][271]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2019.01.03-06.13.37:614][271]MapCheck: New page: BattleGround_FlatShading - Jan 4, 2019, 12:13:37 AM
-[2019.01.03-06.13.37:614][271]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.462ms to complete.
-[2019.01.03-06.13.37:637][271]LogEditorBuildUtils: Build time 0:03
-[2019.01.03-06.13.40:809][477]Job is a success!
-[2019.01.03-06.13.40:829][478]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.01.03-06.13.40:898][478]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.008s
-[2019.01.03-06.13.40:898][478]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2019.01.03-06.13.40:898][478]LogVolumetricLightmapImport:      BrickData 10x5x5 = 0.0Mb
-[2019.01.03-06.13.40:898][478]LogVolumetricLightmapImport:      Bricks at Level
-[2019.01.03-06.13.40:898][478]LogVolumetricLightmapImport:          0: 50.0% covering 100.0% of volume
-[2019.01.03-06.13.40:898][478]LogVolumetricLightmapImport:          1: 50.0% covering 1.6% of volume
-[2019.01.03-06.13.40:898][478]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
-[2019.01.03-06.13.41:008][478]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
-[2019.01.03-06.13.41:008][478]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
-[2019.01.03-06.13.41:008][478]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X128)
-[2019.01.03-06.13.41:044][478]Lightmass on DESKTOP-2BM5QKQ: 2.35 sec total, 489 ms importing, 64 ms setup, 1.00 sec photons, 734 ms processing, 0 ms extra exporting [65/65 mappings]. Threads: 10.0 sec total, 4.37 sec processing.
-[2019.01.03-06.13.41:208][478]LogStaticLightingSystem: Illumination: 6.95 sec (58 ms encoding lightmaps, 26 ms encoding shadowmaps)
-[2019.01.03-06.13.41:208][478]LogStaticLightingSystem: Lightmap texture memory:  0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 2 textures
-[2019.01.03-06.13.41:208][478]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 1 textures
-[2019.01.03-06.13.41:422][478]DumpUnbuiltLightIteractions
-[2019.01.03-06.13.41:422][478]Lights with unbuilt interactions: 0
-[2019.01.03-06.13.41:422][478]
-[2019.01.03-06.13.41:422][478]Primitives with unbuilt interactions: 0
-[2019.01.03-06.13.41:592][479]Cmd: MAP CHECK NOTIFYRESULTS
-[2019.01.03-06.13.41:592][479]MapCheck: New page: BattleGround_FlatShading - Jan 4, 2019, 12:13:41 AM
-[2019.01.03-06.13.41:593][479]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.464ms to complete.
-[2019.01.03-06.13.47:502][174]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.01.03-06.13.47:517][174]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel' has LevelScriptBlueprint '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading' with GeneratedClass '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading_C' with ClassGeneratedBy '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading'
-[2019.01.03-06.13.47:517][174]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.01.03-06.13.47:517][174]PIE: New page: PIE session: BattleGround_FlatShading (Jan 4, 2019, 12:13:47 AM)
-[2019.01.03-06.13.47:517][174]LogPlayLevel: Creating play world package: /Game/FlatShading/UEDPIE_0_BattleGround_FlatShading
-[2019.01.03-06.13.47:558][174]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041196s)
-[2019.01.03-06.13.47:559][174]LogAIModule: Creating AISystem for world BattleGround_FlatShading
-[2019.01.03-06.13.47:559][174]LogPlayLevel: PIE: World Init took: (0.000520s)
-[2019.01.03-06.13.47:559][174]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading to /Game/FlatShading/UEDPIE_0_BattleGround_FlatShading.BattleGround_FlatShading (0.041874s)
-[2019.01.03-06.13.47:621][174]LogInit: XAudio2 using '헤드셋 이어폰(Corsair VOID PRO Surround USB Sound Adapter)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2019.01.03-06.13.47:747][174]LogInit: FAudioDevice initialized.
-[2019.01.03-06.13.47:752][174]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.03-06.13.47:781][174]LogLoad: Game class is 'BattleTankGameMode_BP_C'
-[2019.01.03-06.13.47:784][174]LogWorld: Bringing World /Game/FlatShading/UEDPIE_0_BattleGround_FlatShading.BattleGround_FlatShading up for play (max tick rate 0) at 2019.01.03-15.13.47
-[2019.01.03-06.13.47:784][174]LogWorld: Bringing up level for play took: 0.002620
-[2019.01.03-06.13.47:796][174]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2019.01.03-06.13.47:796][174]LogGameMode: Login: Couldn't spawn player controller of class NULL
-[2019.01.03-06.13.47:796][174]LogSpawn: Warning: Login failed: Failed to spawn player controller
-[2019.01.03-06.13.51:522][174]LogSlate: Window 'Message' being destroyed
-[2019.01.03-06.13.51:565][174]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel' has LevelScriptBlueprint '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading' with GeneratedClass '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading_C' with ClassGeneratedBy '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading'
-[2019.01.03-06.13.51:565][174]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.03-06.13.51:583][174]LogSlate: Window 'BattleTank Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.01.03-06.13.51:653][174]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.01.03-06.13.51:653][174]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel' has LevelScriptBlueprint '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading' with GeneratedClass '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading_C' with ClassGeneratedBy '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading'
-[2019.01.03-06.13.51:684][174]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.03-06.13.51:691][175]LogPlayLevel: Display: Destroying online subsystem :Context_2
-[2019.01.03-06.13.57:649][836]LogAIModule: Creating AISystem for world BattleGround
-[2019.01.03-06.13.57:689][836]LogAssetEditorManager: Opening Asset editor for World /Game/Levels_/BattleGround.BattleGround
-[2019.01.03-06.13.59:769][836]LogSlate: Window 'Save Content' being destroyed
-[2019.01.03-06.14.00:345][836]LogSavePackage: Moving 'E:/Unreal4/Section_04/BattleTank/BattleTank/Saved/BattleGround_FlatShadingBEC945A64A92CDBE7665BFA6AAECF7B2.tmp' to 'E:/Unreal4/Section_04/BattleTank/BattleTank/Content/FlatShading/BattleGround_FlatShading.umap'
-[2019.01.03-06.14.00:373][836]LogFileHelpers: Saving map 'BattleGround_FlatShading' took 0.559
-[2019.01.03-06.14.00:401][836]LogSavePackage: Moving 'E:/Unreal4/Section_04/BattleTank/BattleTank/Saved/BattleGround_FlatShading_BuiltDa3278B2F04868C7DE4CD4188F685CD7D0.tmp' to 'E:/Unreal4/Section_04/BattleTank/BattleTank/Content/FlatShading/BattleGround_FlatShading_BuiltData.uasset'
-[2019.01.03-06.14.00:427][836]LogSavePackage: Moving 'E:/Unreal4/Section_04/BattleTank/BattleTank/Saved/BattleGround_FlatShading_BuiltDa1E605AD44CD985C841FC20BBA60F5FB9.tmp' to 'E:/Unreal4/Section_04/BattleTank/BattleTank/Content/FlatShading/BattleGround_FlatShading_BuiltData.uasset'
-[2019.01.03-06.14.00:428][836]Cmd: MAP LOAD FILE="E:/Unreal4/Section_04/BattleTank/BattleTank/Content/Levels_/BattleGround.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.01.03-06.14.00:428][836]LightingResults: New page: Lighting Build
-[2019.01.03-06.14.00:429][836]LoadErrors: New page: Loading map: BattleGround.umap
-[2019.01.03-06.14.00:430][836]MapCheck: New page: Map Check
-[2019.01.03-06.14.00:430][836]LightingResults: New page: Lighting Build
-[2019.01.03-06.14.00:682][836]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.01.03-06.14.00:738][836]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.01.03-06.14.00:739][836]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.071ms to complete.
-[2019.01.03-06.14.00:739][836]LogFileHelpers: Loading map 'BattleGround' took 0.311
-[2019.01.03-06.14.01:151][836]LogAIModule: Creating AISystem for world BattleGround_FlatShading
-[2019.01.03-06.14.22:736][371]LogAssetEditorManager: Opening Asset editor for World /Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading
-[2019.01.03-06.14.22:765][371]Cmd: MAP LOAD FILE="E:/Unreal4/Section_04/BattleTank/BattleTank/Content/FlatShading/BattleGround_FlatShading.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.01.03-06.14.22:765][371]LightingResults: New page: Lighting Build
-[2019.01.03-06.14.22:766][371]LoadErrors: New page: Loading map: BattleGround_FlatShading.umap
-[2019.01.03-06.14.22:767][371]MapCheck: New page: Map Check
-[2019.01.03-06.14.22:767][371]LightingResults: New page: Lighting Build
-[2019.01.03-06.14.22:820][371]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.01.03-06.14.22:885][371]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.01.03-06.14.22:885][371]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.075ms to complete.
-[2019.01.03-06.14.22:887][371]LogFileHelpers: Loading map 'BattleGround_FlatShading' took 0.122
-[2019.01.03-06.14.25:726][692]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.01.03-06.14.25:740][692]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel' has LevelScriptBlueprint '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading' with GeneratedClass '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading_C' with ClassGeneratedBy '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading'
-[2019.01.03-06.14.25:740][692]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.01.03-06.14.25:740][692]PIE: New page: PIE session: BattleGround_FlatShading (Jan 4, 2019, 12:14:25 AM)
-[2019.01.03-06.14.25:740][692]LogPlayLevel: Creating play world package: /Game/FlatShading/UEDPIE_0_BattleGround_FlatShading
-[2019.01.03-06.14.25:784][692]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043831s)
-[2019.01.03-06.14.25:785][692]LogAIModule: Creating AISystem for world BattleGround_FlatShading
-[2019.01.03-06.14.25:785][692]LogPlayLevel: PIE: World Init took: (0.000499s)
-[2019.01.03-06.14.25:785][692]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading to /Game/FlatShading/UEDPIE_0_BattleGround_FlatShading.BattleGround_FlatShading (0.044515s)
-[2019.01.03-06.14.25:849][692]LogInit: XAudio2 using '헤드셋 이어폰(Corsair VOID PRO Surround USB Sound Adapter)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2019.01.03-06.14.25:973][692]LogInit: FAudioDevice initialized.
-[2019.01.03-06.14.25:978][692]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.03-06.14.26:012][692]LogLoad: Game class is 'BattleTankGameMode_BP_C'
-[2019.01.03-06.14.26:014][692]LogWorld: Bringing World /Game/FlatShading/UEDPIE_0_BattleGround_FlatShading.BattleGround_FlatShading up for play (max tick rate 0) at 2019.01.03-15.14.26
-[2019.01.03-06.14.26:014][692]LogWorld: Bringing up level for play took: 0.002317
-[2019.01.03-06.14.26:026][692]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2019.01.03-06.14.26:026][692]LogGameMode: Login: Couldn't spawn player controller of class NULL
-[2019.01.03-06.14.26:026][692]LogSpawn: Warning: Login failed: Failed to spawn player controller
-[2019.01.03-06.14.27:676][692]LogSlate: Window 'Message' being destroyed
-[2019.01.03-06.14.27:720][692]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel' has LevelScriptBlueprint '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading' with GeneratedClass '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading_C' with ClassGeneratedBy '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading'
-[2019.01.03-06.14.27:720][692]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.03-06.14.27:736][692]LogSlate: Window 'BattleTank Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.01.03-06.14.27:807][692]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.01.03-06.14.27:807][692]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel' has LevelScriptBlueprint '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading' with GeneratedClass '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading_C' with ClassGeneratedBy '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading'
-[2019.01.03-06.14.27:839][692]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.03-06.14.27:846][693]LogPlayLevel: Display: Destroying online subsystem :Context_6
-[2019.01.03-06.14.51:544][472]LogLinker: Warning: Can't find file '/Game/Blueprints/PlayerUI'
-[2019.01.03-06.14.51:544][472]LogLinker: Warning: Can't find file for asset '/Game/Blueprints/PlayerUI' while loading E:/Unreal4/Section_04/BattleTank/BattleTank/Content/Tank-1/PlayerController_BP.uasset.
-[2019.01.03-06.14.51:544][472]LoadErrors: Error: /Game/Tank-1/PlayerController_BP : Can't find file for asset. /Game/Blueprints/PlayerUI
-[2019.01.03-06.14.51:544][472]LogLinker: Warning: Can't find file '/Game/Blueprints/PlayerUI'
-[2019.01.03-06.14.51:544][472]LogLinker: Warning: Can't find file for asset '/Game/Blueprints/PlayerUI' while loading E:/Unreal4/Section_04/BattleTank/BattleTank/Content/Tank-1/PlayerController_BP.uasset.
-[2019.01.03-06.14.51:545][472]LogLinker: Warning: Can't find file '/Game/Blueprints/PlayerUI'
-[2019.01.03-06.14.51:545][472]LogLinker: Warning: Can't find file for asset '/Game/Blueprints/PlayerUI' while loading NULL.
-[2019.01.03-06.14.51:545][472]LogLinker: Warning: Can't find file '/Game/Blueprints/PlayerUI'
-[2019.01.03-06.14.51:545][472]LogLinker: Warning: Can't find file for asset '/Game/Blueprints/PlayerUI' while loading NULL.
-[2019.01.03-06.14.51:545][472]LogLinker: Warning: Can't find file '/Game/Blueprints/PlayerUI'
-[2019.01.03-06.14.51:545][472]LogLinker: Warning: Can't find file for asset '/Game/Blueprints/PlayerUI' while loading NULL.
-[2019.01.03-06.14.51:546][472]LogLinker: Warning: Can't find file '/Game/Blueprints/PlayerUI'
-[2019.01.03-06.14.51:546][472]LoadErrors: Failed to load /Game/Blueprints/PlayerUI.PlayerUI_C Referenced by K2Node_CreateWidget_0
-[2019.01.03-06.14.51:546][472]LogLinker: Warning: Can't find file for asset '/Game/Blueprints/PlayerUI' while loading NULL.
-[2019.01.03-06.14.51:546][472]LogLinker: Warning: Can't find file '/Game/Blueprints/PlayerUI'
-[2019.01.03-06.14.51:546][472]LogLinker: Warning: Can't find file for asset '/Game/Blueprints/PlayerUI' while loading NULL.
-[2019.01.03-06.14.51:548][472]LogBlueprint: Error: [Compiler PlayerController_BP] Spawn node  Create Widget  must have a class specified.
-[2019.01.03-06.14.51:548][472]LogBlueprint: Warning: [Compiler PlayerController_BP] [0110.48] Compile of PlayerController_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 1 ms] (/Game/Tank-1/PlayerController_BP.PlayerController_BP)
-[2019.01.03-06.14.51:597][472]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Tank-1/PlayerController_BP.PlayerController_BP
-[2019.01.03-06.14.51:987][472]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 117 classes and 0 folders.
-[2019.01.03-06.14.52:777][472]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.01.03-06.14.52:857][473]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.01.03-06.14.55:763][816]LogSlate: Window 'PlayerController_BP' being destroyed
-[2019.01.03-06.14.55:808][816]LogSlate: Window 'PlayerController_BP' being destroyed
-[2019.01.03-06.15.01:245][433]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BattleTankGameMode_BP.BattleTankGameMode_BP
-[2019.01.03-06.15.20:379][594]LogSlate: Window 'BattleTankGameMode_BP' being destroyed
-[2019.01.03-06.15.31:485][848]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Tank-1/PlayerUI.PlayerUI
-[2019.01.03-06.15.44:651][352]LogSlate: Window 'PlayerUI' being destroyed
-[2019.01.03-06.15.44:696][352]LogSlate: Window 'PlayerUI' being destroyed
-[2019.01.03-06.15.45:898][476]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Tank-1/PlayerController_BP.PlayerController_BP
-[2019.01.03-06.15.49:105][814]LogSlate: Window 'PlayerController_BP' being destroyed
-[2019.01.03-06.15.49:150][814]LogSlate: Window 'PlayerController_BP' being destroyed
-[2019.01.03-06.15.53:166][220]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading
-[2019.01.03-06.16.34:780][ 69]LogSlate: Window 'BattleGround_FlatShading* - Level Blueprint Editor' being destroyed
-[2019.01.03-06.16.34:824][ 69]LogSlate: Window 'BattleGround_FlatShading* - Level Blueprint Editor' being destroyed
-[2019.01.03-06.16.37:016][303]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.01.03-06.16.37:035][303]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel' has LevelScriptBlueprint '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading' with GeneratedClass '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading_C' with ClassGeneratedBy '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading'
-[2019.01.03-06.16.37:036][303]BlueprintLog: New page: Pre-Play auto-recompile
-[2019.01.03-06.16.37:037][303]LogPlayLevel: [PlayLevel] Compiling BattleGround_FlatShading before play...
-[2019.01.03-06.16.37:197][303]LogPlayLevel: PlayLevel: Blueprint regeneration took 161 ms (1 blueprints)
-[2019.01.03-06.16.39:445][303]LogSlate: Window 'Message' being destroyed
-[2019.01.03-06.16.40:319][387]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Tank-1/PlayerController_BP.PlayerController_BP
-[2019.01.03-06.16.43:328][700]LogSlate: Window 'PlayerController_BP*' being destroyed
-[2019.01.03-06.16.43:373][700]LogSlate: Window 'PlayerController_BP*' being destroyed
-[2019.01.03-06.16.44:491][827]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.01.03-06.16.44:506][827]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel' has LevelScriptBlueprint '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading' with GeneratedClass '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading_C' with ClassGeneratedBy '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading'
-[2019.01.03-06.16.44:506][827]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.01.03-06.16.44:506][827]PIE: New page: PIE session: BattleGround_FlatShading (Jan 4, 2019, 12:16:44 AM)
-[2019.01.03-06.16.44:506][827]LogPlayLevel: Creating play world package: /Game/FlatShading/UEDPIE_0_BattleGround_FlatShading
-[2019.01.03-06.16.44:548][827]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041504s)
-[2019.01.03-06.16.44:548][827]LogAIModule: Creating AISystem for world BattleGround_FlatShading
-[2019.01.03-06.16.44:548][827]LogPlayLevel: PIE: World Init took: (0.000513s)
-[2019.01.03-06.16.44:548][827]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading to /Game/FlatShading/UEDPIE_0_BattleGround_FlatShading.BattleGround_FlatShading (0.042174s)
-[2019.01.03-06.16.44:612][827]LogInit: XAudio2 using '헤드셋 이어폰(Corsair VOID PRO Surround USB Sound Adapter)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2019.01.03-06.16.44:731][827]LogInit: FAudioDevice initialized.
-[2019.01.03-06.16.44:735][827]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.03-06.16.44:770][827]LogLoad: Game class is 'BattleTankGameMode_BP_C'
-[2019.01.03-06.16.44:772][827]LogWorld: Bringing World /Game/FlatShading/UEDPIE_0_BattleGround_FlatShading.BattleGround_FlatShading up for play (max tick rate 0) at 2019.01.03-15.16.44
-[2019.01.03-06.16.44:773][827]LogWorld: Bringing up level for play took: 0.002375
-[2019.01.03-06.16.44:784][827]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2019.01.03-06.16.44:784][827]LogGameMode: Login: Couldn't spawn player controller of class NULL
-[2019.01.03-06.16.44:784][827]LogSpawn: Warning: Login failed: Failed to spawn player controller
-[2019.01.03-06.16.46:144][827]LogSlate: Window 'Message' being destroyed
-[2019.01.03-06.16.46:187][827]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel' has LevelScriptBlueprint '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading' with GeneratedClass '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading_C' with ClassGeneratedBy '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading'
-[2019.01.03-06.16.46:188][827]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.03-06.16.46:205][827]LogSlate: Window 'BattleTank Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.01.03-06.16.46:275][827]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.01.03-06.16.46:275][827]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel' has LevelScriptBlueprint '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading' with GeneratedClass '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading_C' with ClassGeneratedBy '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading'
-[2019.01.03-06.16.46:307][827]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.03-06.16.46:315][828]LogPlayLevel: Display: Destroying online subsystem :Context_14
-[2019.01.03-06.16.56:824][ 50]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BattleTankGameMode_BP.BattleTankGameMode_BP
-[2019.01.03-06.16.58:603][219]LogSlate: Window 'BattleTankGameMode_BP' being destroyed
-[2019.01.03-06.16.58:648][219]LogSlate: Window 'BattleTankGameMode_BP' being destroyed
-[2019.01.03-06.17.11:098][703]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.03-06.17.14:831][119]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Tank-1/Tank_BP.Tank_BP
-[2019.01.03-06.17.20:264][712]LogSlate: Window 'Tank_BP' being destroyed
-[2019.01.03-06.17.20:309][712]LogSlate: Window 'Tank_BP' being destroyed
-[2019.01.03-06.17.26:208][378]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading
-[2019.01.03-06.19.39:254][761]LogSlate: Window 'BattleGround_FlatShading* - Level Blueprint Editor' being destroyed
-[2019.01.03-06.19.39:299][761]LogSlate: Window 'BattleGround_FlatShading* - Level Blueprint Editor' being destroyed
-[2019.01.03-06.19.40:937][926]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Tank-1/PlayerController_BP.PlayerController_BP
-[2019.01.03-06.19.41:169][926]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
-[2019.01.03-06.19.43:925][239]LogSlate: Window 'CompilerResults' being destroyed
-[2019.01.03-06.19.43:969][239]LogSlate: Window 'CompilerResults' being destroyed
-[2019.01.03-06.19.49:529][854]BlueprintLog: New page: Compile PlayerController_BP
-[2019.01.03-06.20.21:526][154]LogSlate: Window 'PlayerController_BP*' being destroyed
-[2019.01.03-06.20.21:571][154]LogSlate: Window 'PlayerController_BP*' being destroyed
-[2019.01.03-06.20.27:654][552]LogSlate: Window 'Delete Assets' being destroyed
-[2019.01.03-06.20.31:436][782]LogSlate: Window 'Pick Parent Class' being destroyed
-[2019.01.03-06.20.37:947][543]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Tank-1/PlayerController_BP.PlayerController_BP
-[2019.01.03-06.20.48:769][738]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2019.01.03-06.20.57:800][769]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank-1/PlayerController_BP" FILE="E:/Unreal4/Section_04/BattleTank/BattleTank/Content/Tank-1/PlayerController_BP.uasset" SILENT=true
-[2019.01.03-06.20.57:810][769]LogSavePackage: Moving 'E:/Unreal4/Section_04/BattleTank/BattleTank/Saved/PlayerController_BP0B8F17DF482CAAC5E325E2AC3E474636.tmp' to 'E:/Unreal4/Section_04/BattleTank/BattleTank/Content/Tank-1/PlayerController_BP.uasset'
-[2019.01.03-06.20.58:252][816]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.01.03-06.20.58:274][816]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel' has LevelScriptBlueprint '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading' with GeneratedClass '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading_C' with ClassGeneratedBy '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading'
-[2019.01.03-06.20.58:274][816]BlueprintLog: New page: Pre-Play auto-recompile
-[2019.01.03-06.20.58:275][816]LogPlayLevel: [PlayLevel] Compiling PlayerController_BP before play...
-[2019.01.03-06.20.58:429][816]LogPlayLevel: PlayLevel: Blueprint regeneration took 155 ms (1 blueprints)
-[2019.01.03-06.20.58:429][816]PIE: New page: PIE session: BattleGround_FlatShading (Jan 4, 2019, 12:20:58 AM)
-[2019.01.03-06.20.58:429][816]LogPlayLevel: Creating play world package: /Game/FlatShading/UEDPIE_0_BattleGround_FlatShading
-[2019.01.03-06.20.58:471][816]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041411s)
-[2019.01.03-06.20.58:471][816]LogAIModule: Creating AISystem for world BattleGround_FlatShading
-[2019.01.03-06.20.58:471][816]LogPlayLevel: PIE: World Init took: (0.000494s)
-[2019.01.03-06.20.58:471][816]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading to /Game/FlatShading/UEDPIE_0_BattleGround_FlatShading.BattleGround_FlatShading (0.042060s)
-[2019.01.03-06.20.58:535][816]LogInit: XAudio2 using '헤드셋 이어폰(Corsair VOID PRO Surround USB Sound Adapter)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2019.01.03-06.20.58:658][816]LogInit: FAudioDevice initialized.
-[2019.01.03-06.20.58:663][816]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.03-06.20.58:693][816]LogLoad: Game class is 'BattleTankGameMode_BP_C'
-[2019.01.03-06.20.58:695][816]LogWorld: Bringing World /Game/FlatShading/UEDPIE_0_BattleGround_FlatShading.BattleGround_FlatShading up for play (max tick rate 0) at 2019.01.03-15.20.58
-[2019.01.03-06.20.58:696][816]LogWorld: Bringing up level for play took: 0.002321
-[2019.01.03-06.20.58:707][816]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2019.01.03-06.20.58:707][816]LogGameMode: Login: Couldn't spawn player controller of class NULL
-[2019.01.03-06.20.58:707][816]LogSpawn: Warning: Login failed: Failed to spawn player controller
-[2019.01.03-06.21.00:102][816]LogSlate: Window 'Message' being destroyed
-[2019.01.03-06.21.00:146][816]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel' has LevelScriptBlueprint '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading' with GeneratedClass '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading_C' with ClassGeneratedBy '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading'
-[2019.01.03-06.21.00:147][816]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.03-06.21.00:164][816]LogSlate: Window 'BattleTank Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.01.03-06.21.00:236][816]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.01.03-06.21.00:236][816]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel' has LevelScriptBlueprint '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading' with GeneratedClass '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading_C' with ClassGeneratedBy '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading'
-[2019.01.03-06.21.00:268][816]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.03-06.21.00:289][817]LogPlayLevel: Display: Destroying online subsystem :Context_20
-[2019.01.03-06.21.07:441][628]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading
-[2019.01.03-06.21.45:168][ 33]LogSlate: Window 'BattleGround_FlatShading* - Level Blueprint Editor' being destroyed
-[2019.01.03-06.21.45:212][ 33]LogSlate: Window 'BattleGround_FlatShading* - Level Blueprint Editor' being destroyed
-[2019.01.03-06.21.49:579][508]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BattleTankGameMode_BP.BattleTankGameMode_BP
-[2019.01.03-06.22.31:098][298]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2019.01.03-06.22.34:543][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BattleTankGameMode_BP" FILE="E:/Unreal4/Section_04/BattleTank/BattleTank/Content/Blueprints/BattleTankGameMode_BP.uasset" SILENT=true
-[2019.01.03-06.22.34:559][677]LogSavePackage: Moving 'E:/Unreal4/Section_04/BattleTank/BattleTank/Saved/BattleTankGameMode_BP775C54254CBEFA06FBD084946498ED7E.tmp' to 'E:/Unreal4/Section_04/BattleTank/BattleTank/Content/Blueprints/BattleTankGameMode_BP.uasset'
-[2019.01.03-06.22.34:816][702]BlueprintLog: New page: Compile BattleTankGameMode_BP
-[2019.01.03-06.22.36:631][899]LogSlate: Window 'BattleTankGameMode_BP' being destroyed
-[2019.01.03-06.22.36:675][899]LogSlate: Window 'BattleTankGameMode_BP' being destroyed
-[2019.01.03-06.22.37:545][977]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.01.03-06.22.37:565][977]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel' has LevelScriptBlueprint '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading' with GeneratedClass '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading_C' with ClassGeneratedBy '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading'
-[2019.01.03-06.22.37:565][977]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.01.03-06.22.37:565][977]PIE: New page: PIE session: BattleGround_FlatShading (Jan 4, 2019, 12:22:37 AM)
-[2019.01.03-06.22.37:565][977]LogPlayLevel: Creating play world package: /Game/FlatShading/UEDPIE_0_BattleGround_FlatShading
-[2019.01.03-06.22.37:606][977]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041238s)
-[2019.01.03-06.22.37:607][977]LogAIModule: Creating AISystem for world BattleGround_FlatShading
-[2019.01.03-06.22.37:607][977]LogPlayLevel: PIE: World Init took: (0.000525s)
-[2019.01.03-06.22.37:607][977]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading to /Game/FlatShading/UEDPIE_0_BattleGround_FlatShading.BattleGround_FlatShading (0.041946s)
-[2019.01.03-06.22.37:670][977]LogInit: XAudio2 using '헤드셋 이어폰(Corsair VOID PRO Surround USB Sound Adapter)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2019.01.03-06.22.37:796][977]LogInit: FAudioDevice initialized.
-[2019.01.03-06.22.37:801][977]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.03-06.22.37:833][977]LogLoad: Game class is 'BattleTankGameMode_BP_C'
-[2019.01.03-06.22.37:835][977]LogWorld: Bringing World /Game/FlatShading/UEDPIE_0_BattleGround_FlatShading.BattleGround_FlatShading up for play (max tick rate 0) at 2019.01.03-15.22.37
-[2019.01.03-06.22.37:836][977]LogWorld: Bringing up level for play took: 0.002574
-[2019.01.03-06.22.37:857][977]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
-[2019.01.03-06.22.37:861][977]PIE: Play in editor start time for /Game/FlatShading/UEDPIE_0_BattleGround_FlatShading -0.057
-[2019.01.03-06.22.37:862][977]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel' has LevelScriptBlueprint '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading' with GeneratedClass '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading_C' with ClassGeneratedBy '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading'
-[2019.01.03-06.22.43:647][665]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel' has LevelScriptBlueprint '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading' with GeneratedClass '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading_C' with ClassGeneratedBy '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading'
-[2019.01.03-06.22.43:647][665]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.03-06.22.43:664][665]LogSlate: Window 'BattleTank Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.01.03-06.22.43:735][665]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.01.03-06.22.43:735][665]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel' has LevelScriptBlueprint '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading' with GeneratedClass '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading_C' with ClassGeneratedBy '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading'
-[2019.01.03-06.22.43:781][666]LogPlayLevel: Display: Destroying online subsystem :Context_23
-[2019.01.03-06.22.48:446][149]LogSavePackage: Moving 'E:/Unreal4/Section_04/BattleTank/BattleTank/Saved/BattleGround_FlatShading15D5C718428DEB6EFEE337B300015D91.tmp' to 'E:/Unreal4/Section_04/BattleTank/BattleTank/Content/FlatShading/BattleGround_FlatShading.umap'
-[2019.01.03-06.22.48:475][149]LogFileHelpers: Saving map 'BattleGround_FlatShading' took 0.550
-[2019.01.03-06.22.50:822][339]LogSavePackage: Moving 'E:/Unreal4/Section_04/BattleTank/BattleTank/Saved/BattleGround_FlatShadingD9FD6E8441482C70470FEB8B4DA56CB2.tmp' to 'E:/Unreal4/Section_04/BattleTank/BattleTank/Content/FlatShading/BattleGround_FlatShading.umap'
-[2019.01.03-06.22.50:889][339]LogSavePackage: Moving 'E:/Unreal4/Section_04/BattleTank/BattleTank/Saved/BattleGround_FlatShading_BuiltDaE19C95F3486F4CD928B95D81E39C03D1.tmp' to 'E:/Unreal4/Section_04/BattleTank/BattleTank/Content/FlatShading/BattleGround_FlatShading_BuiltData.uasset'
-[2019.01.03-06.23.00:702][ 26]LogAIModule: Creating AISystem for world MainMenu
-[2019.01.03-06.23.00:704][ 26]LogAssetEditorManager: Opening Asset editor for World /Game/Levels_/MainMenu.MainMenu
-[2019.01.03-06.23.00:731][ 26]Cmd: MAP LOAD FILE="E:/Unreal4/Section_04/BattleTank/BattleTank/Content/Levels_/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.01.03-06.23.00:731][ 26]LightingResults: New page: Lighting Build
-[2019.01.03-06.23.00:731][ 26]LoadErrors: New page: Loading map: MainMenu.umap
-[2019.01.03-06.23.00:732][ 26]MapCheck: New page: Map Check
-[2019.01.03-06.23.00:732][ 26]LightingResults: New page: Lighting Build
-[2019.01.03-06.23.00:765][ 26]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.01.03-06.23.00:823][ 26]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.01.03-06.23.00:823][ 26]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.087ms to complete.
-[2019.01.03-06.23.00:823][ 26]LogFileHelpers: Loading map 'MainMenu' took 0.093
-[2019.01.03-06.23.02:271][191]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.01.03-06.23.02:287][191]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels_/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels_/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels_/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels_/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2019.01.03-06.23.02:287][191]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.01.03-06.23.02:287][191]PIE: New page: PIE session: MainMenu (Jan 4, 2019, 12:23:02 AM)
-[2019.01.03-06.23.02:287][191]LogPlayLevel: Creating play world package: /Game/Levels_/UEDPIE_0_MainMenu
-[2019.01.03-06.23.02:288][191]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000869s)
-[2019.01.03-06.23.02:288][191]LogAIModule: Creating AISystem for world MainMenu
-[2019.01.03-06.23.02:288][191]LogPlayLevel: PIE: World Init took: (0.000448s)
-[2019.01.03-06.23.02:288][191]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels_/MainMenu.MainMenu to /Game/Levels_/UEDPIE_0_MainMenu.MainMenu (0.001499s)
-[2019.01.03-06.23.02:350][191]LogInit: XAudio2 using '헤드셋 이어폰(Corsair VOID PRO Surround USB Sound Adapter)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2019.01.03-06.23.02:466][191]LogInit: FAudioDevice initialized.
-[2019.01.03-06.23.02:470][191]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.03-06.23.02:497][191]LogLoad: Game class is 'GameModeBase'
-[2019.01.03-06.23.02:497][191]LogWorld: Bringing World /Game/Levels_/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2019.01.03-15.23.02
-[2019.01.03-06.23.02:498][191]LogWorld: Bringing up level for play took: 0.000421
-[2019.01.03-06.23.02:513][191]PIE: Play in editor start time for /Game/Levels_/UEDPIE_0_MainMenu 0.595
-[2019.01.03-06.23.02:513][191]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels_/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels_/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels_/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels_/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2019.01.03-06.23.21:879][826]LogSlate: Window 'BattleTank Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.01.03-06.23.21:923][826]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels_/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels_/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels_/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels_/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2019.01.03-06.23.21:957][826]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.01.03-06.23.21:957][826]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels_/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels_/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels_/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels_/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2019.01.03-06.23.22:005][827]LogPlayLevel: Display: Destroying online subsystem :Context_24
-[2019.01.03-06.24.10:250][233]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (49.210 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.01.04-06.08.27:854][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.01.04-06.08.27:854][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.01.04-06.08.27:854][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Engine.ini]
+[2019.01.04-06.08.27:854][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.01.04-06.08.27:854][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Engine.ini]
+[2019.01.04-06.08.27:854][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Engine.ini]
+[2019.01.04-06.08.27:854][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.01.04-06.08.27:854][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.01.04-06.08.27:854][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.01.04-06.08.27:854][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.01.04-06.08.27:854][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.01.04-06.08.27:854][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.01.04-06.08.27:854][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.01.04-06.08.27:854][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.01.04-06.08.27:854][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.01.04-06.08.27:854][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.01.04-06.08.27:854][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.01.04-06.08.27:854][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.01.04-06.08.27:854][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.01.04-06.08.27:854][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Engine.ini]
+[2019.01.04-06.08.27:854][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.01.04-06.08.27:854][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.01.04-06.08.27:854][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.01.04-06.08.27:854][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.01.04-06.08.27:854][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.01.04-06.08.27:854][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.01.04-06.08.27:854][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.01.04-06.08.27:854][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.01.04-06.08.27:854][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.01.04-06.08.27:854][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.01.04-06.08.27:854][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.01.04-06.08.27:855][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.01.04-06.08.27:855][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.01.04-06.08.27:855][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.01.04-06.08.27:855][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Engine.ini]
+[2019.01.04-06.08.27:855][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Engine.ini]
+[2019.01.04-06.08.27:860][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.01.04-06.08.27:860][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.01.04-06.08.27:861][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.01.04-06.08.27:861][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.01.04-06.08.27:861][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.01.04-06.08.27:861][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2019.01.04-06.08.27:861][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.01.04-06.08.27:861][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.01.04-06.08.27:861][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.01.04-06.08.27:861][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.01.04-06.08.27:861][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.01.04-06.08.27:861][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.01.04-06.08.27:861][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.01.04-06.08.27:861][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.01.04-06.08.27:861][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.01.04-06.08.27:861][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.01.04-06.08.27:861][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.01.04-06.08.27:861][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.01.04-06.08.27:861][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.01.04-06.08.27:861][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2019.01.04-06.08.27:861][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.01.04-06.08.27:861][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.01.04-06.08.27:861][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.04-06.08.27:861][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.04-06.08.27:872][  0]LogHAL: Display: Platform has ~ 16 GB [17107632128 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.01.04-06.08.27:873][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.04-06.08.27:873][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.01.04-06.08.27:873][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.01.04-06.08.27:874][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.01.04-06.08.27:874][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Engine.ini]
+[2019.01.04-06.08.27:874][  0]LogInit: Computer: DESKTOP-2BM5QKQ
+[2019.01.04-06.08.27:874][  0]LogInit: User: joshu
+[2019.01.04-06.08.27:874][  0]LogInit: CPU Page size=4096, Cores=8
+[2019.01.04-06.08.27:874][  0]LogInit: High frequency timer resolution =3.606500 MHz
+[2019.01.04-06.08.27:874][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.01.04-06.08.27:874][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.04-06.08.27:874][  0]LogMemory: Process Physical Memory: 103.82 MB used, 103.82 MB peak
+[2019.01.04-06.08.27:874][  0]LogMemory: Process Virtual Memory: 91.57 MB used, 91.57 MB peak
+[2019.01.04-06.08.27:874][  0]LogMemory: Physical Memory: 4961.27 MB used,  11353.84 MB free, 16315.11 MB total
+[2019.01.04-06.08.27:874][  0]LogMemory: Virtual Memory: 4685.97 MB used,  134213040.00 MB free, 134217728.00 MB total
+[2019.01.04-06.08.27:894][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.01.04-06.08.27:894][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.01.04-06.08.28:220][  0]LogStreaming: Display: Took  0.326s to InitEngineTextLocalization.
+[2019.01.04-06.08.28:220][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.04-06.08.28:255][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.04-06.08.28:255][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.04-06.08.28:456][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.04-06.08.28:456][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.04-06.08.28:549][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080' (Feature Level 11_0)
+[2019.01.04-06.08.28:549][  0]LogD3D11RHI:       8010/0/8157 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.01.04-06.08.28:551][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.04-06.08.28:551][  0]LogD3D11RHI:       0/0/8157 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.04-06.08.28:551][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.04-06.08.28:558][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.04-06.08.28:558][  0]LogD3D11RHI:     GPU DeviceId: 0x1e87 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.04-06.08.28:558][  0]LogWindows: EnumDisplayDevices:
+[2019.01.04-06.08.28:558][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080' (P:1 D:1)
+[2019.01.04-06.08.28:559][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2019.01.04-06.08.28:559][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2019.01.04-06.08.28:560][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2019.01.04-06.08.28:560][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.01.04-06.08.28:560][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080
+[2019.01.04-06.08.28:560][  0]LogD3D11RHI:   Driver Version: 417.35 (internal:25.21.14.1735, unified:417.35)
+[2019.01.04-06.08.28:560][  0]LogD3D11RHI:      Driver Date: 12-11-2018
+[2019.01.04-06.08.28:560][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
+[2019.01.04-06.08.28:615][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.04-06.08.28:642][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.04-06.08.28:685][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061086).
+[2019.01.04-06.08.28:954][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.04-06.08.28:968][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.04-06.08.28:981][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.04-06.08.28:995][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.04-06.08.29:008][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.04-06.08.29:022][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.04-06.08.29:035][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.04-06.08.29:048][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.04-06.08.29:055][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.04-06.08.29:129][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.04-06.08.29:129][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.04-06.08.29:129][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.04-06.08.29:129][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.04-06.08.29:129][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.04-06.08.29:129][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.04-06.08.29:129][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.04-06.08.29:129][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.04-06.08.29:129][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.04-06.08.29:129][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.04-06.08.29:129][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.04-06.08.29:129][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.04-06.08.29:129][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.04-06.08.29:129][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.04-06.08.29:129][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.04-06.08.29:129][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.04-06.08.29:129][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.04-06.08.29:129][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.04-06.08.29:130][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.04-06.08.29:191][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.04-06.08.29:191][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.04-06.08.29:214][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.04-06.08.29:214][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.04-06.08.29:226][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.04-06.08.29:238][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.04-06.08.29:250][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.04-06.08.29:263][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.04-06.08.29:306][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.04-06.08.29:306][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.04-06.08.29:307][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.04-06.08.29:363][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Intermediate/Shaders/WorkingDirectory/1348/).
+[2019.01.04-06.08.29:363][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/joshu/AppData/Local/Temp/UnrealShaderWorkingDir/F5DC40174B442FA5D3E1E5B3216E7D6D/'.
+[2019.01.04-06.08.29:365][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.04-06.08.29:365][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.04-06.08.29:365][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.04-06.08.29:798][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.04-06.08.29:837][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/joshu/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.01.04-06.08.29:837][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/joshu/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.01.04-06.08.29:837][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.04-06.08.29:837][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.04-06.08.29:837][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.04-06.08.29:837][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.04-06.08.29:849][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.04-06.08.29:849][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.04-06.08.29:849][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.01.04-06.08.29:861][  0]LogDerivedDataCache: Using Local data cache path C:/Users/joshu/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.04-06.08.29:861][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.04-06.08.29:861][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.04-06.08.29:881][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.04-06.08.29:882][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.04-06.08.29:883][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.04-06.08.29:965][  0]LogAssetRegistry: FAssetRegistry took 0.0337 seconds to start up
+[2019.01.04-06.08.30:264][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.04-06.08.30:388][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.04-06.08.30:392][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.04-06.08.30:392][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.04-06.08.30:392][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.04-06.08.30:392][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.04-06.08.30:407][  0]LogNetVersion: BattleTank 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1064757075)
+[2019.01.04-06.08.30:795][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.039728 seconds
+[2019.01.04-06.08.30:801][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.01.04-06.08.30:801][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
+[2019.01.04-06.08.30:801][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.04-06.08.31:568][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.04-06.08.31:581][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.04-06.08.32:202][  0]SourceControl: Source control is disabled
+[2019.01.04-06.08.32:202][  0]SourceControl: Source control is disabled
+[2019.01.04-06.08.32:204][  0]SourceControl: Source control is disabled
+[2019.01.04-06.08.32:205][  0]SourceControl: Source control is disabled
+[2019.01.04-06.08.32:364][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.04-06.08.32:480][  0]LogOcInput: OculusInput pre-init called
+[2019.01.04-06.08.32:607][  0]LogEngine: Initializing Engine...
+[2019.01.04-06.08.32:607][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.04-06.08.32:608][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.04-06.08.32:608][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.04-06.08.32:608][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.04-06.08.32:608][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.04-06.08.32:790][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.04-06.08.32:805][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.04-06.08.32:845][  0]LogInit: XAudio2 using '헤드셋 이어폰(Corsair VOID PRO Surround USB Sound Adapter)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.01.04-06.08.32:981][  0]LogInit: FAudioDevice initialized.
+[2019.01.04-06.08.32:981][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.04-06.08.33:056][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/joshu/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.01.04-06.08.33:062][  0]LogInit: Texture streaming: Enabled
+[2019.01.04-06.08.33:080][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.04-06.08.33:093][  0]LogInit: Transaction tracking system initialized
+[2019.01.04-06.08.33:118][  0]BlueprintLog: New page: Editor Load
+[2019.01.04-06.08.33:191][  0]LocalizationService: Localization service is disabled
+[2019.01.04-06.08.33:671][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Content/' took 0.01s
+[2019.01.04-06.08.33:671][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.04-06.08.33:671][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.04-06.08.33:671][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.04-06.08.33:672][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.04-06.08.33:672][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.04-06.08.33:672][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.04-06.08.33:672][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.04-06.08.33:797][  0]SourceControl: Source control is disabled
+[2019.01.04-06.08.33:797][  0]Cmd: MAP LOAD FILE="E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Content/FlatShading/BattleGround_FlatShading.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.04-06.08.33:798][  0]LightingResults: New page: Lighting Build
+[2019.01.04-06.08.33:801][  0]MapCheck: New page: Map Check
+[2019.01.04-06.08.33:801][  0]LightingResults: New page: Lighting Build
+[2019.01.04-06.08.34:247][  0]LogAIModule: Creating AISystem for world BattleGround_FlatShading
+[2019.01.04-06.08.34:274][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.04-06.08.34:304][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.04-06.08.34:304][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.091ms to complete.
+[2019.01.04-06.08.34:304][  0]LogFileHelpers: Loading map 'BattleGround_FlatShading' took 0.507
+[2019.01.04-06.08.34:402][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.04-06.08.34:409][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.04-06.08.34:416][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.04-06.08.34:422][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.04-06.08.34:428][  0]LogCollectionManager: Loaded 0 collections in 0.001621 seconds
+[2019.01.04-06.08.34:455][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Collections/' took 0.01s
+[2019.01.04-06.08.34:455][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Content/Developers/joshu/Collections/' took 0.01s
+[2019.01.04-06.08.34:455][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Content/Collections/' took 0.00s
+[2019.01.04-06.08.34:455][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.04-06.08.34:463][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2654 classes and 625 folders.
+[2019.01.04-06.08.34:470][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.04-06.08.34:471][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.04-06.08.34:471][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.04-06.08.34:472][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.04-06.08.34:472][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.04-06.08.34:473][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.04-06.08.34:473][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.04-06.08.34:473][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.04-06.08.34:474][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.04-06.08.34:474][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.04-06.08.34:475][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.04-06.08.34:475][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.04-06.08.34:476][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.04-06.08.34:476][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.04-06.08.34:476][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.04-06.08.34:477][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.04-06.08.34:477][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.04-06.08.34:478][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.04-06.08.34:478][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.04-06.08.34:478][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.04-06.08.34:479][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.04-06.08.34:479][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.04-06.08.34:480][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.04-06.08.34:480][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.04-06.08.34:481][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.04-06.08.34:481][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.04-06.08.34:482][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.04-06.08.34:519][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.04-06.08.34:526][  0]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.04-06.08.34:529][  0]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.04-06.08.34:532][  0]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.04-06.08.34:588][  0]LogRenderer: Reallocating scene render targets to support 2144x1040 Format 10 NumSamples 1 (Frame:1).
+[2019.01.04-06.08.34:784][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.04-06.08.34:784][  0]LogLoad: (Engine Initialization) Total time: 9.10 seconds
+[2019.01.04-06.08.34:784][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.04-06.08.34:870][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.04-06.08.34:896][  1]LogFileCache: Retrieving MD5 hashes for directory 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Content/' took 0.08s
+[2019.01.04-06.08.34:914][  1]LogAssetRegistry: Asset discovery search completed in 4.9718 seconds
+[2019.01.04-06.08.34:915][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.01.04-06.08.34:916][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000047 seconds (updated 0 objects)
+[2019.01.04-06.08.39:650][ 16]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.04-06.08.43:111][354]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.04-06.08.43:158][354]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Tank-1/Tank_BP.Tank_BP
+[2019.01.04-06.08.43:560][354]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 117 classes and 0 folders.
+[2019.01.04-06.08.44:355][354]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.01.04-06.08.44:442][355]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.01.04-06.08.50:653][ 18]LogBlueprint: Warning: Reparenting blueprint Blueprint /Game/Tank-1/Tank_BP.Tank_BP from Pawn to Tank...
+[2019.01.04-06.08.50:664][ 18]BlueprintLog: New page: Compile Tank_BP
+[2019.01.04-06.08.51:724][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank-1/Tank_BP" FILE="E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Content/Tank-1/Tank_BP.uasset" SILENT=true
+[2019.01.04-06.08.51:759][ 99]LogSavePackage: Moving 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Tank_BP0FCF4B23452771A4E591F5A6226469E7.tmp' to 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Content/Tank-1/Tank_BP.uasset'
+[2019.01.04-06.08.52:158][141]BlueprintLog: New page: Compile Tank_BP
+[2019.01.04-06.08.54:568][402]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Tank-1/PlayerController_BP.PlayerController_BP
+[2019.01.04-06.08.57:263][671]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.01.04-06.09.03:592][391]LogBlueprint: Warning: Reparenting blueprint Blueprint /Game/Tank-1/PlayerController_BP.PlayerController_BP from PlayerController to TankPlayerController...
+[2019.01.04-06.09.03:597][391]BlueprintLog: New page: Compile PlayerController_BP
+[2019.01.04-06.09.05:006][512]BlueprintLog: New page: Compile PlayerController_BP
+[2019.01.04-06.09.05:710][572]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank-1/PlayerController_BP" FILE="E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Content/Tank-1/PlayerController_BP.uasset" SILENT=true
+[2019.01.04-06.09.05:729][572]LogSavePackage: Moving 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/PlayerController_BPD99CD69949DD08F29A858CA6A37FA3E6.tmp' to 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Content/Tank-1/PlayerController_BP.uasset'
+[2019.01.04-06.09.08:182][850]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2019.01.04-06.09.08:183][850]Candidate modules for hot reload:
+[2019.01.04-06.09.08:183][850]  BattleTank
+[2019.01.04-06.09.08:183][850]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,6994 Win64 Development -TargetType=Editor -Project="E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/BattleTank.uproject" -canskiplink "E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/BattleTank.uproject" ]
+[2019.01.04-06.09.08:186][850]Warning: Starting HotReload took  0.0s.
+[2019.01.04-06.09.22:387][521]CompilerResultsLog: New page: Compilation - Jan 5, 2019, 12:09:22 AM
+[2019.01.04-06.09.22:387][521]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal4\Section_04\BattleTank-1\BattleTank).
+[2019.01.04-06.09.22:387][521]CompilerResultsLog: Creating makefile for hot reloading BattleTankEditor (source directory changed)
+[2019.01.04-06.09.22:387][521]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.04-06.09.22:387][521]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.01.04-06.09.22:387][521]CompilerResultsLog: Parsing headers for BattleTankEditor
+[2019.01.04-06.09.22:387][521]CompilerResultsLog:   Running UnrealHeaderTool "E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\BattleTank.uproject" "E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\BattleTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.01.04-06.09.22:387][521]CompilerResultsLog: Error: E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Source/BattleTank/Public/TankPlayerController.h(18)  : Error: Extra ';' before 'public'
+[2019.01.04-06.09.22:387][521]CompilerResultsLog: Error: UnrealHeaderTool failed for target 'BattleTankEditor' (platform: Win64, module info: E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\BattleTankEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+[2019.01.04-06.09.22:387][521]LogMainFrame: MainFrame: Module compiling took 14.206 seconds
+[2019.01.04-06.09.22:387][521]Warning: HotReload failed, recompile failed
+[2019.01.04-06.09.44:999][343]Candidate modules for hot reload:
+[2019.01.04-06.09.44:999][343]  BattleTank
+[2019.01.04-06.09.44:999][343]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,5567 Win64 Development -TargetType=Editor -Project="E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/BattleTank.uproject" -canskiplink "E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/BattleTank.uproject" ]
+[2019.01.04-06.09.45:002][343]Warning: Starting HotReload took  0.0s.
+[2019.01.04-06.10.21:188][448]CompilerResultsLog: New page: Compilation - Jan 5, 2019, 12:10:21 AM
+[2019.01.04-06.10.21:188][448]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal4\Section_04\BattleTank-1\BattleTank).
+[2019.01.04-06.10.21:188][448]CompilerResultsLog: Creating makefile for hot reloading BattleTankEditor (source directory changed)
+[2019.01.04-06.10.21:188][448]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.04-06.10.21:188][448]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.01.04-06.10.21:188][448]CompilerResultsLog: Parsing headers for BattleTankEditor
+[2019.01.04-06.10.21:188][448]CompilerResultsLog:   Running UnrealHeaderTool "E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\BattleTank.uproject" "E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\BattleTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.01.04-06.10.21:188][448]CompilerResultsLog: Reflection code generated for BattleTankEditor in 8.6915671 seconds
+[2019.01.04-06.10.21:188][448]CompilerResultsLog: Building 9 actions with 16 processes...
+[2019.01.04-06.10.21:188][448]CompilerResultsLog:   [1/9] SharedPCH.Engine.cpp
+[2019.01.04-06.10.21:188][448]CompilerResultsLog:   [2/9] BattleTank.cpp
+[2019.01.04-06.10.21:188][448]CompilerResultsLog:   [3/9] TankPlayerController.cpp
+[2019.01.04-06.10.21:188][448]CompilerResultsLog:    C:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Core\Public\Logging/LogMacros.h(58) : error C2338: Invalid argument(s) passed to FMsg::Logf_Internal
+[2019.01.04-06.10.21:188][448]CompilerResultsLog:   E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Source\BattleTank\Private\TankPlayerController.cpp(17): note: ?????? ???? ?Լ? ???ø? ?ν??Ͻ?ȭ 'void FMsg::Logf_Internal<wchar_t[24],FString>(const ANSICHAR *,int32,const FName &,ELogVerbosity::Type,const FmtType (&),FString)'?? ???? ?????? Ȯ???Ͻʽÿ?.
+[2019.01.04-06.10.21:188][448]CompilerResultsLog:           with
+[2019.01.04-06.10.21:189][448]CompilerResultsLog:           [
+[2019.01.04-06.10.21:189][448]CompilerResultsLog:               FmtType=wchar_t [24]
+[2019.01.04-06.10.21:189][448]CompilerResultsLog:           ]
+[2019.01.04-06.10.21:189][448]CompilerResultsLog:    C:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Core\Public\Logging/LogMacros.h(60) : error C4840: variadic ?Լ??? ?μ??μ? 'FString' Ŭ?????? ?̽? ?Ұ????ϰ? ?????߽??ϴ?.
+[2019.01.04-06.10.21:189][448]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Core\Public\Logging/LogMacros.h(60): note: 'FString::FString'??(??) trivial?? ?ƴմϴ?.
+[2019.01.04-06.10.21:189][448]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Core\Public\Containers/UnrealString.h(73): note: 'FString::FString' ?????? ?????Ͻʽÿ?.
+[2019.01.04-06.10.21:189][448]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Core\Public\Logging/LogMacros.h(60): note: ?????ڿ? ?Ҹ??ڰ? ȣ?????? ?ʽ??ϴ?. Ŭ?????? ??Ʈ ???簡 ?μ??? ???޵˴ϴ?.
+[2019.01.04-06.10.21:189][448]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Core\Public\Windows/WindowsCriticalSection.h(9): note: 'FString' ?????? ?????Ͻʽÿ?.
+[2019.01.04-06.10.21:189][448]CompilerResultsLog:   [4/9] Tank.cpp
+[2019.01.04-06.10.21:189][448]CompilerResultsLog:   [5/9] BattleTank.init.gen.cpp
+[2019.01.04-06.10.21:189][448]CompilerResultsLog:   [6/9] TankPlayerController.gen.cpp
+[2019.01.04-06.10.21:189][448]CompilerResultsLog:   [7/9] Tank.gen.cpp
+[2019.01.04-06.10.21:189][448]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Binaries\Win64\UE4Editor-BattleTank-5567.dll
+[2019.01.04-06.10.21:189][448]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.01.04-06.10.21:189][448]CompilerResultsLog: Total build time: 35.66 seconds (Parallel executor: 0.00 seconds)
+[2019.01.04-06.10.21:189][448]LogMainFrame: MainFrame: Module compiling took 36.192 seconds
+[2019.01.04-06.10.21:189][448]Warning: HotReload failed, recompile failed
+[2019.01.04-06.10.21:527][448]LogSlate: Took 0.001321 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.01.04-06.10.21:530][448]LogSlate: Took 0.001825 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2019.01.04-06.10.21:578][448]LogSlate: Took 0.013099 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NotoNaskhArabicUI-Regular.ttf' (144K)
+[2019.01.04-06.11.39:071][454]LogSlate: Window 'Message Log' being destroyed
+[2019.01.04-06.11.39:116][454]LogSlate: Window 'Message Log' being destroyed
+[2019.01.04-06.11.40:083][555]Candidate modules for hot reload:
+[2019.01.04-06.11.40:083][555]  BattleTank
+[2019.01.04-06.11.40:083][555]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,1469 Win64 Development -TargetType=Editor -Project="E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/BattleTank.uproject" -canskiplink "E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/BattleTank.uproject" ]
+[2019.01.04-06.11.40:085][555]Warning: Starting HotReload took  0.0s.
+[2019.01.04-06.11.47:135][368]CompilerResultsLog: New page: Compilation - Jan 5, 2019, 12:11:47 AM
+[2019.01.04-06.11.47:135][368]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal4\Section_04\BattleTank-1\BattleTank).
+[2019.01.04-06.11.47:135][368]CompilerResultsLog: Creating makefile for hot reloading BattleTankEditor (source directory changed)
+[2019.01.04-06.11.47:135][368]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.04-06.11.47:135][368]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.01.04-06.11.47:135][368]CompilerResultsLog: Building 3 actions with 16 processes...
+[2019.01.04-06.11.47:135][368]CompilerResultsLog:   [1/3] TankPlayerController.cpp
+[2019.01.04-06.11.47:135][368]CompilerResultsLog:   [2/3] UE4Editor-BattleTank-1469.lib
+[2019.01.04-06.11.47:135][368]CompilerResultsLog:      E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-1469.lib ???̺귯?? ?? E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-1469.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.01.04-06.11.47:135][368]CompilerResultsLog:   [3/3] UE4Editor-BattleTank-1469.dll
+[2019.01.04-06.11.47:135][368]CompilerResultsLog:      E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-1469.suppressed.lib ???̺귯?? ?? E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-1469.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.01.04-06.11.47:135][368]CompilerResultsLog: Total build time: 6.79 seconds (Parallel executor: 1.45 seconds)
+[2019.01.04-06.11.47:135][368]LogMainFrame: MainFrame: Module compiling took 7.054 seconds
+[2019.01.04-06.11.47:184][368]LogContentBrowser: Native class hierarchy updated for 'BattleTank' in 0.0004 seconds. Added 2 classes and 3 folders.
+[2019.01.04-06.11.47:188][368]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.01.04-06.11.47:632][368]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2654 classes and 625 folders.
+[2019.01.04-06.11.47:638][368]Display: HotReload took  7.6s.
+[2019.01.04-06.11.50:657][730]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.01.04-06.11.50:677][730]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel' has LevelScriptBlueprint '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading' with GeneratedClass '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading_C' with ClassGeneratedBy '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading'
+[2019.01.04-06.11.50:677][730]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.04-06.11.50:677][730]PIE: New page: PIE session: BattleGround_FlatShading (Jan 5, 2019, 12:11:50 AM)
+[2019.01.04-06.11.50:690][730]LogPlayLevel: Creating play world package: /Game/FlatShading/UEDPIE_0_BattleGround_FlatShading
+[2019.01.04-06.11.50:738][730]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047871s)
+[2019.01.04-06.11.50:738][730]LogAIModule: Creating AISystem for world BattleGround_FlatShading
+[2019.01.04-06.11.50:739][730]LogPlayLevel: PIE: World Init took: (0.000607s)
+[2019.01.04-06.11.50:739][730]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading to /Game/FlatShading/UEDPIE_0_BattleGround_FlatShading.BattleGround_FlatShading (0.048769s)
+[2019.01.04-06.11.50:821][730]LogInit: XAudio2 using '헤드셋 이어폰(Corsair VOID PRO Surround USB Sound Adapter)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.01.04-06.11.50:940][730]LogInit: FAudioDevice initialized.
+[2019.01.04-06.11.50:945][730]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.04-06.11.50:991][730]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2019.01.04-06.11.50:994][730]LogWorld: Bringing World /Game/FlatShading/UEDPIE_0_BattleGround_FlatShading.BattleGround_FlatShading up for play (max tick rate 0) at 2019.01.04-15.11.50
+[2019.01.04-06.11.50:994][730]LogWorld: Bringing up level for play took: 0.002501
+[2019.01.04-06.11.51:035][730]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2019.01.04-06.11.51:036][730]LogTemp: Warning: Tank was possessed : Tank_BP_C_0
+[2019.01.04-06.11.51:040][730]PIE: Play in editor start time for /Game/FlatShading/UEDPIE_0_BattleGround_FlatShading 1.293
+[2019.01.04-06.11.51:040][730]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel' has LevelScriptBlueprint '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading' with GeneratedClass '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading_C' with ClassGeneratedBy '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading'
+[2019.01.04-06.11.52:220][853]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.01.04-06.11.55:344][217]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel' has LevelScriptBlueprint '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading' with GeneratedClass '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading_C' with ClassGeneratedBy '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading'
+[2019.01.04-06.11.55:345][217]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.04-06.11.55:364][217]LogSlate: Window 'BattleTank Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.04-06.11.55:435][217]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.04-06.11.55:436][217]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel' has LevelScriptBlueprint '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading' with GeneratedClass '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading_C' with ClassGeneratedBy '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading'
+[2019.01.04-06.11.55:488][218]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.01.04-06.11.58:174][457]LogSavePackage: Moving 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/BattleGround_FlatShading67025E1443DA3FFF00FDE1B9CB0F7193.tmp' to 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Content/FlatShading/BattleGround_FlatShading.umap'
+[2019.01.04-06.11.58:207][457]LogFileHelpers: Saving map 'BattleGround_FlatShading' took 0.600
+[2019.01.04-06.11.59:865][630]LogSlate: Window 'PlayerController_BP' being destroyed
+[2019.01.04-06.11.59:909][630]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.01.04-06.11.59:953][630]LogSlate: Window 'BattleTank - Unreal Editor' being destroyed
+[2019.01.04-06.11.59:997][630]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2019.01.04-06.12.00:208][631]Cmd: QUIT_EDITOR
+[2019.01.04-06.12.00:938][631]LogExit: Preparing to exit.
+[2019.01.04-06.12.01:705][631]LogExit: Editor shut down
+[2019.01.04-06.12.01:705][631]LogExit: Transaction tracking system shut down
+[2019.01.04-06.12.01:958][631]LogExit: Object subsystem successfully closed.
+[2019.01.04-06.12.01:978][631]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.01.04-06.12.01:981][631]LogD3D11RHI: Shutdown
+[2019.01.04-06.12.01:981][631]LogD3D11RHI: CleanupD3DDevice
+[2019.01.04-06.12.01:982][631]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.01.04-06.12.02:006][631]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (631)
+[2019.01.04-06.12.02:006][631]LogModuleManager: Shutting down and abandoning module Voice (629)
+[2019.01.04-06.12.02:006][631]LogModuleManager: Shutting down and abandoning module BattleTank (627)
+[2019.01.04-06.12.02:006][631]LogModuleManager: Shutting down and abandoning module BlueprintGraph (626)
+[2019.01.04-06.12.02:006][631]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (624)
+[2019.01.04-06.12.02:006][631]LogModuleManager: Shutting down and abandoning module AddContentDialog (622)
+[2019.01.04-06.12.02:006][631]LogModuleManager: Shutting down and abandoning module WidgetCarousel (621)
+[2019.01.04-06.12.02:006][631]LogModuleManager: Shutting down and abandoning module EditorWidgets (618)
+[2019.01.04-06.12.02:006][631]LogModuleManager: Shutting down and abandoning module CollectionManager (616)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module SceneOutliner (614)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module StatsViewer (612)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module FoliageEdit (610)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module LandscapeEditor (608)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module MeshPaintMode (606)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (604)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module ActorPickerMode (602)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module GeometryMode (600)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module TextureAlignMode (598)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module BspMode (596)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (594)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (592)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module AutomationWorker (590)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (588)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (586)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (584)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module PlacementMode (583)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module MaterialEditor (582)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (578)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (576)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (574)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (572)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module WebMMedia (570)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (568)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (566)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module SequenceRecorder (565)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (562)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (560)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (558)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (556)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (554)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (552)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (550)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (548)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (546)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (544)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module CharacterAI (542)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module SmartSnapping (540)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module SessionServices (538)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module ViewportSnapping (536)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module ViewportInteraction (534)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module ClothPainter (532)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (531)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module LogVisualizer (528)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module IntroTutorials (526)
+[2019.01.04-06.12.02:007][631]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (525)
+[2019.01.04-06.12.02:008][631]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (522)
+[2019.01.04-06.12.02:008][631]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (520)
+[2019.01.04-06.12.02:008][631]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (518)
+[2019.01.04-06.12.02:008][631]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (516)
+[2019.01.04-06.12.02:008][631]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (515)
+[2019.01.04-06.12.02:473][631]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (512)
+[2019.01.04-06.12.02:473][631]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (510)
+[2019.01.04-06.12.02:473][631]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (508)
+[2019.01.04-06.12.02:473][631]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (506)
+[2019.01.04-06.12.02:473][631]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (504)
+[2019.01.04-06.12.02:473][631]LogModuleManager: Shutting down and abandoning module InputBindingEditor (502)
+[2019.01.04-06.12.02:473][631]LogModuleManager: Shutting down and abandoning module MergeActors (500)
+[2019.01.04-06.12.02:473][631]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (498)
+[2019.01.04-06.12.02:473][631]LogModuleManager: Shutting down and abandoning module LocalizationService (497)
+[2019.01.04-06.12.02:473][631]LogModuleManager: Shutting down and abandoning module HardwareTargeting (494)
+[2019.01.04-06.12.02:473][631]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (492)
+[2019.01.04-06.12.02:473][631]LogModuleManager: Shutting down and abandoning module UndoHistory (490)
+[2019.01.04-06.12.02:473][631]LogModuleManager: Shutting down and abandoning module XmlParser (488)
+[2019.01.04-06.12.02:473][631]LogModuleManager: Shutting down and abandoning module Blutility (486)
+[2019.01.04-06.12.02:473][631]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (484)
+[2019.01.04-06.12.02:473][631]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (483)
+[2019.01.04-06.12.02:473][631]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (480)
+[2019.01.04-06.12.02:474][631]LogModuleManager: Shutting down and abandoning module SettingsEditor (478)
+[2019.01.04-06.12.02:474][631]LogModuleManager: Shutting down and abandoning module ProjectLauncher (476)
+[2019.01.04-06.12.02:474][631]LogModuleManager: Shutting down and abandoning module SessionFrontend (474)
+[2019.01.04-06.12.02:474][631]LogModuleManager: Shutting down and abandoning module ProfilerClient (472)
+[2019.01.04-06.12.02:474][631]LogModuleManager: Shutting down and abandoning module DeviceManager (470)
+[2019.01.04-06.12.02:474][631]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (469)
+[2019.01.04-06.12.02:529][631]LogModuleManager: Shutting down and abandoning module AutomationController (466)
+[2019.01.04-06.12.02:529][631]LogModuleManager: Shutting down and abandoning module AutomationWindow (464)
+[2019.01.04-06.12.02:529][631]LogModuleManager: Shutting down and abandoning module Layers (462)
+[2019.01.04-06.12.02:529][631]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (460)
+[2019.01.04-06.12.02:529][631]LogModuleManager: Shutting down and abandoning module DetailCustomizations (458)
+[2019.01.04-06.12.02:529][631]LogModuleManager: Shutting down and abandoning module PackagesDialog (456)
+[2019.01.04-06.12.02:529][631]LogModuleManager: Shutting down and abandoning module Persona (454)
+[2019.01.04-06.12.02:529][631]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (453)
+[2019.01.04-06.12.02:529][631]LogModuleManager: Shutting down and abandoning module AnimGraph (451)
+[2019.01.04-06.12.02:529][631]LogModuleManager: Shutting down and abandoning module Kismet (448)
+[2019.01.04-06.12.02:534][631]LogModuleManager: Shutting down and abandoning module GraphEditor (446)
+[2019.01.04-06.12.02:535][631]LogModuleManager: Shutting down and abandoning module ClassViewer (444)
+[2019.01.04-06.12.02:535][631]LogModuleManager: Shutting down and abandoning module Toolbox (442)
+[2019.01.04-06.12.02:535][631]LogModuleManager: Shutting down and abandoning module DesktopPlatform (441)
+[2019.01.04-06.12.02:535][631]LogModuleManager: Shutting down and abandoning module ModuleUI (438)
+[2019.01.04-06.12.02:535][631]LogModuleManager: Shutting down and abandoning module MovieSceneTools (436)
+[2019.01.04-06.12.02:535][631]LogModuleManager: Shutting down and abandoning module OutputLog (434)
+[2019.01.04-06.12.02:535][631]LogModuleManager: Shutting down and abandoning module GammaUI (432)
+[2019.01.04-06.12.02:535][631]LogModuleManager: Shutting down and abandoning module Documentation (430)
+[2019.01.04-06.12.02:535][631]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (428)
+[2019.01.04-06.12.02:535][631]LogModuleManager: Shutting down and abandoning module MovieScene (426)
+[2019.01.04-06.12.02:535][631]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (424)
+[2019.01.04-06.12.02:535][631]LogModuleManager: Shutting down and abandoning module LauncherPlatform (422)
+[2019.01.04-06.12.02:536][631]LogModuleManager: Shutting down and abandoning module AnalyticsET (420)
+[2019.01.04-06.12.02:536][631]LogModuleManager: Shutting down and abandoning module PortalServices (418)
+[2019.01.04-06.12.02:536][631]LogModuleManager: Shutting down and abandoning module PortalRpc (416)
+[2019.01.04-06.12.02:536][631]LogModuleManager: Shutting down and abandoning module MessagingRpc (414)
+[2019.01.04-06.12.02:536][631]LogModuleManager: Shutting down and abandoning module AIModule (412)
+[2019.01.04-06.12.02:536][631]LogModuleManager: Shutting down and abandoning module GameplayDebugger (411)
+[2019.01.04-06.12.02:536][631]LogModuleManager: Shutting down and abandoning module AITestSuite (409)
+[2019.01.04-06.12.02:536][631]LogModuleManager: Shutting down and abandoning module NavigationSystem (407)
+[2019.01.04-06.12.02:536][631]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (404)
+[2019.01.04-06.12.02:538][631]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2019.01.04-06.12.02:619][631]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2019.01.04-06.12.02:619][631]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2019.01.04-06.12.02:619][631]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2019.01.04-06.12.02:619][631]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2019.01.04-06.12.02:619][631]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2019.01.04-06.12.02:619][631]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2019.01.04-06.12.02:619][631]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2019.01.04-06.12.02:619][631]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2019.01.04-06.12.02:619][631]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2019.01.04-06.12.02:619][631]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2019.01.04-06.12.02:619][631]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2019.01.04-06.12.02:619][631]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2019.01.04-06.12.02:619][631]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2019.01.04-06.12.02:619][631]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2019.01.04-06.12.02:619][631]LogModuleManager: Shutting down and abandoning module MediaCompositing (372)
+[2019.01.04-06.12.02:619][631]LogModuleManager: Shutting down and abandoning module LinearTimecode (370)
+[2019.01.04-06.12.02:619][631]LogModuleManager: Shutting down and abandoning module ImgMedia (368)
+[2019.01.04-06.12.02:622][631]LogModuleManager: Shutting down and abandoning module HTML5Networking (366)
+[2019.01.04-06.12.02:622][631]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (364)
+[2019.01.04-06.12.02:622][631]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (362)
+[2019.01.04-06.12.02:622][631]LogModuleManager: Shutting down and abandoning module BackChannel (360)
+[2019.01.04-06.12.02:622][631]LogModuleManager: Shutting down and abandoning module AppleVision (358)
+[2019.01.04-06.12.02:622][631]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (356)
+[2019.01.04-06.12.02:622][631]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2019.01.04-06.12.02:622][631]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2019.01.04-06.12.02:622][631]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2019.01.04-06.12.02:622][631]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2019.01.04-06.12.02:622][631]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2019.01.04-06.12.02:622][631]LogModuleManager: Shutting down and abandoning module VariantManagerContent (344)
+[2019.01.04-06.12.02:622][631]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.01.04-06.12.02:622][631]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2019.01.04-06.12.02:622][631]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2019.01.04-06.12.02:622][631]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2019.01.04-06.12.02:622][631]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2019.01.04-06.12.02:622][631]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2019.01.04-06.12.02:622][631]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.01.04-06.12.02:622][631]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.01.04-06.12.02:622][631]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.01.04-06.12.02:622][631]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.01.04-06.12.02:622][631]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.01.04-06.12.02:622][631]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.01.04-06.12.02:622][631]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.01.04-06.12.02:622][631]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.01.04-06.12.02:622][631]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.01.04-06.12.02:622][631]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.01.04-06.12.02:622][631]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (310)
+[2019.01.04-06.12.02:622][631]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (308)
+[2019.01.04-06.12.02:622][631]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (306)
+[2019.01.04-06.12.02:622][631]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (304)
+[2019.01.04-06.12.02:622][631]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (302)
+[2019.01.04-06.12.02:622][631]LogModuleManager: Shutting down and abandoning module Paper2DEditor (300)
+[2019.01.04-06.12.02:623][631]LogModuleManager: Shutting down and abandoning module MeshPaint (299)
+[2019.01.04-06.12.02:623][631]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (294)
+[2019.01.04-06.12.02:623][631]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (292)
+[2019.01.04-06.12.02:623][631]LogModuleManager: Shutting down and abandoning module PhysXVehicles (290)
+[2019.01.04-06.12.02:623][631]LogModuleManager: Shutting down and abandoning module OculusEditor (288)
+[2019.01.04-06.12.02:623][631]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2019.01.04-06.12.02:623][631]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.01.04-06.12.02:623][631]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.01.04-06.12.02:724][631]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.01.04-06.12.02:825][631]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.01.04-06.12.02:825][631]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.01.04-06.12.02:825][631]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.01.04-06.12.02:825][631]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.01.04-06.12.02:825][631]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.01.04-06.12.02:825][631]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.01.04-06.12.02:825][631]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.01.04-06.12.02:825][631]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.01.04-06.12.02:825][631]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.01.04-06.12.02:825][631]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.01.04-06.12.02:825][631]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.01.04-06.12.02:826][631]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.01.04-06.12.02:826][631]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.01.04-06.12.02:826][631]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.01.04-06.12.02:827][631]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.01.04-06.12.02:827][631]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.01.04-06.12.02:827][631]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.01.04-06.12.02:827][631]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (244)
+[2019.01.04-06.12.02:827][631]LogModuleManager: Shutting down and abandoning module WmfMedia (242)
+[2019.01.04-06.12.02:828][631]LogModuleManager: Shutting down and abandoning module Media (241)
+[2019.01.04-06.12.02:834][631]LogModuleManager: Shutting down and abandoning module PacketHandler (238)
+[2019.01.04-06.12.02:834][631]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (236)
+[2019.01.04-06.12.02:834][631]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (234)
+[2019.01.04-06.12.02:834][631]LogModuleManager: Shutting down and abandoning module MediaAssets (232)
+[2019.01.04-06.12.02:834][631]LogModuleManager: Shutting down and abandoning module Overlay (230)
+[2019.01.04-06.12.02:834][631]LogModuleManager: Shutting down and abandoning module OverlayEditor (229)
+[2019.01.04-06.12.02:834][631]LogModuleManager: Shutting down and abandoning module VREditor (226)
+[2019.01.04-06.12.02:834][631]LogModuleManager: Shutting down and abandoning module StringTableEditor (224)
+[2019.01.04-06.12.02:834][631]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (222)
+[2019.01.04-06.12.02:834][631]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (220)
+[2019.01.04-06.12.02:834][631]LogModuleManager: Shutting down and abandoning module FunctionalTesting (218)
+[2019.01.04-06.12.02:834][631]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (216)
+[2019.01.04-06.12.02:834][631]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (215)
+[2019.01.04-06.12.02:834][631]LogModuleManager: Shutting down and abandoning module UMG (212)
+[2019.01.04-06.12.02:834][631]LogModuleManager: Shutting down and abandoning module UMGEditor (211)
+[2019.01.04-06.12.02:834][631]LogModuleManager: Shutting down and abandoning module Sequencer (210)
+[2019.01.04-06.12.02:835][631]LogModuleManager: Shutting down and abandoning module MessageLog (207)
+[2019.01.04-06.12.02:835][631]LogModuleManager: Shutting down and abandoning module SlateReflector (202)
+[2019.01.04-06.12.02:835][631]LogModuleManager: Shutting down and abandoning module Slate (200)
+[2019.01.04-06.12.02:835][631]LogModuleManager: Shutting down and abandoning module EditorStyle (198)
+[2019.01.04-06.12.02:836][631]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2019.01.04-06.12.02:836][631]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
+[2019.01.04-06.12.02:836][631]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
+[2019.01.04-06.12.02:836][631]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
+[2019.01.04-06.12.02:836][631]LogModuleManager: Shutting down and abandoning module Networking (188)
+[2019.01.04-06.12.02:836][631]LogModuleManager: Shutting down and abandoning module Core (186)
+[2019.01.04-06.12.02:836][631]LogModuleManager: Shutting down and abandoning module LevelSequence (184)
+[2019.01.04-06.12.02:836][631]LogModuleManager: Shutting down and abandoning module KismetCompiler (182)
+[2019.01.04-06.12.02:836][631]LogModuleManager: Shutting down and abandoning module MeshUtilities (180)
+[2019.01.04-06.12.02:836][631]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (179)
+[2019.01.04-06.12.02:836][631]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (178)
+[2019.01.04-06.12.02:836][631]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (177)
+[2019.01.04-06.12.02:836][631]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (175)
+[2019.01.04-06.12.02:836][631]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (173)
+[2019.01.04-06.12.02:836][631]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (171)
+[2019.01.04-06.12.02:836][631]LogModuleManager: Shutting down and abandoning module MaterialBaking (167)
+[2019.01.04-06.12.02:836][631]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (163)
+[2019.01.04-06.12.02:836][631]LogModuleManager: Shutting down and abandoning module DerivedDataCache (160)
+[2019.01.04-06.12.02:853][631]LogDerivedDataCache: Shutdown
+[2019.01.04-06.12.02:853][631]LogModuleManager: Shutting down and abandoning module XGEController (158)
+[2019.01.04-06.12.02:853][631]LogModuleManager: Shutting down and abandoning module TargetPlatform (156)
+[2019.01.04-06.12.02:853][631]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (155)
+[2019.01.04-06.12.02:853][631]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (153)
+[2019.01.04-06.12.02:853][631]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (151)
+[2019.01.04-06.12.02:853][631]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (149)
+[2019.01.04-06.12.02:853][631]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (147)
+[2019.01.04-06.12.02:853][631]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (145)
+[2019.01.04-06.12.02:853][631]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (143)
+[2019.01.04-06.12.02:853][631]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (141)
+[2019.01.04-06.12.02:853][631]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (139)
+[2019.01.04-06.12.02:853][631]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (137)
+[2019.01.04-06.12.02:853][631]LogModuleManager: Shutting down and abandoning module ImageWrapper (136)
+[2019.01.04-06.12.02:853][631]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (133)
+[2019.01.04-06.12.02:853][631]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (131)
+[2019.01.04-06.12.02:853][631]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (129)
+[2019.01.04-06.12.02:853][631]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (127)
+[2019.01.04-06.12.02:853][631]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (125)
+[2019.01.04-06.12.02:854][631]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2019.01.04-06.12.02:854][631]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
+[2019.01.04-06.12.02:854][631]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (119)
+[2019.01.04-06.12.02:854][631]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (117)
+[2019.01.04-06.12.02:854][631]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (115)
+[2019.01.04-06.12.02:854][631]LogModuleManager: Shutting down and abandoning module Messaging (113)
+[2019.01.04-06.12.02:854][631]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (111)
+[2019.01.04-06.12.02:855][631]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (109)
+[2019.01.04-06.12.02:855][631]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (107)
+[2019.01.04-06.12.02:858][631]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (105)
+[2019.01.04-06.12.02:859][631]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (103)
+[2019.01.04-06.12.02:859][631]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (101)
+[2019.01.04-06.12.02:859][631]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (99)
+[2019.01.04-06.12.02:859][631]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (97)
+[2019.01.04-06.12.02:859][631]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (95)
+[2019.01.04-06.12.02:859][631]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (93)
+[2019.01.04-06.12.02:859][631]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (91)
+[2019.01.04-06.12.02:859][631]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (89)
+[2019.01.04-06.12.02:859][631]LogModuleManager: Shutting down and abandoning module InputCore (86)
+[2019.01.04-06.12.02:859][631]LogModuleManager: Shutting down and abandoning module Settings (84)
+[2019.01.04-06.12.02:859][631]LogModuleManager: Shutting down and abandoning module PhysXCooking (82)
+[2019.01.04-06.12.02:859][631]LogModuleManager: Shutting down and abandoning module SteamVR (80)
+[2019.01.04-06.12.02:859][631]LogHMD: Freeing OpenVRDLLHandle.
+[2019.01.04-06.12.02:859][631]LogModuleManager: Shutting down and abandoning module OculusHMD (78)
+[2019.01.04-06.12.02:859][631]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (76)
+[2019.01.04-06.12.02:859][631]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
+[2019.01.04-06.12.02:859][631]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (72)
+[2019.01.04-06.12.02:859][631]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (68)
+[2019.01.04-06.12.02:859][631]LogModuleManager: Shutting down and abandoning module XMPP (63)
+[2019.01.04-06.12.02:859][631]LogModuleManager: Shutting down and abandoning module WebSockets (62)
+[2019.01.04-06.12.02:879][631]LogModuleManager: Shutting down and abandoning module HTTP (59)
+[2019.01.04-06.12.02:879][631]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.01.04-06.12.02:879][631]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B808FF0E1-496C-29B1-8CF2-EE968D848440%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.0-4541578%2B%2B%2BUE4%2BRelease-4.21&UserID=0971a47140f89bf026ca1394a3e4c6a3%7Ce9a42ce074144d02a46e1c0970b33066%7C414a5a5e-b649-4708-b3ef-9c0bd5a330da&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.01.04-06.12.02:882][631]LogModuleManager: Shutting down and abandoning module SSL (58)
+[2019.01.04-06.12.02:883][631]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
+[2019.01.04-06.12.02:883][631]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
+[2019.01.04-06.12.02:883][631]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
+[2019.01.04-06.12.02:883][631]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
+[2019.01.04-06.12.02:883][631]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (46)
+[2019.01.04-06.12.02:884][631]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
+[2019.01.04-06.12.02:884][631]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
+[2019.01.04-06.12.02:884][631]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.01.04-06.12.02:884][631]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
+[2019.01.04-06.12.02:884][631]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
+[2019.01.04-06.12.02:884][631]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.01.04-06.12.02:884][631]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.01.04-06.12.02:884][631]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.01.04-06.12.02:884][631]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.01.04-06.12.02:884][631]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.01.04-06.12.02:884][631]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.01.04-06.12.02:884][631]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.01.04-06.12.02:885][631]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.01.04-06.12.02:885][631]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.01.04-06.12.02:885][631]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.01.04-06.12.02:885][631]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.01.04-06.12.02:885][631]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.01.04-06.12.02:885][631]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.01.04-06.12.02:885][631]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.01.04-06.12.02:885][631]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.01.04-06.12.02:885][631]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.01.04-06.12.02:885][631]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.01.04-06.12.02:885][631]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.01.04-06.12.02:897][631]LogExit: Exiting.
+[2019.01.04-06.12.02:915][631]Log file closed, 01/04/19 15:12:02
