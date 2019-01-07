@@ -2,20 +2,23 @@
 
 #pragma once
 
+#include "TankAmingComponent.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
-#include "Tank.generated.h"
+#include "Tank.generated.h"	// Put new includes above
 
 UCLASS()
 class BATTLETANK_API ATank : public APawn
 {
 	GENERATED_BODY()
 
-protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
+public:
+	void AimAt(FVector HitLocation);
 
-public:	
+protected:
+	UTankAmingComponent* TankAmingComponent = nullptr;
+
+private:
 
 	// Sets default values for this pawn's properties
 	ATank();
@@ -23,8 +26,10 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	void AimAt(FVector HitLocation);
 };
