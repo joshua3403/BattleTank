@@ -19,12 +19,17 @@ public:
 
 	virtual void BeginPlay() override;
 
+
+
+private:
+
+	float CrosshairXLocation = 0.5;
+	float CrosshairYLocation = 0.333333;
+
 	ATank* GetControlledTank() const;
 
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
-private:
 
 	// Start the tank moving the barrel so that a shot would hit where
 	// the crosshair intersects the world
