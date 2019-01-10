@@ -17,25 +17,6 @@ void UTankAmingComponent::SetBarrelReference(UStaticMeshComponent* BarrelSet)
 	Barrel = BarrelSet;
 }
 
-
-// Called when the game starts
-void UTankAmingComponent::BeginPlay()
-{
-	Super::BeginPlay();
-
-	// ...
-	
-}
-
-
-// Called every frame
-void UTankAmingComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
-{
-	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-
-	// ...
-}
-
 void UTankAmingComponent::AimAt(FVector HitLocation, float LaunchSpeed)
 {
 	if (!Barrel) { return; }
@@ -43,25 +24,39 @@ void UTankAmingComponent::AimAt(FVector HitLocation, float LaunchSpeed)
 	FVector OutLaunchVelocity;
 	FVector StartLocation = Barrel->GetSocketLocation(FName("Projectile"));
 
-	if (UGameplayStatics::SuggestProjectileVelocity
-			(
-				this,
-				OutLaunchVelocity,
-				StartLocation,
-				HitLocation,
-				LaunchSpeed,
-				false,
-				0,
-				0,
-				ESuggestProjVelocityTraceOption::DoNotTrace
-			)
-		)	// Calculate the OutLaunchVelocity
+	bool bHaveAimSolution = UGameplayStatics::SuggestProjectileVelocity
+	(
+		this,
+		OutLaunchVelocity,
+		StartLocation,
+		HitLocation,
+		LaunchSpeed,
+		false,
+		0,
+		0,
+		ESuggestProjVelocityTraceOption::DoNotTrace
+	);
+
+	if(bHaveAimSolution)
 	{
-		auto TankName = GetOwner()->GetName();
 		auto AimDirection = OutLaunchVelocity.GetSafeNormal();
-		UE_LOG(LogTemp, Warning, TEXT("%s Aming at %s"), *TankName,*AimDirection.ToString());
+		MoveBarrelTowards(AimDirection);
 	}
 
+	// If no solution found do nothing
 	
 }
+
+void UTankAmingComponent::MoveBarrelTowards(FVector AimDirection)
+{
+	// Work-out difference between current barrel reaction, and Aimdirection
+	auto BarrelRotator = Barrel->GetForwardVector().Rotation();
+	auto AimAsRotator = AimDirection.Rotation();
+	auto DeltaRotator = AimAsRotator - BarrelRotator;
+	UE_LOG(LogTemp, Warning, TEXT("AimAsRotator: %s"), *DeltaRotator.ToString());
+
+	// Move the barrel the right amount this frame
+	// Given a max elevation speed, and the frame time
+}
+
 
