@@ -44,6 +44,7 @@ void EmptyLinkFunctionForGeneratedCodeTankAmingComponent() {}
 		{ "ClassGroupNames", "Custom" },
 		{ "IncludePath", "TankAmingComponent.h" },
 		{ "ModuleRelativePath", "Public/TankAmingComponent.h" },
+		{ "ToolTip", "Holds barrel's properties and Elevate method" },
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UTankAmingComponent_Statics::StaticCppClassTypeInfo = {
@@ -69,7 +70,7 @@ void EmptyLinkFunctionForGeneratedCodeTankAmingComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UTankAmingComponent, 3701806480);
+	IMPLEMENT_CLASS(UTankAmingComponent, 691088160);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UTankAmingComponent(Z_Construct_UClass_UTankAmingComponent, &UTankAmingComponent::StaticClass, TEXT("/Script/BattleTank"), TEXT("UTankAmingComponent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UTankAmingComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
