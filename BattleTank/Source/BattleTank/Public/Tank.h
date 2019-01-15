@@ -2,11 +2,12 @@
 
 #pragma once
 
-#include "TankAmingComponent.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
 #include "Tank.generated.h"	// Put new includes above
 
+// Forward declarations
+class UTankAimingCompenent;
 class UTankBarrel;
 
 UCLASS()
