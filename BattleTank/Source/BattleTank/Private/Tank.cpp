@@ -1,11 +1,17 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "TankAmingComponent.h"
 #include "Tank.h"
+#include "TankAmingComponent.h"
+
 
 void ATank::SetBarrelReference(UTankBarrel* BarrelToSet)
 {
 	TankAmingComponent->SetBarrelReference(BarrelToSet);
+}
+
+void ATank::SetTurretReference(UTankTurret* TurretToSet)
+{
+	TankAmingComponent->SetTurretReference(TurretToSet);
 }
 
 // Sets default values
@@ -15,7 +21,7 @@ ATank::ATank()
 	PrimaryActorTick.bCanEverTick = false;
 
 	// No need to protect points as added at contruction
-	TankAmingComponent = CreateDefaultSubobject<UTankAmingComponent>(FName("Aiming Component"));
+	TankAmingComponent = CreateDefaultSubobject<UTankAmingComponent>(FName("Aming Component"));
 
 }
 
