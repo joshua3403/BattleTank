@@ -17,6 +17,14 @@ class UTankBarrel;
 
 #define BattleTank_Source_BattleTank_Public_Tank_h_17_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execFire) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Fire(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execSetTurretReference) \
 	{ \
 		P_GET_OBJECT(UTankTurret,Z_Param_BarrelToSet); \
@@ -37,6 +45,14 @@ class UTankBarrel;
 
 
 #define BattleTank_Source_BattleTank_Public_Tank_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execFire) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Fire(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execSetTurretReference) \
 	{ \

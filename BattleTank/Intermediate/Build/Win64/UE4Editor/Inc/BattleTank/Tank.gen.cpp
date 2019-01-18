@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 	BATTLETANK_API UClass* Z_Construct_UClass_ATank();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_BattleTank();
+	BATTLETANK_API UFunction* Z_Construct_UFunction_ATank_Fire();
 	BATTLETANK_API UFunction* Z_Construct_UFunction_ATank_SetBarrelReference();
 	BATTLETANK_API UClass* Z_Construct_UClass_UTankBarrel_NoRegister();
 	BATTLETANK_API UFunction* Z_Construct_UFunction_ATank_SetTurretReference();
@@ -26,10 +27,33 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 	{
 		UClass* Class = ATank::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "Fire", &ATank::execFire },
 			{ "SetBarrelReference", &ATank::execSetBarrelReference },
 			{ "SetTurretReference", &ATank::execSetTurretReference },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_ATank_Fire_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATank_Fire_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Tank.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATank_Fire_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATank, "Fire", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATank_Fire_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ATank_Fire_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ATank_Fire()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATank_Fire_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_ATank_SetBarrelReference_Statics
 	{
@@ -137,6 +161,7 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_BattleTank,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ATank_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ATank_Fire, "Fire" }, // 923849977
 		{ &Z_Construct_UFunction_ATank_SetBarrelReference, "SetBarrelReference" }, // 1357184145
 		{ &Z_Construct_UFunction_ATank_SetTurretReference, "SetTurretReference" }, // 3758476153
 	};
@@ -180,7 +205,7 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATank, 2081671785);
+	IMPLEMENT_CLASS(ATank, 1093621683);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ATank(Z_Construct_UClass_ATank, &ATank::StaticClass, TEXT("/Script/BattleTank"), TEXT("ATank"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ATank);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -14,6 +14,7 @@ void ATank::SetTurretReference(UTankTurret* TurretToSet)
 	TankAmingComponent->SetTurretReference(TurretToSet);
 }
 
+
 // Sets default values
 ATank::ATank()
 {
@@ -44,3 +45,8 @@ void ATank::AimAt(FVector HitLocation)
 	TankAmingComponent->AimAt(HitLocation, LaunchSpeed);
 }
 
+void ATank::Fire()
+{
+	auto Time = GetWorld()->GetTimeSeconds();
+	UE_LOG(LogTemp, Warning, TEXT("%f: tank fires"), Time);
+}
