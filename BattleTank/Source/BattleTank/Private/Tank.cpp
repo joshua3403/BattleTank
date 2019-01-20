@@ -2,11 +2,14 @@
 
 #include "Tank.h"
 #include "TankAmingComponent.h"
+#include "Projectile.h"
+#include "TankBarrel.h"
 
 
 void ATank::SetBarrelReference(UTankBarrel* BarrelToSet)
 {
 	TankAmingComponent->SetBarrelReference(BarrelToSet);
+	Barrel = BarrelToSet;
 }
 
 void ATank::SetTurretReference(UTankTurret* TurretToSet)
@@ -23,7 +26,6 @@ ATank::ATank()
 
 	// No need to protect points as added at contruction
 	TankAmingComponent = CreateDefaultSubobject<UTankAmingComponent>(FName("Aming Component"));
-
 }
 
 // Called when the game starts or when spawned
@@ -49,4 +51,15 @@ void ATank::Fire()
 {
 	auto Time = GetWorld()->GetTimeSeconds();
 	UE_LOG(LogTemp, Warning, TEXT("%f: tank fires"), Time);
+
+	if (!Barrel) { return; }
+
+	// Spawn a projectile at the socket location on the barrel
+	auto projectile = GetWorld()->SpawnActor<AProjectile>(
+		ProjectileBlueprint,
+		Barrel->GetSocketLocation(FName("Projectile")),
+		Barrel->GetSocketRotation(FName("Projectile"))
+		);
+
+	projectile->LaunchProjectile(LaunchSpeed);
 }
