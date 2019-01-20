@@ -22,8 +22,6 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 	BATTLETANK_API UClass* Z_Construct_UClass_UTankBarrel_NoRegister();
 	BATTLETANK_API UFunction* Z_Construct_UFunction_ATank_SetTurretReference();
 	BATTLETANK_API UClass* Z_Construct_UClass_UTankTurret_NoRegister();
-	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
-	BATTLETANK_API UClass* Z_Construct_UClass_AProjectile_NoRegister();
 // End Cross Module References
 	void ATank::StaticRegisterNativesATank()
 	{
@@ -151,10 +149,6 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ProjectileBlueprint_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_ProjectileBlueprint;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LaunchSpeed_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_LaunchSpeed;
@@ -179,14 +173,6 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATank_Statics::NewProp_ProjectileBlueprint_MetaData[] = {
-		{ "Category", "Setup" },
-		{ "ModuleRelativePath", "Public/Tank.h" },
-		{ "ToolTip", "TODO find Sensible default" },
-	};
-#endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ATank_Statics::NewProp_ProjectileBlueprint = { UE4CodeGen_Private::EPropertyClass::Class, "ProjectileBlueprint", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0044000000000001, 1, nullptr, STRUCT_OFFSET(ATank, ProjectileBlueprint), Z_Construct_UClass_AProjectile_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ATank_Statics::NewProp_ProjectileBlueprint_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATank_Statics::NewProp_ProjectileBlueprint_MetaData)) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATank_Statics::NewProp_LaunchSpeed_MetaData[] = {
 		{ "Category", "Firing" },
 		{ "ModuleRelativePath", "Public/Tank.h" },
@@ -194,7 +180,6 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATank_Statics::NewProp_LaunchSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "LaunchSpeed", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000000001, 1, nullptr, STRUCT_OFFSET(ATank, LaunchSpeed), METADATA_PARAMS(Z_Construct_UClass_ATank_Statics::NewProp_LaunchSpeed_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATank_Statics::NewProp_LaunchSpeed_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATank_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATank_Statics::NewProp_ProjectileBlueprint,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATank_Statics::NewProp_LaunchSpeed,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ATank_Statics::StaticCppClassTypeInfo = {
@@ -220,7 +205,7 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATank, 1551384613);
+	IMPLEMENT_CLASS(ATank, 1093621683);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ATank(Z_Construct_UClass_ATank, &ATank::StaticClass, TEXT("/Script/BattleTank"), TEXT("ATank"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ATank);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

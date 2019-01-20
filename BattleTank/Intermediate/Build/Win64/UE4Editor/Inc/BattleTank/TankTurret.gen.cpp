@@ -46,7 +46,7 @@ void EmptyLinkFunctionForGeneratedCodeTankTurret() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTankTurret_Statics::Class_MetaDataParams[] = {
 		{ "BlueprintSpawnableComponent", "" },
-		{ "HideCategories", "Object Activation Components|Activation Trigger" },
+		{ "HideCategories", "Collision Object Activation Components|Activation Trigger" },
 		{ "IncludePath", "TankTurret.h" },
 		{ "ModuleRelativePath", "Public/TankTurret.h" },
 	};
@@ -84,7 +84,7 @@ void EmptyLinkFunctionForGeneratedCodeTankTurret() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UTankTurret, 3912532441);
+	IMPLEMENT_CLASS(UTankTurret, 767570634);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UTankTurret(Z_Construct_UClass_UTankTurret, &UTankTurret::StaticClass, TEXT("/Script/BattleTank"), TEXT("UTankTurret"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UTankTurret);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
