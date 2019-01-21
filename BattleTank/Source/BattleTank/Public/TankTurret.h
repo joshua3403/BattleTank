@@ -19,7 +19,7 @@ public:
 	void Rotate(float RelativeSpeed);
 
 private:
-	UPROPERTY(EditAnywhere, Category = Setup)
-	float MaxDegreesPersecond = 15; // Sensible default
+	UPROPERTY(EditDefaultsOnly, Category = Setup)
+	float MaxDegreesPersecond = 12; // Sensible default
 	
 };
