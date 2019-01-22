@@ -71,6 +71,11 @@ void EmptyLinkFunctionForGeneratedCodeTankTrack() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TrackMaxDrivingForce_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_TrackMaxDrivingForce;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -90,6 +95,17 @@ void EmptyLinkFunctionForGeneratedCodeTankTrack() {}
 		{ "ToolTip", "TankTrack is used to set maximum driving force, and to move apply forces to the tank." },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTankTrack_Statics::NewProp_TrackMaxDrivingForce_MetaData[] = {
+		{ "Category", "TankTrack" },
+		{ "ModuleRelativePath", "Public/TankTrack.h" },
+		{ "ToolTip", "Max force per track, in Newtons" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UTankTrack_Statics::NewProp_TrackMaxDrivingForce = { UE4CodeGen_Private::EPropertyClass::Float, "TrackMaxDrivingForce", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000010001, 1, nullptr, STRUCT_OFFSET(UTankTrack, TrackMaxDrivingForce), METADATA_PARAMS(Z_Construct_UClass_UTankTrack_Statics::NewProp_TrackMaxDrivingForce_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTankTrack_Statics::NewProp_TrackMaxDrivingForce_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UTankTrack_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTankTrack_Statics::NewProp_TrackMaxDrivingForce,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UTankTrack_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UTankTrack>::IsAbstract,
 	};
@@ -98,7 +114,7 @@ void EmptyLinkFunctionForGeneratedCodeTankTrack() {}
 		DependentSingletons, ARRAY_COUNT(DependentSingletons),
 		0x00B010A4u,
 		FuncInfo, ARRAY_COUNT(FuncInfo),
-		nullptr, 0,
+		Z_Construct_UClass_UTankTrack_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_UTankTrack_Statics::PropPointers),
 		"Engine",
 		&StaticCppClassTypeInfo,
 		nullptr, 0,
@@ -113,7 +129,7 @@ void EmptyLinkFunctionForGeneratedCodeTankTrack() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UTankTrack, 2973129995);
+	IMPLEMENT_CLASS(UTankTrack, 4204622617);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UTankTrack(Z_Construct_UClass_UTankTrack, &UTankTrack::StaticClass, TEXT("/Script/BattleTank"), TEXT("UTankTrack"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UTankTrack);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
