@@ -16,6 +16,15 @@ class UTankTrack;
 
 #define BattleTank_Source_BattleTank_Public_TankMovementComponent_h_16_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execIntendTurnRight) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Throw); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->IntendTurnRight(Z_Param_Throw); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execInitialise) \
 	{ \
 		P_GET_OBJECT(UTankTrack,Z_Param_LeftTrackToSet); \
@@ -37,6 +46,15 @@ class UTankTrack;
 
 
 #define BattleTank_Source_BattleTank_Public_TankMovementComponent_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execIntendTurnRight) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Throw); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->IntendTurnRight(Z_Param_Throw); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execInitialise) \
 	{ \
