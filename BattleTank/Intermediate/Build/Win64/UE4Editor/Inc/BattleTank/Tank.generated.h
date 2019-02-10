@@ -8,8 +8,6 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-class UTankTurret;
-class UTankBarrel;
 #ifdef BATTLETANK_Tank_generated_h
 #error "Tank.generated.h already included, missing '#pragma once' in Tank.h"
 #endif
@@ -23,24 +21,6 @@ class UTankBarrel;
 		P_NATIVE_BEGIN; \
 		P_THIS->Fire(); \
 		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execSetTurretReference) \
-	{ \
-		P_GET_OBJECT(UTankTurret,Z_Param_BarrelToSet); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->SetTurretReference(Z_Param_BarrelToSet); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execSetBarrelReference) \
-	{ \
-		P_GET_OBJECT(UTankBarrel,Z_Param_BarrelToSet); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->SetBarrelReference(Z_Param_BarrelToSet); \
-		P_NATIVE_END; \
 	}
 
 
@@ -51,24 +31,6 @@ class UTankBarrel;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->Fire(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execSetTurretReference) \
-	{ \
-		P_GET_OBJECT(UTankTurret,Z_Param_BarrelToSet); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->SetTurretReference(Z_Param_BarrelToSet); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execSetBarrelReference) \
-	{ \
-		P_GET_OBJECT(UTankBarrel,Z_Param_BarrelToSet); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->SetBarrelReference(Z_Param_BarrelToSet); \
 		P_NATIVE_END; \
 	}
 
