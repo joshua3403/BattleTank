@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BATTLETANK_TankAmingComponent_generated_h
 
-#define BattleTank_Source_BattleTank_Public_TankAmingComponent_h_19_RPC_WRAPPERS
-#define BattleTank_Source_BattleTank_Public_TankAmingComponent_h_19_RPC_WRAPPERS_NO_PURE_DECLS
-#define BattleTank_Source_BattleTank_Public_TankAmingComponent_h_19_INCLASS_NO_PURE_DECLS \
+#define BattleTank_Source_BattleTank_Public_TankAmingComponent_h_28_RPC_WRAPPERS
+#define BattleTank_Source_BattleTank_Public_TankAmingComponent_h_28_RPC_WRAPPERS_NO_PURE_DECLS
+#define BattleTank_Source_BattleTank_Public_TankAmingComponent_h_28_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUTankAmingComponent(); \
 	friend struct Z_Construct_UClass_UTankAmingComponent_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(UTankAmingComponent)
 
 
-#define BattleTank_Source_BattleTank_Public_TankAmingComponent_h_19_INCLASS \
+#define BattleTank_Source_BattleTank_Public_TankAmingComponent_h_28_INCLASS \
 private: \
 	static void StaticRegisterNativesUTankAmingComponent(); \
 	friend struct Z_Construct_UClass_UTankAmingComponent_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(UTankAmingComponent)
 
 
-#define BattleTank_Source_BattleTank_Public_TankAmingComponent_h_19_STANDARD_CONSTRUCTORS \
+#define BattleTank_Source_BattleTank_Public_TankAmingComponent_h_28_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UTankAmingComponent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTankAmingComponent) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define BattleTank_Source_BattleTank_Public_TankAmingComponent_h_19_ENHANCED_CONSTRUCTORS \
+#define BattleTank_Source_BattleTank_Public_TankAmingComponent_h_28_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UTankAmingComponent(UTankAmingComponent&&); \
@@ -57,26 +57,29 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTankAmingComponent); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UTankAmingComponent)
 
 
-#define BattleTank_Source_BattleTank_Public_TankAmingComponent_h_19_PRIVATE_PROPERTY_OFFSET
-#define BattleTank_Source_BattleTank_Public_TankAmingComponent_h_16_PROLOG
-#define BattleTank_Source_BattleTank_Public_TankAmingComponent_h_19_GENERATED_BODY_LEGACY \
+#define BattleTank_Source_BattleTank_Public_TankAmingComponent_h_28_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__FiringState() { return STRUCT_OFFSET(UTankAmingComponent, FiringState); }
+
+
+#define BattleTank_Source_BattleTank_Public_TankAmingComponent_h_25_PROLOG
+#define BattleTank_Source_BattleTank_Public_TankAmingComponent_h_28_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	BattleTank_Source_BattleTank_Public_TankAmingComponent_h_19_PRIVATE_PROPERTY_OFFSET \
-	BattleTank_Source_BattleTank_Public_TankAmingComponent_h_19_RPC_WRAPPERS \
-	BattleTank_Source_BattleTank_Public_TankAmingComponent_h_19_INCLASS \
-	BattleTank_Source_BattleTank_Public_TankAmingComponent_h_19_STANDARD_CONSTRUCTORS \
+	BattleTank_Source_BattleTank_Public_TankAmingComponent_h_28_PRIVATE_PROPERTY_OFFSET \
+	BattleTank_Source_BattleTank_Public_TankAmingComponent_h_28_RPC_WRAPPERS \
+	BattleTank_Source_BattleTank_Public_TankAmingComponent_h_28_INCLASS \
+	BattleTank_Source_BattleTank_Public_TankAmingComponent_h_28_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define BattleTank_Source_BattleTank_Public_TankAmingComponent_h_19_GENERATED_BODY \
+#define BattleTank_Source_BattleTank_Public_TankAmingComponent_h_28_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	BattleTank_Source_BattleTank_Public_TankAmingComponent_h_19_PRIVATE_PROPERTY_OFFSET \
-	BattleTank_Source_BattleTank_Public_TankAmingComponent_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
-	BattleTank_Source_BattleTank_Public_TankAmingComponent_h_19_INCLASS_NO_PURE_DECLS \
-	BattleTank_Source_BattleTank_Public_TankAmingComponent_h_19_ENHANCED_CONSTRUCTORS \
+	BattleTank_Source_BattleTank_Public_TankAmingComponent_h_28_PRIVATE_PROPERTY_OFFSET \
+	BattleTank_Source_BattleTank_Public_TankAmingComponent_h_28_RPC_WRAPPERS_NO_PURE_DECLS \
+	BattleTank_Source_BattleTank_Public_TankAmingComponent_h_28_INCLASS_NO_PURE_DECLS \
+	BattleTank_Source_BattleTank_Public_TankAmingComponent_h_28_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -85,4 +88,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #define CURRENT_FILE_ID BattleTank_Source_BattleTank_Public_TankAmingComponent_h
 
 
+#define FOREACH_ENUM_EFIRINGSTATE(op) \
+	op(EFiringState::Locked) \
+	op(EFiringState::Aiming) \
+	op(EFiringState::Reloading) 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
