@@ -20,10 +20,11 @@ public:
 	virtual void BeginPlay() override;
 
 
+protected:
+	UFUNCTION(BlueprintCallable, Category = "Setup")
+	ATank* GetControlledTank() const;
 
 private:
-
-	ATank* GetControlledTank() const;
 
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;

@@ -33,6 +33,7 @@ public:
 	void AimAt(FVector HitLocation);
 
 protected:
+	UPROPERTY(BlueprintReadOnly)
 	UTankAmingComponent* TankAmingComponent = nullptr;
 
 	UPROPERTY(BlueprintReadOnly)

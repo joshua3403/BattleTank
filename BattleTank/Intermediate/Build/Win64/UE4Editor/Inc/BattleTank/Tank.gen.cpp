@@ -25,6 +25,7 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	BATTLETANK_API UClass* Z_Construct_UClass_AProjectile_NoRegister();
 	BATTLETANK_API UClass* Z_Construct_UClass_UTankMovementComponent_NoRegister();
+	BATTLETANK_API UClass* Z_Construct_UClass_UTankAmingComponent_NoRegister();
 // End Cross Module References
 	void ATank::StaticRegisterNativesATank()
 	{
@@ -167,6 +168,10 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TankMovementComponent_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TankMovementComponent;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TankAmingComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TankAmingComponent;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -217,11 +222,20 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATank_Statics::NewProp_TankMovementComponent = { UE4CodeGen_Private::EPropertyClass::Object, "TankMovementComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x002008000008001c, 1, nullptr, STRUCT_OFFSET(ATank, TankMovementComponent), Z_Construct_UClass_UTankMovementComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATank_Statics::NewProp_TankMovementComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATank_Statics::NewProp_TankMovementComponent_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATank_Statics::NewProp_TankAmingComponent_MetaData[] = {
+		{ "Category", "Tank" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/Tank.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATank_Statics::NewProp_TankAmingComponent = { UE4CodeGen_Private::EPropertyClass::Object, "TankAmingComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x002008000008001c, 1, nullptr, STRUCT_OFFSET(ATank, TankAmingComponent), Z_Construct_UClass_UTankAmingComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATank_Statics::NewProp_TankAmingComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATank_Statics::NewProp_TankAmingComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATank_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATank_Statics::NewProp_ReloadTimeInSeconds,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATank_Statics::NewProp_LaunchSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATank_Statics::NewProp_ProjectileBlueprint,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATank_Statics::NewProp_TankMovementComponent,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATank_Statics::NewProp_TankAmingComponent,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ATank_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ATank>::IsAbstract,
@@ -246,7 +260,7 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATank, 2862478788);
+	IMPLEMENT_CLASS(ATank, 1797215210);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ATank(Z_Construct_UClass_ATank, &ATank::StaticClass, TEXT("/Script/BattleTank"), TEXT("ATank"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ATank);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
