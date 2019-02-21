@@ -2,7 +2,6 @@
 
 #include "TankPlayerController.h"
 #include "TankAmingComponent.h"
-#include "Tank.h"
 
 // Called every frame
 void ATankPlayerController::Tick(float DeltaTime)
@@ -16,26 +15,22 @@ void ATankPlayerController::Tick(float DeltaTime)
 void ATankPlayerController::BeginPlay()
 {
 	Super::BeginPlay();
-	auto AimingComponent = GetControlledTank()->FindComponentByClass<UTankAmingComponent>();
+	auto AimingComponent = GetPawn()->FindComponentByClass<UTankAmingComponent>();
 	if (!ensure(AimingComponent))
 	{
 		FoundAimingComponent(AimingComponent);
 	}
 }
 
-ATank* ATankPlayerController::GetControlledTank() const
-{
-	return Cast<ATank>(GetPawn());
-}
-
 void ATankPlayerController::AimTowardsCrosshair()
 {
-	if (!ensure(GetControlledTank())) { return; }
+	auto AmingComponent = GetPawn()->FindComponentByClass<UTankAmingComponent>();
+	if (!ensure(AmingComponent)) { return; }
 
 	FVector HitLocation; // Out parameter
 	if (GetSightRayHitLocation(HitLocation)) // Has "Side effet", is going to line trace
 	{
-		GetControlledTank()->AimAt(HitLocation);
+		AmingComponent->AimAt(HitLocation);
 	}
 
 }

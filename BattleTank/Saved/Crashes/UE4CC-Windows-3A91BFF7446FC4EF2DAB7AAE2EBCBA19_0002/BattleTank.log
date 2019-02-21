@@ -1,0 +1,1204 @@
+﻿Log file open, 02/21/19 19:20:45
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: BattleTank
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.529915
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.051s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4541578
+LogInit: Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: AMD Ryzen 7 2700X Eight-Core Processor         , GPU: NVIDIA GeForce RTX 2080
+LogInit: Compiled (64-bit): Nov  6 2018 02:04:24
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.02.21-10.20.45:906][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.02.21-10.20.45:906][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.02.21-10.20.45:906][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Engine.ini]
+[2019.02.21-10.20.45:906][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.02.21-10.20.45:906][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Engine.ini]
+[2019.02.21-10.20.45:906][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Engine.ini]
+[2019.02.21-10.20.45:906][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.02.21-10.20.45:906][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.02.21-10.20.45:906][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.02.21-10.20.45:906][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.02.21-10.20.45:906][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.02.21-10.20.45:906][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.02.21-10.20.45:906][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.02.21-10.20.45:906][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.02.21-10.20.45:906][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.02.21-10.20.45:906][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.02.21-10.20.45:906][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.02.21-10.20.45:906][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.02.21-10.20.45:906][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.02.21-10.20.45:906][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Engine.ini]
+[2019.02.21-10.20.45:906][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.02.21-10.20.45:906][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.02.21-10.20.45:906][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.02.21-10.20.45:906][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.02.21-10.20.45:906][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.02.21-10.20.45:906][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.02.21-10.20.45:907][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.02.21-10.20.45:907][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.02.21-10.20.45:907][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.02.21-10.20.45:907][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.02.21-10.20.45:907][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.02.21-10.20.45:907][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.02.21-10.20.45:907][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.02.21-10.20.45:907][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.02.21-10.20.45:907][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Engine.ini]
+[2019.02.21-10.20.45:907][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Engine.ini]
+[2019.02.21-10.20.45:909][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-10.20.45:909][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.02.21-10.20.45:909][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.02.21-10.20.45:909][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-10.20.45:909][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.02.21-10.20.45:909][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-10.20.45:909][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.02.21-10.20.45:909][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.02.21-10.20.45:909][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.02.21-10.20.45:909][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.02.21-10.20.45:909][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.02.21-10.20.45:909][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.02.21-10.20.45:909][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.02.21-10.20.45:909][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.02.21-10.20.45:909][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.02.21-10.20.45:909][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.02.21-10.20.45:909][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.02.21-10.20.45:909][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.02.21-10.20.45:909][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.02.21-10.20.45:910][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.02.21-10.20.45:910][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.21-10.20.45:910][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.21-10.20.45:921][  0]LogHAL: Display: Platform has ~ 16 GB [17107632128 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.21-10.20.45:921][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.02.21-10.20.45:921][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.21-10.20.45:921][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-10.20.45:921][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.02.21-10.20.45:921][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.02.21-10.20.45:921][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-10.20.45:921][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.02.21-10.20.45:921][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-10.20.45:921][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.02.21-10.20.45:921][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.02.21-10.20.45:921][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.02.21-10.20.45:921][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.02.21-10.20.45:921][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.02.21-10.20.45:921][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.02.21-10.20.45:921][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.02.21-10.20.45:921][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.02.21-10.20.45:921][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.02.21-10.20.45:921][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.02.21-10.20.45:921][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.02.21-10.20.45:921][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.02.21-10.20.45:921][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.02.21-10.20.45:921][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.02.21-10.20.45:921][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.02.21-10.20.45:921][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.02.21-10.20.45:921][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.02.21-10.20.45:921][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.02.21-10.20.45:921][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-10.20.45:921][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.02.21-10.20.45:921][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.02.21-10.20.45:922][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.02.21-10.20.45:922][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Config/Windows/Engine.ini]
+[2019.02.21-10.20.45:922][  0]LogInit: Computer: DESKTOP-2BM5QKQ
+[2019.02.21-10.20.45:922][  0]LogInit: User: joshu
+[2019.02.21-10.20.45:922][  0]LogInit: CPU Page size=4096, Cores=8
+[2019.02.21-10.20.45:922][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.02.21-10.20.45:923][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.02.21-10.20.45:923][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.21-10.20.45:923][  0]LogMemory: Process Physical Memory: 103.90 MB used, 103.90 MB peak
+[2019.02.21-10.20.45:923][  0]LogMemory: Process Virtual Memory: 91.57 MB used, 91.57 MB peak
+[2019.02.21-10.20.45:923][  0]LogMemory: Physical Memory: 5820.83 MB used,  10494.28 MB free, 16315.11 MB total
+[2019.02.21-10.20.45:923][  0]LogMemory: Virtual Memory: 4683.21 MB used,  134213048.00 MB free, 134217728.00 MB total
+[2019.02.21-10.20.45:935][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.02.21-10.20.45:935][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.02.21-10.20.46:266][  0]LogStreaming: Display: Took  0.331s to InitEngineTextLocalization.
+[2019.02.21-10.20.46:266][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.21-10.20.46:311][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.21-10.20.46:311][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.21-10.20.46:477][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.21-10.20.46:477][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.21-10.20.46:552][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080' (Feature Level 11_0)
+[2019.02.21-10.20.46:552][  0]LogD3D11RHI:       8010/0/8157 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.02.21-10.20.46:554][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.21-10.20.46:554][  0]LogD3D11RHI:       0/0/8157 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.21-10.20.46:554][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.21-10.20.46:561][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.21-10.20.46:561][  0]LogD3D11RHI:     GPU DeviceId: 0x1e87 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.21-10.20.46:561][  0]LogWindows: EnumDisplayDevices:
+[2019.02.21-10.20.46:561][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080' (P:1 D:1)
+[2019.02.21-10.20.46:561][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2019.02.21-10.20.46:561][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2019.02.21-10.20.46:561][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2019.02.21-10.20.46:562][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.02.21-10.20.46:562][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080
+[2019.02.21-10.20.46:562][  0]LogD3D11RHI:   Driver Version: 418.91 (internal:25.21.14.1891, unified:418.91)
+[2019.02.21-10.20.46:562][  0]LogD3D11RHI:      Driver Date: 2-6-2019
+[2019.02.21-10.20.46:562][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
+[2019.02.21-10.20.46:612][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.21-10.20.46:631][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.02.21-10.20.46:673][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061086).
+[2019.02.21-10.20.46:904][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.21-10.20.46:917][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.21-10.20.46:930][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.21-10.20.46:943][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.21-10.20.46:956][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.21-10.20.46:969][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.21-10.20.46:982][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.21-10.20.46:995][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.21-10.20.47:001][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.21-10.20.47:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-10.20.47:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-10.20.47:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-10.20.47:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-10.20.47:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-10.20.47:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-10.20.47:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-10.20.47:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-10.20.47:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-10.20.47:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-10.20.47:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-10.20.47:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-10.20.47:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-10.20.47:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-10.20.47:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-10.20.47:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-10.20.47:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-10.20.47:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-10.20.47:077][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.21-10.20.47:137][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.21-10.20.47:137][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.21-10.20.47:161][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.21-10.20.47:161][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.21-10.20.47:173][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.21-10.20.47:186][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.21-10.20.47:198][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.21-10.20.47:211][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.21-10.20.47:256][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.21-10.20.47:256][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.21-10.20.47:256][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.21-10.20.47:304][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Intermediate/Shaders/WorkingDirectory/18908/).
+[2019.02.21-10.20.47:304][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/joshu/AppData/Local/Temp/UnrealShaderWorkingDir/2C4FFC4D438BECC1F7B8DCBFC3B0087C/'.
+[2019.02.21-10.20.47:306][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.21-10.20.47:306][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.21-10.20.47:306][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.21-10.20.47:762][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.21-10.20.47:799][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/joshu/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.02.21-10.20.47:800][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/joshu/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.02.21-10.20.47:800][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.21-10.20.47:800][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.21-10.20.47:800][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.21-10.20.47:800][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.21-10.20.47:811][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.21-10.20.47:811][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.21-10.20.47:811][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.02.21-10.20.47:824][  0]LogDerivedDataCache: Using Local data cache path C:/Users/joshu/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.21-10.20.47:824][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.21-10.20.47:824][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.21-10.20.47:844][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.21-10.20.47:845][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.21-10.20.47:846][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.21-10.20.47:923][  0]LogAssetRegistry: FAssetRegistry took 0.0328 seconds to start up
+[2019.02.21-10.20.48:210][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.21-10.20.48:329][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.21-10.20.48:332][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.21-10.20.48:332][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.21-10.20.48:332][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.21-10.20.48:332][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.21-10.20.48:346][  0]LogNetVersion: BattleTank 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1064757075)
+[2019.02.21-10.20.48:722][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.036886 seconds
+[2019.02.21-10.20.48:728][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.02.21-10.20.48:728][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2019.02.21-10.20.48:728][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.21-10.20.49:438][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.21-10.20.49:452][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.21-10.20.50:031][  0]SourceControl: Source control is disabled
+[2019.02.21-10.20.50:031][  0]SourceControl: Source control is disabled
+[2019.02.21-10.20.50:032][  0]SourceControl: Source control is disabled
+[2019.02.21-10.20.50:033][  0]SourceControl: Source control is disabled
+[2019.02.21-10.20.50:184][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.21-10.20.50:252][  0]LogOcInput: OculusInput pre-init called
+[2019.02.21-10.20.50:377][  0]LogEngine: Initializing Engine...
+[2019.02.21-10.20.50:378][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.21-10.20.50:379][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.21-10.20.50:379][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.21-10.20.50:379][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.21-10.20.50:379][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.21-10.20.50:573][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.21-10.20.50:584][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.21-10.20.50:600][  0]LogInit: XAudio2 using '헤드셋 이어폰(Corsair VOID PRO Surround USB Sound Adapter)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.02.21-10.20.50:745][  0]LogInit: FAudioDevice initialized.
+[2019.02.21-10.20.50:745][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.21-10.20.51:206][  0]LogDerivedDataCache: Saved boot cache 0.46s 71MB C:/Users/joshu/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.02.21-10.20.51:214][  0]LogInit: Texture streaming: Enabled
+[2019.02.21-10.20.51:230][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.21-10.20.51:243][  0]LogInit: Transaction tracking system initialized
+[2019.02.21-10.20.51:266][  0]BlueprintLog: New page: Editor Load
+[2019.02.21-10.20.51:332][  0]LocalizationService: Localization service is disabled
+[2019.02.21-10.20.51:794][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Content/' took 0.01s
+[2019.02.21-10.20.51:794][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.21-10.20.51:794][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.21-10.20.51:794][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.21-10.20.51:794][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.21-10.20.51:794][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.21-10.20.51:794][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.21-10.20.51:794][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.21-10.20.51:897][  0]SourceControl: Source control is disabled
+[2019.02.21-10.20.51:897][  0]Cmd: MAP LOAD FILE="E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Content/FlatShading/BattleGround_FlatShading.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.21-10.20.51:898][  0]LightingResults: New page: Lighting Build
+[2019.02.21-10.20.51:900][  0]MapCheck: New page: Map Check
+[2019.02.21-10.20.51:900][  0]LightingResults: New page: Lighting Build
+[2019.02.21-10.20.52:415][  0]LogAIModule: Creating AISystem for world BattleGround_FlatShading
+[2019.02.21-10.20.52:453][  0]LogBlueprintUserMessages: [Tank_BP_2] DONKEY:Tank_BP Construct
+[2019.02.21-10.20.52:455][  0]LogBlueprintUserMessages: [Tank_BP2_5] DONKEY:Tank_BP Construct
+[2019.02.21-10.20.52:456][  0]LogBlueprintUserMessages: [Tank_BP3_9] DONKEY:Tank_BP Construct
+[2019.02.21-10.20.52:456][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.21-10.20.52:489][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.21-10.20.52:489][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.091ms to complete.
+[2019.02.21-10.20.52:489][  0]LogFileHelpers: Loading map 'BattleGround_FlatShading' took 0.591
+[2019.02.21-10.20.52:580][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.21-10.20.52:586][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.21-10.20.52:593][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.21-10.20.52:600][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.21-10.20.52:610][  0]LogCollectionManager: Loaded 0 collections in 0.001349 seconds
+[2019.02.21-10.20.52:625][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Collections/' took 0.01s
+[2019.02.21-10.20.52:625][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Content/Developers/joshu/Collections/' took 0.00s
+[2019.02.21-10.20.52:625][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Content/Collections/' took 0.00s
+[2019.02.21-10.20.52:625][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.02.21-10.20.52:634][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2661 classes and 625 folders.
+[2019.02.21-10.20.52:640][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.02.21-10.20.52:641][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-10.20.52:642][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-10.20.52:642][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-10.20.52:642][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-10.20.52:643][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-10.20.52:643][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-10.20.52:643][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-10.20.52:644][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-10.20.52:644][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-10.20.52:644][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-10.20.52:645][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-10.20.52:645][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-10.20.52:645][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-10.20.52:646][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-10.20.52:646][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-10.20.52:647][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-10.20.52:647][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-10.20.52:647][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-10.20.52:648][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-10.20.52:648][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-10.20.52:648][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-10.20.52:649][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-10.20.52:649][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-10.20.52:649][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-10.20.52:650][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-10.20.52:650][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-10.20.52:677][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.02.21-10.20.52:683][  0]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.21-10.20.52:687][  0]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.21-10.20.52:690][  0]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.21-10.20.52:750][  0]LogRenderer: Reallocating scene render targets to support 1680x1044 Format 10 NumSamples 1 (Frame:1).
+[2019.02.21-10.20.52:894][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.02.21-10.20.52:895][  0]LogLoad: (Engine Initialization) Total time: 8.85 seconds
+[2019.02.21-10.20.52:895][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.21-10.20.52:964][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.21-10.20.53:009][  1]LogAssetRegistry: Asset discovery search completed in 5.1080 seconds
+[2019.02.21-10.20.53:010][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.02.21-10.20.53:010][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000040 seconds (updated 0 objects)
+[2019.02.21-10.21.00:131][578]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-10.21.00:400][591]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.21-10.21.00:446][591]LogAssetEditorManager: Opening Asset editor for Class /Script/BattleTank.TankPlayerController
+[2019.02.21-10.21.01:941][627]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2019.02.21-10.21.07:751][641]Candidate modules for hot reload:
+[2019.02.21-10.21.07:751][641]  BattleTank
+[2019.02.21-10.21.07:751][641]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,2042 Win64 Development -TargetType=Editor -Project="E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/BattleTank.uproject" -canskiplink "E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/BattleTank.uproject" ]
+[2019.02.21-10.21.07:755][641]Warning: Starting HotReload took  0.0s.
+[2019.02.21-10.21.13:852][791]CompilerResultsLog: New page: Compilation - Feb 22, 2019, 4:21:13 AM
+[2019.02.21-10.21.13:852][791]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal4\Section_04\BattleTank-1\BattleTank).
+[2019.02.21-10.21.13:852][791]CompilerResultsLog: Creating makefile for hot reloading BattleTankEditor (ini files are newer than UBTMakefile)
+[2019.02.21-10.21.13:853][791]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.21-10.21.13:853][791]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.02.21-10.21.13:853][791]CompilerResultsLog: Building 3 actions with 16 processes...
+[2019.02.21-10.21.13:853][791]CompilerResultsLog:   [1/3] TankPlayerController.cpp
+[2019.02.21-10.21.13:853][791]CompilerResultsLog:    E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Source\BattleTank\Private\TankPlayerController.cpp(31) : error C2065: 'HitLocation': ???????? ???? ?ĺ????Դϴ?.
+[2019.02.21-10.21.13:853][791]CompilerResultsLog:    E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Source\BattleTank\Private\TankPlayerController.cpp(33) : error C2065: 'HitLocation': ???????? ???? ?ĺ????Դϴ?.
+[2019.02.21-10.21.13:853][791]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Binaries\Win64\UE4Editor-BattleTank-2042.dll
+[2019.02.21-10.21.13:853][791]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.02.21-10.21.13:853][791]CompilerResultsLog: Total build time: 5.63 seconds (Parallel executor: 0.00 seconds)
+[2019.02.21-10.21.13:853][791]LogMainFrame: MainFrame: Module compiling took 6.104 seconds
+[2019.02.21-10.21.13:853][791]Warning: HotReload failed, recompile failed
+[2019.02.21-10.21.20:862][811]LogSlate: Took 0.001214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.02.21-10.21.20:865][811]LogSlate: Took 0.001652 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2019.02.21-10.21.42:793][  5]LogSlate: Window 'Message Log' being destroyed
+[2019.02.21-10.21.42:858][  5]LogSlate: Window 'Message Log' being destroyed
+[2019.02.21-10.21.43:735][ 33]Candidate modules for hot reload:
+[2019.02.21-10.21.43:735][ 33]  BattleTank
+[2019.02.21-10.21.43:735][ 33]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,7951 Win64 Development -TargetType=Editor -Project="E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/BattleTank.uproject" -canskiplink "E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/BattleTank.uproject" ]
+[2019.02.21-10.21.43:739][ 33]Warning: Starting HotReload took  0.0s.
+[2019.02.21-10.21.49:080][ 87]CompilerResultsLog: New page: Compilation - Feb 22, 2019, 4:21:49 AM
+[2019.02.21-10.21.49:080][ 87]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal4\Section_04\BattleTank-1\BattleTank).
+[2019.02.21-10.21.49:080][ 87]CompilerResultsLog: Creating makefile for hot reloading BattleTankEditor (source directory changed)
+[2019.02.21-10.21.49:080][ 87]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.21-10.21.49:080][ 87]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.02.21-10.21.49:080][ 87]CompilerResultsLog: Building 3 actions with 16 processes...
+[2019.02.21-10.21.49:080][ 87]CompilerResultsLog:   [1/3] TankPlayerController.cpp
+[2019.02.21-10.21.49:080][ 87]CompilerResultsLog:    E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Source\BattleTank\Private\TankPlayerController.cpp(9) : error C2065: 'UTankAimingComponent': ???????? ???? ?ĺ????Դϴ?.
+[2019.02.21-10.21.49:080][ 87]CompilerResultsLog:    E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Source\BattleTank\Private\TankPlayerController.cpp(9) : error C2672: 'AActor::FindComponentByClass': ??ġ?ϴ? ?????ε??? ?Լ??? ?????ϴ?.
+[2019.02.21-10.21.49:080][ 87]CompilerResultsLog:    E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Source\BattleTank\Private\TankPlayerController.cpp(9) : error C2974: 'AActor::FindComponentByClass': 'T'?? ???ø? ?μ??? ?߸??Ǿ????ϴ?. ?????? ?ʿ??մϴ?.
+[2019.02.21-10.21.49:080][ 87]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(2724): note: 'AActor::FindComponentByClass' ?????? ?????Ͻʽÿ?.
+[2019.02.21-10.21.49:080][ 87]CompilerResultsLog:    E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Source\BattleTank\Private\TankPlayerController.cpp(10) : error C3536: 'AimingComponent': ?ʱ?ȭ?Ǳ? ???? ?????? ?? ?????ϴ?.
+[2019.02.21-10.21.49:080][ 87]CompilerResultsLog:    E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Source\BattleTank\Private\TankPlayerController.cpp(11) : error C2664: 'void ATankPlayerController::FoundAimingComponent(UTankAmingComponent *)': ?μ? 1??(??) 'int'???? 'UTankAmingComponent *'(??)?? ??ȯ?? ?? ?????ϴ?.
+[2019.02.21-10.21.49:080][ 87]CompilerResultsLog:   E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Source\BattleTank\Private\TankPlayerController.cpp(11): note: ???? ?迭 ???Ŀ??? ?????? ???????? ??ȯ?Ϸ??? reinterpret_cast, C ??Ÿ?? ĳ??Ʈ ?Ǵ? ?Լ? ??Ÿ?? ĳ??Ʈ?? ?ʿ??մϴ?.
+[2019.02.21-10.21.49:080][ 87]CompilerResultsLog:    E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Source\BattleTank\Private\TankPlayerController.cpp(22) : error C2065: 'UTankAimingComponent': ???????? ???? ?ĺ????Դϴ?.
+[2019.02.21-10.21.49:080][ 87]CompilerResultsLog:    E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Source\BattleTank\Private\TankPlayerController.cpp(22) : error C2672: 'AActor::FindComponentByClass': ??ġ?ϴ? ?????ε??? ?Լ??? ?????ϴ?.
+[2019.02.21-10.21.49:080][ 87]CompilerResultsLog:    E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Source\BattleTank\Private\TankPlayerController.cpp(22) : error C2974: 'AActor::FindComponentByClass': 'T'?? ???ø? ?μ??? ?߸??Ǿ????ϴ?. ?????? ?ʿ??մϴ?.
+[2019.02.21-10.21.49:080][ 87]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(2724): note: 'AActor::FindComponentByClass' ?????? ?????Ͻʽÿ?.
+[2019.02.21-10.21.49:080][ 87]CompilerResultsLog:    E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Source\BattleTank\Private\TankPlayerController.cpp(23) : error C3536: 'AimingComponent': ?ʱ?ȭ?Ǳ? ???? ?????? ?? ?????ϴ?.
+[2019.02.21-10.21.49:080][ 87]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Binaries\Win64\UE4Editor-BattleTank-7951.dll
+[2019.02.21-10.21.49:080][ 87]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.02.21-10.21.49:080][ 87]CompilerResultsLog: Total build time: 5.06 seconds (Parallel executor: 0.00 seconds)
+[2019.02.21-10.21.49:081][ 87]LogMainFrame: MainFrame: Module compiling took 5.348 seconds
+[2019.02.21-10.21.49:081][ 87]Warning: HotReload failed, recompile failed
+[2019.02.21-10.22.35:578][987]LogSlate: Window 'Message Log' being destroyed
+[2019.02.21-10.22.35:637][987]LogSlate: Window 'Message Log' being destroyed
+[2019.02.21-10.22.36:438][ 74]Candidate modules for hot reload:
+[2019.02.21-10.22.36:438][ 74]  BattleTank
+[2019.02.21-10.22.36:438][ 74]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,4408 Win64 Development -TargetType=Editor -Project="E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/BattleTank.uproject" -canskiplink "E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/BattleTank.uproject" ]
+[2019.02.21-10.22.36:443][ 74]Warning: Starting HotReload took  0.0s.
+[2019.02.21-10.22.42:845][503]CompilerResultsLog: New page: Compilation - Feb 22, 2019, 4:22:42 AM
+[2019.02.21-10.22.42:845][503]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal4\Section_04\BattleTank-1\BattleTank).
+[2019.02.21-10.22.42:845][503]CompilerResultsLog: Creating makefile for hot reloading BattleTankEditor (source directory changed)
+[2019.02.21-10.22.42:845][503]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.21-10.22.42:845][503]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.02.21-10.22.42:845][503]CompilerResultsLog: Building 3 actions with 16 processes...
+[2019.02.21-10.22.42:845][503]CompilerResultsLog:   [1/3] TankPlayerController.cpp
+[2019.02.21-10.22.42:845][503]CompilerResultsLog:   [2/3] UE4Editor-BattleTank-4408.lib
+[2019.02.21-10.22.42:845][503]CompilerResultsLog:      E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-4408.lib ???̺귯?? ?? E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-4408.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.02.21-10.22.42:845][503]CompilerResultsLog:   [3/3] UE4Editor-BattleTank-4408.dll
+[2019.02.21-10.22.42:845][503]CompilerResultsLog:      E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-4408.suppressed.lib ???̺귯?? ?? E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-4408.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.02.21-10.22.42:845][503]CompilerResultsLog: Total build time: 6.20 seconds (Parallel executor: 1.75 seconds)
+[2019.02.21-10.22.42:845][503]LogMainFrame: MainFrame: Module compiling took 6.419 seconds
+[2019.02.21-10.22.42:888][503]LogClass: Could not find existing class Tank in package /Script/BattleTank for HotReload, assuming new class
+[2019.02.21-10.22.42:888][503]LogClass: Function Fire is new.
+[2019.02.21-10.22.42:889][503]LogClass: Could not find existing class TankAmingComponent in package /Script/BattleTank for HotReload, assuming new class
+[2019.02.21-10.22.42:890][503]LogClass: Function Initialise is new.
+[2019.02.21-10.22.42:891][503]LogClass: Could not find existing class TankPlayerController in package /Script/BattleTank for HotReload, assuming new class
+[2019.02.21-10.22.42:893][503]LogClass: EFiringState HotReload.
+[2019.02.21-10.22.42:897][503]LogHotReload: Re-instancing Tank after hot-reload.
+[2019.02.21-10.22.42:914][503]LogBlueprintUserMessages: [Tank_BP2_5] DONKEY:Tank_BP Construct
+[2019.02.21-10.22.42:915][503]LogBlueprintUserMessages: [Tank_BP3_9] DONKEY:Tank_BP Construct
+[2019.02.21-10.22.42:915][503]LogBlueprintUserMessages: [Tank_BP_2] DONKEY:Tank_BP Construct
+[2019.02.21-10.22.43:056][503]LogHotReload: Re-instancing TankAmingComponent after hot-reload.
+[2019.02.21-10.22.43:126][503]LogBlueprintUserMessages: [Tank_BP_2] DONKEY:Tank_BP Construct
+[2019.02.21-10.22.43:126][503]LogBlueprintUserMessages: [Tank_BP3_9] DONKEY:Tank_BP Construct
+[2019.02.21-10.22.43:127][503]LogBlueprintUserMessages: [Tank_BP2_5] DONKEY:Tank_BP Construct
+[2019.02.21-10.22.43:130][503]LogHotReload: Re-instancing TankPlayerController after hot-reload.
+[2019.02.21-10.22.43:206][503]LogContentBrowser: Native class hierarchy updated for 'BattleTank' in 0.0004 seconds. Added 9 classes and 3 folders.
+[2019.02.21-10.22.43:208][503]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2019.02.21-10.22.43:420][503]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2661 classes and 625 folders.
+[2019.02.21-10.22.43:424][503]Display: HotReload took  7.0s.
+[2019.02.21-10.23.20:229][753]Candidate modules for hot reload:
+[2019.02.21-10.23.20:229][753]  BattleTank
+[2019.02.21-10.23.20:229][753]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,2756 Win64 Development -TargetType=Editor -Project="E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/BattleTank.uproject" -canskiplink "E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/BattleTank.uproject" ]
+[2019.02.21-10.23.20:233][753]Warning: Starting HotReload took  0.0s.
+[2019.02.21-10.23.26:553][176]CompilerResultsLog: New page: Compilation - Feb 22, 2019, 4:23:26 AM
+[2019.02.21-10.23.26:554][176]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal4\Section_04\BattleTank-1\BattleTank).
+[2019.02.21-10.23.26:554][176]CompilerResultsLog: Creating makefile for hot reloading BattleTankEditor (source directory changed)
+[2019.02.21-10.23.26:554][176]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.21-10.23.26:554][176]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.02.21-10.23.26:554][176]CompilerResultsLog: Building 3 actions with 16 processes...
+[2019.02.21-10.23.26:554][176]CompilerResultsLog:   [1/3] TankPlayerController.cpp
+[2019.02.21-10.23.26:554][176]CompilerResultsLog:   [2/3] UE4Editor-BattleTank-2756.lib
+[2019.02.21-10.23.26:554][176]CompilerResultsLog:      E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-2756.lib ???̺귯?? ?? E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-2756.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.02.21-10.23.26:554][176]CompilerResultsLog:   [3/3] UE4Editor-BattleTank-2756.dll
+[2019.02.21-10.23.26:554][176]CompilerResultsLog:      E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-2756.suppressed.lib ???̺귯?? ?? E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-2756.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.02.21-10.23.26:554][176]CompilerResultsLog: Total build time: 6.11 seconds (Parallel executor: 1.66 seconds)
+[2019.02.21-10.23.26:554][176]LogMainFrame: MainFrame: Module compiling took 6.336 seconds
+[2019.02.21-10.23.26:604][176]LogClass: EFiringState HotReload.
+[2019.02.21-10.23.26:608][176]LogContentBrowser: Native class hierarchy updated for 'BattleTank' in 0.0004 seconds. Added 9 classes and 3 folders.
+[2019.02.21-10.23.26:610][176]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2019.02.21-10.23.26:667][176]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 2661 classes and 625 folders.
+[2019.02.21-10.23.26:670][176]Display: HotReload took  6.5s.
+[2019.02.21-11.16.59:425][431]LogAssetEditorManager: Opening Asset editor for Class /Script/BattleTank.Tank
+[2019.02.21-11.18.53:935][872]LogAssetEditorManager: Opening Asset editor for Class /Script/BattleTank.Tank
+[2019.02.21-11.18.54:000][872]LogVSAccessor: Warning: Couldn't goto line number '1' in 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Source/BattleTank/Public/Tank.h'
+[2019.02.21-11.18.54:064][872]LogVSAccessor: Warning: Couldn't goto line number '1' in 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Source/BattleTank/Private/Tank.cpp'
+[2019.02.21-11.19.07:902][427]LogAssetEditorManager: Opening Asset editor for Class /Script/BattleTank.TankAmingComponent
+[2019.02.21-11.19.07:986][427]LogVSAccessor: Warning: Couldn't goto line number '1' in 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Source/BattleTank/Public/TankAmingComponent.h'
+[2019.02.21-11.19.08:057][427]LogVSAccessor: Warning: Couldn't goto line number '1' in 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Source/BattleTank/Private/TankAmingComponent.cpp'
+[2019.02.21-11.25.56:212][759]Candidate modules for hot reload:
+[2019.02.21-11.25.56:212][759]  BattleTank
+[2019.02.21-11.25.56:212][759]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,8597 Win64 Development -TargetType=Editor -Project="E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/BattleTank.uproject" -canskiplink "E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/BattleTank.uproject" ]
+[2019.02.21-11.25.56:213][759]Warning: Starting HotReload took  0.0s.
+[2019.02.21-11.26.12:115][858]CompilerResultsLog: New page: Compilation - Feb 22, 2019, 5:26:12 AM
+[2019.02.21-11.26.12:116][858]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal4\Section_04\BattleTank-1\BattleTank).
+[2019.02.21-11.26.12:116][858]CompilerResultsLog: Creating makefile for hot reloading BattleTankEditor (source directory changed)
+[2019.02.21-11.26.12:116][858]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.21-11.26.12:116][858]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.02.21-11.26.12:116][858]CompilerResultsLog: Parsing headers for BattleTankEditor
+[2019.02.21-11.26.12:116][858]CompilerResultsLog:   Running UnrealHeaderTool "E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\BattleTank.uproject" "E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\BattleTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.02.21-11.26.12:116][858]CompilerResultsLog: Reflection code generated for BattleTankEditor in 8.6822138 seconds
+[2019.02.21-11.26.12:116][858]CompilerResultsLog: Building 9 actions with 16 processes...
+[2019.02.21-11.26.12:116][858]CompilerResultsLog:   [1/9] Tank.cpp
+[2019.02.21-11.26.12:116][858]CompilerResultsLog:    E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Source\BattleTank\Private\Tank.cpp(16) : error C2509: 'BeginPlay': ???? ?Լ??? 'ATank'???? ???????? ?ʾҽ??ϴ?.
+[2019.02.21-11.26.12:116][858]CompilerResultsLog:   E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Source\BattleTank\Public\Tank.h(10): note: 'ATank' ?????? ?????Ͻʽÿ?.
+[2019.02.21-11.26.12:116][858]CompilerResultsLog:    E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Source\BattleTank\Private\Tank.cpp(22) : error C2039: 'Fire': 'ATank'?? ?????? ?ƴմϴ?.
+[2019.02.21-11.26.12:116][858]CompilerResultsLog:   E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Source\BattleTank\Public\Tank.h(10): note: 'ATank' ?????? ?????Ͻʽÿ?.
+[2019.02.21-11.26.12:116][858]CompilerResultsLog:    E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Source\BattleTank\Private\Tank.cpp(24) : error C2065: 'Barrel': ???????? ???? ?ĺ????Դϴ?.
+[2019.02.21-11.26.12:116][858]CompilerResultsLog:    E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Source\BattleTank\Private\Tank.cpp(25) : error C2065: 'LastFireTime': ???????? ???? ?ĺ????Դϴ?.
+[2019.02.21-11.26.12:116][858]CompilerResultsLog:    E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Source\BattleTank\Private\Tank.cpp(25) : error C2065: 'ReloadTimeInSeconds': ???????? ???? ?ĺ????Դϴ?.
+[2019.02.21-11.26.12:116][858]CompilerResultsLog:    E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Source\BattleTank\Private\Tank.cpp(31) : error C3861: 'GetWorld': ?ĺ??ڸ? ã?? ?? ?????ϴ?.
+[2019.02.21-11.26.12:116][858]CompilerResultsLog:    E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Source\BattleTank\Private\Tank.cpp(32) : error C2065: 'ProjectileBlueprint': ???????? ???? ?ĺ????Դϴ?.
+[2019.02.21-11.26.12:116][858]CompilerResultsLog:    E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Source\BattleTank\Private\Tank.cpp(33) : error C2065: 'Barrel': ???????? ???? ?ĺ????Դϴ?.
+[2019.02.21-11.26.12:116][858]CompilerResultsLog:    E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Source\BattleTank\Private\Tank.cpp(34) : error C2065: 'Barrel': ???????? ???? ?ĺ????Դϴ?.
+[2019.02.21-11.26.12:116][858]CompilerResultsLog:    E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Source\BattleTank\Private\Tank.cpp(37) : error C3536: 'projectile': ?ʱ?ȭ?Ǳ? ???? ?????? ?? ?????ϴ?.
+[2019.02.21-11.26.12:116][858]CompilerResultsLog:    E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Source\BattleTank\Private\Tank.cpp(37) : error C2065: 'LaunchSpeed': ???????? ???? ?ĺ????Դϴ?.
+[2019.02.21-11.26.12:116][858]CompilerResultsLog:    E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Source\BattleTank\Private\Tank.cpp(38) : error C2065: 'LastFireTime': ???????? ???? ?ĺ????Դϴ?.
+[2019.02.21-11.26.12:116][858]CompilerResultsLog:   [2/9] BattleTank.init.gen.cpp
+[2019.02.21-11.26.12:116][858]CompilerResultsLog:   [3/9] Tank.gen.cpp
+[2019.02.21-11.26.12:116][858]CompilerResultsLog:   [4/9] TankPlayerController.cpp
+[2019.02.21-11.26.12:116][858]CompilerResultsLog:   [5/9] TankAmingComponent.cpp
+[2019.02.21-11.26.12:116][858]CompilerResultsLog:   [6/9] TankAmingComponent.gen.cpp
+[2019.02.21-11.26.12:116][858]CompilerResultsLog:   [7/9] TankAIController.cpp
+[2019.02.21-11.26.12:116][858]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Binaries\Win64\UE4Editor-BattleTank-8597.dll
+[2019.02.21-11.26.12:116][858]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.02.21-11.26.12:116][858]CompilerResultsLog: Total build time: 15.51 seconds (Parallel executor: 0.00 seconds)
+[2019.02.21-11.26.12:116][858]LogMainFrame: MainFrame: Module compiling took 15.908 seconds
+[2019.02.21-11.26.12:116][858]Warning: HotReload failed, recompile failed
+[2019.02.21-11.26.16:192][941]LogSlate: Took 0.005577 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NotoNaskhArabicUI-Regular.ttf' (144K)
+[2019.02.21-11.27.29:470][295]LogSlate: Window 'Message Log' being destroyed
+[2019.02.21-11.27.29:528][295]LogSlate: Window 'Message Log' being destroyed
+[2019.02.21-11.27.31:558][376]Candidate modules for hot reload:
+[2019.02.21-11.27.31:558][376]  BattleTank
+[2019.02.21-11.27.31:558][376]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,2034 Win64 Development -TargetType=Editor -Project="E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/BattleTank.uproject" -canskiplink "E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/BattleTank.uproject" ]
+[2019.02.21-11.27.31:560][376]Warning: Starting HotReload took  0.0s.
+[2019.02.21-11.27.46:164][452]CompilerResultsLog: New page: Compilation - Feb 22, 2019, 5:27:46 AM
+[2019.02.21-11.27.46:164][452]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal4\Section_04\BattleTank-1\BattleTank).
+[2019.02.21-11.27.46:165][452]CompilerResultsLog: Creating makefile for hot reloading BattleTankEditor (source directory changed)
+[2019.02.21-11.27.46:165][452]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.21-11.27.46:165][452]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.02.21-11.27.46:165][452]CompilerResultsLog: Parsing headers for BattleTankEditor
+[2019.02.21-11.27.46:165][452]CompilerResultsLog:   Running UnrealHeaderTool "E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\BattleTank.uproject" "E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\BattleTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.02.21-11.27.46:165][452]CompilerResultsLog: Reflection code generated for BattleTankEditor in 8.4736562 seconds
+[2019.02.21-11.27.46:165][452]CompilerResultsLog: Building 5 actions with 16 processes...
+[2019.02.21-11.27.46:165][452]CompilerResultsLog:   [1/5] Tank.cpp
+[2019.02.21-11.27.46:165][452]CompilerResultsLog:   [2/5] Tank.gen.cpp
+[2019.02.21-11.27.46:165][452]CompilerResultsLog:   [3/5] TankAmingComponent.cpp
+[2019.02.21-11.27.46:165][452]CompilerResultsLog:    E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Source\BattleTank\Private\TankAmingComponent.cpp(82) : error C2027: ???ǵ??? ???? ???? 'AProjectile'??(??) ?????߽??ϴ?.
+[2019.02.21-11.27.46:165][452]CompilerResultsLog:   E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Source\BattleTank\Public\TankAmingComponent.h(23): note: 'AProjectile' ?????? ?????Ͻʽÿ?.
+[2019.02.21-11.27.46:165][452]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Binaries\Win64\UE4Editor-BattleTank-2034.dll
+[2019.02.21-11.27.46:165][452]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.02.21-11.27.46:165][452]CompilerResultsLog: Total build time: 14.17 seconds (Parallel executor: 0.00 seconds)
+[2019.02.21-11.27.46:165][452]LogMainFrame: MainFrame: Module compiling took 14.618 seconds
+[2019.02.21-11.27.46:165][452]Warning: HotReload failed, recompile failed
+[2019.02.21-11.27.51:866][608]LogVSAccessor: Warning: Couldn't goto line number '82' in 'E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Source\BattleTank\Private\TankAmingComponent.cpp'
+[2019.02.21-11.28.22:481][825]LogSlate: Window 'Message Log' being destroyed
+[2019.02.21-11.28.22:539][825]LogSlate: Window 'Message Log' being destroyed
+[2019.02.21-11.28.23:100][877]Candidate modules for hot reload:
+[2019.02.21-11.28.23:100][877]  BattleTank
+[2019.02.21-11.28.23:100][877]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,5453 Win64 Development -TargetType=Editor -Project="E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/BattleTank.uproject" -canskiplink "E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/BattleTank.uproject" ]
+[2019.02.21-11.28.23:101][877]Warning: Starting HotReload took  0.0s.
+[2019.02.21-11.28.29:455][941]CompilerResultsLog: New page: Compilation - Feb 22, 2019, 5:28:29 AM
+[2019.02.21-11.28.29:455][941]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal4\Section_04\BattleTank-1\BattleTank).
+[2019.02.21-11.28.29:456][941]CompilerResultsLog: Creating makefile for hot reloading BattleTankEditor (source directory changed)
+[2019.02.21-11.28.29:456][941]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.21-11.28.29:456][941]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.02.21-11.28.29:456][941]CompilerResultsLog: Building 3 actions with 16 processes...
+[2019.02.21-11.28.29:456][941]CompilerResultsLog:   [1/3] TankAmingComponent.cpp
+[2019.02.21-11.28.29:456][941]CompilerResultsLog:   [2/3] UE4Editor-BattleTank-5453.lib
+[2019.02.21-11.28.29:456][941]CompilerResultsLog:      E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-5453.lib ???̺귯?? ?? E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-5453.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.02.21-11.28.29:456][941]CompilerResultsLog:   [3/3] UE4Editor-BattleTank-5453.dll
+[2019.02.21-11.28.29:456][941]CompilerResultsLog:      E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-5453.suppressed.lib ???̺귯?? ?? E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-5453.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.02.21-11.28.29:456][941]CompilerResultsLog: Total build time: 6.10 seconds (Parallel executor: 1.70 seconds)
+[2019.02.21-11.28.29:456][941]LogMainFrame: MainFrame: Module compiling took 6.366 seconds
+[2019.02.21-11.28.29:501][941]LogClass: Could not find existing class Tank in package /Script/BattleTank for HotReload, assuming new class
+[2019.02.21-11.28.29:502][941]LogClass: Could not find existing class TankAmingComponent in package /Script/BattleTank for HotReload, assuming new class
+[2019.02.21-11.28.29:502][941]LogClass: Function Fire is new.
+[2019.02.21-11.28.29:502][941]LogClass: Function Initialise is new.
+[2019.02.21-11.28.29:507][941]LogClass: EFiringState HotReload.
+[2019.02.21-11.28.29:510][941]LogHotReload: Re-instancing Tank after hot-reload.
+[2019.02.21-11.28.29:525][941]LogBlueprint: Error: [Compiler Tank_BP] Could not find a function named "Fire" in 'Tank_BP_C'.
+Make sure 'Tank_BP_C' has been compiled for  Fire
+[2019.02.21-11.28.29:525][941]LogBlueprint: Error: [Compiler Tank_BP] Could not find a function named "Fire" in 'Tank_BP_C'.
+Make sure 'Tank_BP_C' has been compiled for  Fire
+[2019.02.21-11.28.29:527][941]LogBlueprint: Warning: [Compiler Tank_BP] [4065.48] Compile of Tank_BP failed. 2 Fatal Issue(s) 0 Warning(s) [in 10 ms] (/Game/Tank-1/Tank_BP.Tank_BP)
+[2019.02.21-11.28.29:678][941]LogHotReload: Re-instancing TankAmingComponent after hot-reload.
+[2019.02.21-11.28.29:751][941]LogContentBrowser: Native class hierarchy updated for 'BattleTank' in 0.0003 seconds. Added 9 classes and 3 folders.
+[2019.02.21-11.28.29:754][941]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2019.02.21-11.28.29:814][941]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2661 classes and 625 folders.
+[2019.02.21-11.28.29:817][941]Display: HotReload took  6.7s.
+[2019.02.21-11.28.39:804][147]LogAssetEditorManager: Opening Asset editor for Class /Script/BattleTank.TankAIController
+[2019.02.21-11.28.39:888][147]LogVSAccessor: Warning: Couldn't goto line number '1' in 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Source/BattleTank/Public/TankAIController.h'
+[2019.02.21-11.28.39:965][147]LogVSAccessor: Warning: Couldn't goto line number '1' in 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Source/BattleTank/Private/TankAIController.cpp'
+[2019.02.21-11.29.24:131][581]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Tank-1/Tank_BP.Tank_BP
+[2019.02.21-11.29.24:919][581]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 117 classes and 0 folders.
+[2019.02.21-11.29.25:651][581]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.02.21-11.29.25:687][582]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.02.21-11.31.44:321][437]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlatShading/BattleGround_FlatShading' took 0.030
+[2019.02.21-11.31.44:322][437]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Tank-1/Tank_BP] ([1] browsable assets)...
+[2019.02.21-11.31.44:334][437]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Tank-1/Tank_BP.Tank_BP]
+[2019.02.21-11.31.44:334][437]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tank-1/Tank_BP]
+[2019.02.21-11.31.44:334][437]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank-1/Tank_BP" FILE="E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Autosaves/Game/Tank-1/Tank_BP_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.02.21-11.31.44:373][437]LogSavePackage: Moving 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Tank_BP_Auto1DF3E75764085305EF87DEAB2FCF72DF6.tmp' to 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Autosaves/Game/Tank-1/Tank_BP_Auto1.uasset'
+[2019.02.21-11.31.44:373][437]LogFileHelpers: Auto-saving content packages took 0.051
+[2019.02.21-11.31.51:311][669]BlueprintLog: New page: Compile Tank_BP
+[2019.02.21-11.31.51:331][669]LogBlueprintUserMessages: [Tank_BP2_5] DONKEY:Tank_BP Construct
+[2019.02.21-11.31.51:331][669]LogBlueprintUserMessages: [Tank_BP3_9] DONKEY:Tank_BP Construct
+[2019.02.21-11.31.51:332][669]LogBlueprintUserMessages: [Tank_BP_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.31.51:333][669]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.31.51:334][669]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.31.51:498][669]LogBlueprintUserMessages: [Tank_BP2_5] DONKEY:Tank_BP Construct
+[2019.02.21-11.31.51:500][669]LogBlueprintUserMessages: [Tank_BP3_9] DONKEY:Tank_BP Construct
+[2019.02.21-11.31.51:501][669]LogBlueprintUserMessages: [Tank_BP_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.31.51:502][669]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.31.51:502][669]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.31.51:503][669]LogBlueprintUserMessages: [Tank_BP_C_1] DONKEY:Tank_BP Construct
+[2019.02.21-11.31.51:509][669]LogBlueprintUserMessages: [Tank_BP2_5] DONKEY:Tank_BP Construct
+[2019.02.21-11.31.51:510][669]LogBlueprintUserMessages: [Tank_BP3_9] DONKEY:Tank_BP Construct
+[2019.02.21-11.31.51:511][669]LogBlueprintUserMessages: [Tank_BP_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.31.51:512][669]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.31.51:513][669]LogBlueprintUserMessages: [Tank_BP_C_1] DONKEY:Tank_BP Construct
+[2019.02.21-11.41.51:754][591]BlueprintLog: New page: Compile Tank_BP
+[2019.02.21-11.41.51:774][591]LogBlueprintUserMessages: [Tank_BP2_5] DONKEY:Tank_BP Construct
+[2019.02.21-11.41.51:775][591]LogBlueprintUserMessages: [Tank_BP3_9] DONKEY:Tank_BP Construct
+[2019.02.21-11.41.51:776][591]LogBlueprintUserMessages: [Tank_BP_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.41.51:777][591]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.41.51:777][591]LogBlueprintUserMessages: [Tank_BP_C_1] DONKEY:Tank_BP Construct
+[2019.02.21-11.41.51:938][591]LogBlueprintUserMessages: [Tank_BP2_5] DONKEY:Tank_BP Construct
+[2019.02.21-11.41.51:940][591]LogBlueprintUserMessages: [Tank_BP3_9] DONKEY:Tank_BP Construct
+[2019.02.21-11.41.51:941][591]LogBlueprintUserMessages: [Tank_BP_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.41.51:942][591]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.41.51:943][591]LogBlueprintUserMessages: [Tank_BP_C_1] DONKEY:Tank_BP Construct
+[2019.02.21-11.41.51:943][591]LogBlueprintUserMessages: [Tank_BP_C_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.41.51:949][591]LogBlueprintUserMessages: [Tank_BP2_5] DONKEY:Tank_BP Construct
+[2019.02.21-11.41.51:950][591]LogBlueprintUserMessages: [Tank_BP3_9] DONKEY:Tank_BP Construct
+[2019.02.21-11.41.51:952][591]LogBlueprintUserMessages: [Tank_BP_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.41.51:953][591]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.41.51:954][591]LogBlueprintUserMessages: [Tank_BP_C_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.41.54:149][667]Candidate modules for hot reload:
+[2019.02.21-11.41.54:149][667]  BattleTank
+[2019.02.21-11.41.54:149][667]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,8420 Win64 Development -TargetType=Editor -Project="E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/BattleTank.uproject" -canskiplink "E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/BattleTank.uproject" ]
+[2019.02.21-11.41.54:151][667]Warning: Starting HotReload took  0.0s.
+[2019.02.21-11.41.56:200][769]CompilerResultsLog: New page: Compilation - Feb 22, 2019, 5:41:56 AM
+[2019.02.21-11.41.56:200][769]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal4\Section_04\BattleTank-1\BattleTank).
+[2019.02.21-11.41.56:200][769]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.21-11.41.56:200][769]CompilerResultsLog: Target is up to date
+[2019.02.21-11.41.56:200][769]CompilerResultsLog: Total build time: 1.82 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2019.02.21-11.41.56:200][769]LogMainFrame: MainFrame: Module compiling took 2.053 seconds
+[2019.02.21-11.41.56:479][769]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2661 classes and 625 folders.
+[2019.02.21-11.41.56:485][769]Display: HotReload took  2.3s.
+[2019.02.21-11.42.47:001][101]Candidate modules for hot reload:
+[2019.02.21-11.42.47:002][101]  BattleTank
+[2019.02.21-11.42.47:002][101]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,8695 Win64 Development -TargetType=Editor -Project="E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/BattleTank.uproject" -canskiplink "E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/BattleTank.uproject" ]
+[2019.02.21-11.42.47:003][101]Warning: Starting HotReload took  0.0s.
+[2019.02.21-11.42.53:264][308]LogSavePackage: Moving 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/BattleGround_FlatShading_Auto212928FE443D96431C047A7A252AC1791.tmp' to 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Autosaves/Game/FlatShading/BattleGround_FlatShading_Auto2.umap'
+[2019.02.21-11.42.53:269][308]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlatShading/BattleGround_FlatShading' took 0.615
+[2019.02.21-11.42.53:269][308]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.615
+[2019.02.21-11.42.53:270][308]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Tank-1/Tank_BP] ([1] browsable assets)...
+[2019.02.21-11.42.53:295][308]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Tank-1/Tank_BP.Tank_BP]
+[2019.02.21-11.42.53:295][308]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tank-1/Tank_BP]
+[2019.02.21-11.42.53:295][308]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank-1/Tank_BP" FILE="E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Autosaves/Game/Tank-1/Tank_BP_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2019.02.21-11.42.53:336][308]LogSavePackage: Moving 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Tank_BP_Auto262B6ADDB44329FE3066B8C807BFCC6BF.tmp' to 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Autosaves/Game/Tank-1/Tank_BP_Auto2.uasset'
+[2019.02.21-11.42.53:336][308]LogFileHelpers: Auto-saving content packages took 0.066
+[2019.02.21-11.42.53:705][333]CompilerResultsLog: New page: Compilation - Feb 22, 2019, 5:42:53 AM
+[2019.02.21-11.42.53:705][333]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal4\Section_04\BattleTank-1\BattleTank).
+[2019.02.21-11.42.53:706][333]CompilerResultsLog: Creating makefile for hot reloading BattleTankEditor (source directory changed)
+[2019.02.21-11.42.53:706][333]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.21-11.42.53:706][333]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.02.21-11.42.53:706][333]CompilerResultsLog: Building 3 actions with 16 processes...
+[2019.02.21-11.42.53:706][333]CompilerResultsLog:   [1/3] TankAmingComponent.cpp
+[2019.02.21-11.42.53:706][333]CompilerResultsLog:   [2/3] UE4Editor-BattleTank-8695.lib
+[2019.02.21-11.42.53:706][333]CompilerResultsLog:      E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-8695.lib ???̺귯?? ?? E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-8695.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.02.21-11.42.53:706][333]CompilerResultsLog:   [3/3] UE4Editor-BattleTank-8695.dll
+[2019.02.21-11.42.53:706][333]CompilerResultsLog:      E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-8695.suppressed.lib ???̺귯?? ?? E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-8695.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.02.21-11.42.53:706][333]CompilerResultsLog: Total build time: 6.48 seconds (Parallel executor: 1.79 seconds)
+[2019.02.21-11.42.53:706][333]LogMainFrame: MainFrame: Module compiling took 6.722 seconds
+[2019.02.21-11.42.53:769][333]LogClass: EFiringState HotReload.
+[2019.02.21-11.42.53:775][333]LogContentBrowser: Native class hierarchy updated for 'BattleTank' in 0.0004 seconds. Added 9 classes and 3 folders.
+[2019.02.21-11.42.53:779][333]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2019.02.21-11.42.54:084][333]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2661 classes and 625 folders.
+[2019.02.21-11.42.54:093][333]Display: HotReload took  7.1s.
+[2019.02.21-11.42.56:086][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank-1/Tank_BP" FILE="E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Content/Tank-1/Tank_BP.uasset" SILENT=true
+[2019.02.21-11.42.56:116][416]LogSavePackage: Moving 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Tank_BPBEF71D184CD0D3F102A90799B2AB940B.tmp' to 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Content/Tank-1/Tank_BP.uasset'
+[2019.02.21-11.43.10:448][263]LogBlueprintUserMessages: [Tank_BP2_5] DONKEY:Tank_BP Construct
+[2019.02.21-11.43.10:449][263]LogBlueprintUserMessages: [Tank_BP3_9] DONKEY:Tank_BP Construct
+[2019.02.21-11.43.10:450][263]LogBlueprintUserMessages: [Tank_BP_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.43.10:451][263]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.43.10:452][263]LogBlueprintUserMessages: [Tank_BP_C_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.43.10:457][263]BlueprintLog: New page: Compile Tank_BP
+[2019.02.21-11.43.10:478][263]LogBlueprintUserMessages: [Tank_BP2_5] DONKEY:Tank_BP Construct
+[2019.02.21-11.43.10:479][263]LogBlueprintUserMessages: [Tank_BP3_9] DONKEY:Tank_BP Construct
+[2019.02.21-11.43.10:480][263]LogBlueprintUserMessages: [Tank_BP_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.43.10:480][263]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.43.10:481][263]LogBlueprintUserMessages: [Tank_BP_C_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.43.10:735][263]LogBlueprintUserMessages: [Tank_BP2_5] DONKEY:Tank_BP Construct
+[2019.02.21-11.43.10:736][263]LogBlueprintUserMessages: [Tank_BP3_9] DONKEY:Tank_BP Construct
+[2019.02.21-11.43.10:737][263]LogBlueprintUserMessages: [Tank_BP_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.43.10:738][263]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.43.10:739][263]LogBlueprintUserMessages: [Tank_BP_C_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.43.10:739][263]LogBlueprintUserMessages: [Tank_BP_C_3] DONKEY:Tank_BP Construct
+[2019.02.21-11.43.10:743][263]LogBlueprintUserMessages: [Tank_BP2_5] DONKEY:Tank_BP Construct
+[2019.02.21-11.43.10:744][263]LogBlueprintUserMessages: [Tank_BP3_9] DONKEY:Tank_BP Construct
+[2019.02.21-11.43.10:745][263]LogBlueprintUserMessages: [Tank_BP_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.43.10:746][263]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.43.10:747][263]LogBlueprintUserMessages: [Tank_BP_C_3] DONKEY:Tank_BP Construct
+[2019.02.21-11.43.28:982][780]LogBlueprintUserMessages: [Tank_BP_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.43.28:983][780]LogBlueprintUserMessages: [Tank_BP2_5] DONKEY:Tank_BP Construct
+[2019.02.21-11.43.28:984][780]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.43.28:985][780]LogBlueprintUserMessages: [Tank_BP3_9] DONKEY:Tank_BP Construct
+[2019.02.21-11.43.28:986][780]LogBlueprintUserMessages: [Tank_BP_C_3] DONKEY:Tank_BP Construct
+[2019.02.21-11.43.30:534][871]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank-1/Tank_BP" FILE="E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Content/Tank-1/Tank_BP.uasset" SILENT=true
+[2019.02.21-11.43.30:573][871]LogSavePackage: Moving 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Tank_BP1C53DF4F443FF52753D955B546193BD3.tmp' to 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Content/Tank-1/Tank_BP.uasset'
+[2019.02.21-11.43.31:296][890]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank-1/Tank_BP" FILE="E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Content/Tank-1/Tank_BP.uasset" SILENT=true
+[2019.02.21-11.43.31:325][890]LogSavePackage: Moving 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Tank_BP1687F47F4922435E378CE0958D7FEA2C.tmp' to 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Content/Tank-1/Tank_BP.uasset'
+[2019.02.21-11.43.34:858][110]LogSavePackage: Moving 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/BattleGround_FlatShadingBD1E3654440F60610994DF83A2929045.tmp' to 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Content/FlatShading/BattleGround_FlatShading.umap'
+[2019.02.21-11.43.34:885][110]LogFileHelpers: Saving map 'BattleGround_FlatShading' took 0.562
+[2019.02.21-11.43.38:431][467]Candidate modules for hot reload:
+[2019.02.21-11.43.38:431][467]  BattleTank
+[2019.02.21-11.43.38:431][467]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,6171 Win64 Development -TargetType=Editor -Project="E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/BattleTank.uproject" -canskiplink "E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/BattleTank.uproject" ]
+[2019.02.21-11.43.38:432][467]Warning: Starting HotReload took  0.0s.
+[2019.02.21-11.43.40:443][574]CompilerResultsLog: New page: Compilation - Feb 22, 2019, 5:43:40 AM
+[2019.02.21-11.43.40:443][574]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal4\Section_04\BattleTank-1\BattleTank).
+[2019.02.21-11.43.40:443][574]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.21-11.43.40:443][574]CompilerResultsLog: Target is up to date
+[2019.02.21-11.43.40:443][574]CompilerResultsLog: Total build time: 1.79 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2019.02.21-11.43.40:443][574]LogMainFrame: MainFrame: Module compiling took 2.022 seconds
+[2019.02.21-11.43.40:708][574]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2661 classes and 625 folders.
+[2019.02.21-11.43.40:714][574]Display: HotReload took  2.3s.
+[2019.02.21-11.44.08:889][993]Candidate modules for hot reload:
+[2019.02.21-11.44.08:889][993]  BattleTank
+[2019.02.21-11.44.08:889][993]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,5432 Win64 Development -TargetType=Editor -Project="E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/BattleTank.uproject" -canskiplink "E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/BattleTank.uproject" ]
+[2019.02.21-11.44.08:890][993]Warning: Starting HotReload took  0.0s.
+[2019.02.21-11.44.16:183][493]CompilerResultsLog: New page: Compilation - Feb 22, 2019, 5:44:16 AM
+[2019.02.21-11.44.16:183][493]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal4\Section_04\BattleTank-1\BattleTank).
+[2019.02.21-11.44.16:183][493]CompilerResultsLog: Creating makefile for hot reloading BattleTankEditor (source directory changed)
+[2019.02.21-11.44.16:183][493]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.21-11.44.16:183][493]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.02.21-11.44.16:184][493]CompilerResultsLog: Building 3 actions with 16 processes...
+[2019.02.21-11.44.16:184][493]CompilerResultsLog:   [1/3] TankAIController.cpp
+[2019.02.21-11.44.16:184][493]CompilerResultsLog:   [2/3] UE4Editor-BattleTank-5432.lib
+[2019.02.21-11.44.16:184][493]CompilerResultsLog:      E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-5432.lib ???̺귯?? ?? E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-5432.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.02.21-11.44.16:184][493]CompilerResultsLog:   [3/3] UE4Editor-BattleTank-5432.dll
+[2019.02.21-11.44.16:184][493]CompilerResultsLog:      E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-5432.suppressed.lib ???̺귯?? ?? E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-5432.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.02.21-11.44.16:184][493]CompilerResultsLog: Total build time: 7.08 seconds (Parallel executor: 2.37 seconds)
+[2019.02.21-11.44.16:184][493]LogMainFrame: MainFrame: Module compiling took 7.305 seconds
+[2019.02.21-11.44.16:284][493]LogClass: EFiringState HotReload.
+[2019.02.21-11.44.16:287][493]LogHotReload: Re-instancing TankAmingComponent after hot-reload.
+[2019.02.21-11.44.16:287][493]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.02.21-11.44.16:853][493]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.566 s
+[2019.02.21-11.44.16:853][493]LogOutputDevice: Error: === Handled ensure: ===
+[2019.02.21-11.44.16:853][493]LogOutputDevice: Error: 
+[2019.02.21-11.44.16:853][493]LogOutputDevice: Error: Ensure condition failed: bArchetypeReinstanced [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetReinstanceUtilities.cpp] [Line: 1620]
+[2019.02.21-11.44.16:853][493]LogOutputDevice: Error: Reinstancing non-actor (/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.Tank_BP2_5.TankAming); failed to resolve archetype object - property values may be lost.
+[2019.02.21-11.44.16:853][493]LogOutputDevice: Error: Stack: 
+[2019.02.21-11.44.16:853][493]LogOutputDevice: Error: [Callstack] 0x00007ffa1b0c4d6f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.21-11.44.16:853][493]LogOutputDevice: Error: [Callstack] 0x00007ffa1b0c2a36 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.21-11.44.16:853][493]LogOutputDevice: Error: [Callstack] 0x00007ffa1b0c1936 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.21-11.44.16:853][493]LogOutputDevice: Error: [Callstack] 0x00007ffa1b0bc7a9 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.21-11.44.16:853][493]LogOutputDevice: Error: [Callstack] 0x00007ffa1b0bd992 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.21-11.44.16:853][493]LogOutputDevice: Error: [Callstack] 0x00007ff9fee7ab93 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.02.21-11.44.16:853][493]LogOutputDevice: Error: [Callstack] 0x00007ff9fee7ae75 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.02.21-11.44.16:853][493]LogOutputDevice: Error: [Callstack] 0x00007ff9fee72c76 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.02.21-11.44.16:853][493]LogOutputDevice: Error: [Callstack] 0x00007ffa3cd1e20a UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.02.21-11.44.16:853][493]LogOutputDevice: Error: [Callstack] 0x00007ffa3ccffe96 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.02.21-11.44.16:853][493]LogOutputDevice: Error: [Callstack] 0x00007ffa3ca3e977 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.02.21-11.44.16:853][493]LogOutputDevice: Error: [Callstack] 0x00007ffa3c00ca7e UE4Editor-Core.dll!UnknownFunction []
+[2019.02.21-11.44.16:853][493]LogOutputDevice: Error: [Callstack] 0x00007ffa3c1c9e66 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.21-11.44.16:853][493]LogOutputDevice: Error: [Callstack] 0x00007ffa3c1c9139 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.21-11.44.16:853][493]LogOutputDevice: Error: [Callstack] 0x00007ff9fee705b3 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.02.21-11.44.16:853][493]LogOutputDevice: Error: [Callstack] 0x00007ff9fee6dfc7 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.02.21-11.44.16:853][493]LogOutputDevice: Error: [Callstack] 0x00007ff9fee6a04b UE4Editor-HotReload.dll!UnknownFunction []
+[2019.02.21-11.44.16:853][493]LogOutputDevice: Error: [Callstack] 0x00007ff9fee6e8ff UE4Editor-HotReload.dll!UnknownFunction []
+[2019.02.21-11.44.16:853][493]LogOutputDevice: Error: [Callstack] 0x00007ff9fee827c4 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.02.21-11.44.16:853][493]LogOutputDevice: Error: [Callstack] 0x00007ffa3bfa2c22 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.21-11.44.16:853][493]LogOutputDevice: Error: [Callstack] 0x00007ff63b4d8847 UE4Editor.exe!UnknownFunction []
+[2019.02.21-11.44.16:853][493]LogOutputDevice: Error: [Callstack] 0x00007ff63b4e596c UE4Editor.exe!UnknownFunction []
+[2019.02.21-11.44.16:853][493]LogOutputDevice: Error: [Callstack] 0x00007ff63b4e59ea UE4Editor.exe!UnknownFunction []
+[2019.02.21-11.44.16:853][493]LogOutputDevice: Error: [Callstack] 0x00007ff63b4f48da UE4Editor.exe!UnknownFunction []
+[2019.02.21-11.44.16:853][493]LogOutputDevice: Error: [Callstack] 0x00007ff63b4f659a UE4Editor.exe!UnknownFunction []
+[2019.02.21-11.44.16:853][493]LogOutputDevice: Error: [Callstack] 0x00007ffa6eb881f4 KERNEL32.DLL!UnknownFunction []
+[2019.02.21-11.44.16:853][493]LogOutputDevice: Error: [Callstack] 0x00007ffa70d6a251 ntdll.dll!UnknownFunction []
+[2019.02.21-11.44.16:853][493]LogOutputDevice: Error: 
+[2019.02.21-11.44.16:856][493]LogStats:                SubmitErrorReport -  0.000 s
+[2019.02.21-11.44.17:309][493]LogStats:                    SendNewReport -  0.454 s
+[2019.02.21-11.44.17:309][493]LogStats:             FDebug::EnsureFailed -  1.023 s
+[2019.02.21-11.44.17:493][493]LogBlueprintUserMessages: [Tank_BP2_5] DONKEY:Tank_BP Construct
+[2019.02.21-11.44.17:495][493]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.44.17:496][493]LogBlueprintUserMessages: [Tank_BP3_9] DONKEY:Tank_BP Construct
+[2019.02.21-11.44.17:496][493]LogBlueprintUserMessages: [Tank_BP_C_3] DONKEY:Tank_BP Construct
+[2019.02.21-11.44.17:496][493]LogBlueprintUserMessages: [Tank_BP_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.44.17:505][493]LogContentBrowser: Native class hierarchy updated for 'BattleTank' in 0.0004 seconds. Added 9 classes and 3 folders.
+[2019.02.21-11.44.17:509][493]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2019.02.21-11.44.17:835][493]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2661 classes and 625 folders.
+[2019.02.21-11.44.17:840][493]Display: HotReload took  9.0s.
+[2019.02.21-11.45.13:048][514]LogBlueprintUserMessages: [Tank_BP2_5] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.13:049][514]LogBlueprintUserMessages: [Tank_BP3_9] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.13:050][514]LogBlueprintUserMessages: [Tank_BP_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.13:051][514]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.13:052][514]LogBlueprintUserMessages: [Tank_BP_C_3] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.13:057][514]BlueprintLog: New page: Compile Tank_BP
+[2019.02.21-11.45.13:076][514]LogBlueprintUserMessages: [Tank_BP2_5] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.13:077][514]LogBlueprintUserMessages: [Tank_BP3_9] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.13:078][514]LogBlueprintUserMessages: [Tank_BP_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.13:078][514]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.13:079][514]LogBlueprintUserMessages: [Tank_BP_C_3] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.13:327][514]LogBlueprintUserMessages: [Tank_BP2_5] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.13:328][514]LogBlueprintUserMessages: [Tank_BP3_9] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.13:329][514]LogBlueprintUserMessages: [Tank_BP_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.13:330][514]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.13:331][514]LogBlueprintUserMessages: [Tank_BP_C_3] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.13:332][514]LogBlueprintUserMessages: [Tank_BP_C_4] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.13:335][514]LogBlueprintUserMessages: [Tank_BP2_5] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.13:336][514]LogBlueprintUserMessages: [Tank_BP3_9] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.13:337][514]LogBlueprintUserMessages: [Tank_BP_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.13:338][514]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.13:339][514]LogBlueprintUserMessages: [Tank_BP_C_4] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.19:178][805]LogBlueprintUserMessages: [Tank_BP_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.19:179][805]LogBlueprintUserMessages: [Tank_BP2_5] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.19:180][805]LogBlueprintUserMessages: [Tank_BP3_9] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.19:181][805]LogBlueprintUserMessages: [Tank_BP_C_4] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.19:182][805]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.21:731][915]LogBlueprintUserMessages: [Tank_BP2_5] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.21:732][915]LogBlueprintUserMessages: [Tank_BP_C_4] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.21:734][915]LogBlueprintUserMessages: [Tank_BP_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.21:735][915]LogBlueprintUserMessages: [Tank_BP3_9] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.21:736][915]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.24:442][ 55]LogBlueprintUserMessages: [Tank_BP2_5] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.24:443][ 55]LogBlueprintUserMessages: [Tank_BP_C_4] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.24:444][ 55]LogBlueprintUserMessages: [Tank_BP_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.24:446][ 55]LogBlueprintUserMessages: [Tank_BP3_9] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.24:448][ 55]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.24:449][ 55]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.25:930][112]LogBlueprintUserMessages: [Tank_BP2_5] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.25:931][112]LogBlueprintUserMessages: [Tank_BP2_5] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.25:933][112]LogBlueprintUserMessages: [Tank_BP_C_4] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.25:933][112]LogBlueprintUserMessages: [Tank_BP_C_4] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.25:935][112]LogBlueprintUserMessages: [Tank_BP_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.25:936][112]LogBlueprintUserMessages: [Tank_BP3_9] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.25:938][112]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.32:630][490]LogBlueprintUserMessages: [Tank_BP2_5] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.32:631][490]LogBlueprintUserMessages: [Tank_BP_C_4] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.32:632][490]LogBlueprintUserMessages: [Tank_BP_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.32:634][490]LogBlueprintUserMessages: [Tank_BP3_9] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.32:635][490]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.32:637][490]LogBlueprintUserMessages: [Tank_BP2_5] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.32:638][490]LogBlueprintUserMessages: [Tank_BP_C_4] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.32:639][490]LogBlueprintUserMessages: [Tank_BP_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.32:641][490]LogBlueprintUserMessages: [Tank_BP3_9] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.32:643][490]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.32:644][490]LogBlueprintUserMessages: [Tank_BP2_5] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.32:645][490]LogBlueprintUserMessages: [Tank_BP_C_4] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.32:647][490]LogBlueprintUserMessages: [Tank_BP_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.32:649][490]LogBlueprintUserMessages: [Tank_BP3_9] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.32:651][490]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.32:653][490]LogBlueprintUserMessages: [Tank_BP2_5] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.32:655][490]LogBlueprintUserMessages: [Tank_BP_C_4] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.32:656][490]LogBlueprintUserMessages: [Tank_BP_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.32:658][490]LogBlueprintUserMessages: [Tank_BP3_9] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.32:659][490]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.36:886][689]LogBlueprintUserMessages: [Tank_BP2_5] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.36:887][689]LogBlueprintUserMessages: [Tank_BP_C_4] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.36:889][689]LogBlueprintUserMessages: [Tank_BP_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.36:891][689]LogBlueprintUserMessages: [Tank_BP3_9] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.36:892][689]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.36:894][689]LogBlueprintUserMessages: [Tank_BP2_5] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.36:895][689]LogBlueprintUserMessages: [Tank_BP_C_4] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.36:897][689]LogBlueprintUserMessages: [Tank_BP_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.36:898][689]LogBlueprintUserMessages: [Tank_BP3_9] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.36:900][689]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.36:902][689]LogBlueprintUserMessages: [Tank_BP2_5] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.36:904][689]LogBlueprintUserMessages: [Tank_BP_C_4] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.36:905][689]LogBlueprintUserMessages: [Tank_BP_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.36:907][689]LogBlueprintUserMessages: [Tank_BP3_9] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.36:908][689]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.36:911][689]LogBlueprintUserMessages: [Tank_BP2_5] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.36:912][689]LogBlueprintUserMessages: [Tank_BP_C_4] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.36:913][689]LogBlueprintUserMessages: [Tank_BP_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.36:915][689]LogBlueprintUserMessages: [Tank_BP3_9] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.36:916][689]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.38:280][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank-1/Tank_BP" FILE="E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Content/Tank-1/Tank_BP.uasset" SILENT=true
+[2019.02.21-11.45.38:316][730]LogSavePackage: Moving 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/Tank_BP97D3604D43BAC19DD1E22684535D1E3E.tmp' to 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Content/Tank-1/Tank_BP.uasset'
+[2019.02.21-11.45.41:786][872]LogSavePackage: Moving 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Saved/BattleGround_FlatShading3198E6EB4DECE22D55CD2FB1CD674243.tmp' to 'E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/Content/FlatShading/BattleGround_FlatShading.umap'
+[2019.02.21-11.45.41:811][872]LogFileHelpers: Saving map 'BattleGround_FlatShading' took 0.571
+[2019.02.21-11.45.43:880][ 10]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.21-11.45.43:898][ 10]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel' has LevelScriptBlueprint '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading' with GeneratedClass '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading_C' with ClassGeneratedBy '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading'
+[2019.02.21-11.45.43:898][ 10]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.21-11.45.43:898][ 10]PIE: New page: PIE session: BattleGround_FlatShading (Feb 22, 2019, 5:45:43 AM)
+[2019.02.21-11.45.43:910][ 10]LogPlayLevel: Creating play world package: /Game/FlatShading/UEDPIE_0_BattleGround_FlatShading
+[2019.02.21-11.45.43:991][ 10]LogPlayLevel: PIE: StaticDuplicateObject took: (0.080957s)
+[2019.02.21-11.45.43:991][ 10]LogAIModule: Creating AISystem for world BattleGround_FlatShading
+[2019.02.21-11.45.43:992][ 10]LogPlayLevel: PIE: World Init took: (0.000522s)
+[2019.02.21-11.45.43:992][ 10]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading to /Game/FlatShading/UEDPIE_0_BattleGround_FlatShading.BattleGround_FlatShading (0.081772s)
+[2019.02.21-11.45.44:036][ 10]LogInit: XAudio2 using '헤드셋 이어폰(Corsair VOID PRO Surround USB Sound Adapter)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.02.21-11.45.44:158][ 10]LogInit: FAudioDevice initialized.
+[2019.02.21-11.45.44:198][ 10]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2019.02.21-11.45.44:203][ 10]LogWorld: Bringing World /Game/FlatShading/UEDPIE_0_BattleGround_FlatShading.BattleGround_FlatShading up for play (max tick rate 0) at 2019.02.21-20.45.44
+[2019.02.21-11.45.44:203][ 10]LogWorld: Bringing up level for play took: 0.004381
+[2019.02.21-11.45.44:223][ 10]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2019.02.21-11.45.44:224][ 10]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.45.44:225][ 10]PIE: Play in editor start time for /Game/FlatShading/UEDPIE_0_BattleGround_FlatShading 0.85
+[2019.02.21-11.45.44:225][ 10]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel' has LevelScriptBlueprint '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading' with GeneratedClass '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading_C' with ClassGeneratedBy '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading'
+[2019.02.21-11.45.44:226][ 10]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.02.21-11.45.44:292][ 10]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.067 s
+[2019.02.21-11.45.44:292][ 10]LogOutputDevice: Error: === Handled ensure: ===
+[2019.02.21-11.45.44:292][ 10]LogOutputDevice: Error: 
+[2019.02.21-11.45.44:292][ 10]LogOutputDevice: Error: Ensure condition failed: Barrel && ProjectileBlueprint [File:E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Source\BattleTank\Private\TankAmingComponent.cpp] [Line: 70]
+[2019.02.21-11.45.44:292][ 10]LogOutputDevice: Error: 
+[2019.02.21-11.45.44:292][ 10]LogOutputDevice: Error: Stack: 
+[2019.02.21-11.45.44:292][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffa03793b44 UE4Editor-BattleTank-5432.dll!UTankAmingComponent::Fire() [e:\unreal4\section_04\battletank-1\battletank\battletank\source\battletank\private\tankamingcomponent.cpp:70]
+[2019.02.21-11.45.44:292][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffa03793066 UE4Editor-BattleTank-5432.dll!ATankAIController::Tick() [e:\unreal4\section_04\battletank-1\battletank\battletank\source\battletank\private\tankaicontroller.cpp:32]
+[2019.02.21-11.45.44:292][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffa0e3fa54f UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.21-11.45.44:292][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffa0da0efd3 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.21-11.45.44:292][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffa0ecb3b8d UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.21-11.45.44:293][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffa3bf91798 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.21-11.45.44:293][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffa3bf91c56 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.21-11.45.44:293][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffa3bfa5085 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.21-11.45.44:293][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffa0ed0aaa4 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.21-11.45.44:293][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffa0ed1a812 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.21-11.45.44:293][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffa0e3eb8c4 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.21-11.45.44:293][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffa0e3f76a2 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.21-11.45.44:293][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffa1ac11fa5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.21-11.45.44:293][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffa1b532256 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.21-11.45.44:293][ 10]LogOutputDevice: Error: [Callstack] 0x00007ff63b4d6225 UE4Editor.exe!UnknownFunction []
+[2019.02.21-11.45.44:293][ 10]LogOutputDevice: Error: [Callstack] 0x00007ff63b4e596c UE4Editor.exe!UnknownFunction []
+[2019.02.21-11.45.44:293][ 10]LogOutputDevice: Error: [Callstack] 0x00007ff63b4e59ea UE4Editor.exe!UnknownFunction []
+[2019.02.21-11.45.44:293][ 10]LogOutputDevice: Error: [Callstack] 0x00007ff63b4f48da UE4Editor.exe!UnknownFunction []
+[2019.02.21-11.45.44:293][ 10]LogOutputDevice: Error: [Callstack] 0x00007ff63b4f659a UE4Editor.exe!UnknownFunction []
+[2019.02.21-11.45.44:293][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffa6eb881f4 KERNEL32.DLL!UnknownFunction []
+[2019.02.21-11.45.44:293][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffa70d6a251 ntdll.dll!UnknownFunction []
+[2019.02.21-11.45.44:293][ 10]LogOutputDevice: Error: 
+[2019.02.21-11.45.44:294][ 10]LogStats:                SubmitErrorReport -  0.000 s
+[2019.02.21-11.45.44:617][ 10]LogStats:                    SendNewReport -  0.323 s
+[2019.02.21-11.45.44:617][ 10]LogStats:             FDebug::EnsureFailed -  0.392 s
+[2019.02.21-11.45.56:622][447]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel' has LevelScriptBlueprint '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading' with GeneratedClass '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading_C' with ClassGeneratedBy '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading'
+[2019.02.21-11.45.56:622][447]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.21-11.45.56:662][447]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.21-11.45.56:663][447]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel' has LevelScriptBlueprint '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading' with GeneratedClass '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading_C' with ClassGeneratedBy '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading'
+[2019.02.21-11.45.56:693][447]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.21-11.45.56:746][449]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.02.21-11.46.13:375][619]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.21-11.46.14:384][704]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.02.21-11.46.32:804][824]Candidate modules for hot reload:
+[2019.02.21-11.46.32:804][824]  BattleTank
+[2019.02.21-11.46.32:804][824]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,8162 Win64 Development -TargetType=Editor -Project="E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/BattleTank.uproject" -canskiplink "E:/Unreal4/Section_04/BattleTank-1/BattleTank/BattleTank/BattleTank.uproject" ]
+[2019.02.21-11.46.32:806][824]Warning: Starting HotReload took  0.0s.
+[2019.02.21-11.46.39:218][260]CompilerResultsLog: New page: Compilation - Feb 22, 2019, 5:46:39 AM
+[2019.02.21-11.46.39:218][260]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal4\Section_04\BattleTank-1\BattleTank).
+[2019.02.21-11.46.39:218][260]CompilerResultsLog: Creating makefile for hot reloading BattleTankEditor (source directory changed)
+[2019.02.21-11.46.39:219][260]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.21-11.46.39:219][260]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.02.21-11.46.39:219][260]CompilerResultsLog: Building 3 actions with 16 processes...
+[2019.02.21-11.46.39:219][260]CompilerResultsLog:   [1/3] TankAmingComponent.cpp
+[2019.02.21-11.46.39:219][260]CompilerResultsLog:   [2/3] UE4Editor-BattleTank-8162.lib
+[2019.02.21-11.46.39:219][260]CompilerResultsLog:      E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-8162.lib ???̺귯?? ?? E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-8162.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.02.21-11.46.39:220][260]CompilerResultsLog:   [3/3] UE4Editor-BattleTank-8162.dll
+[2019.02.21-11.46.39:220][260]CompilerResultsLog:      E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-8162.suppressed.lib ???̺귯?? ?? E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-8162.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.02.21-11.46.39:220][260]CompilerResultsLog: Total build time: 6.21 seconds (Parallel executor: 1.73 seconds)
+[2019.02.21-11.46.39:220][260]LogMainFrame: MainFrame: Module compiling took 6.427 seconds
+[2019.02.21-11.46.39:282][260]LogClass: EFiringState HotReload.
+[2019.02.21-11.46.39:286][260]LogHotReload: Re-instancing TankBarrel after hot-reload.
+[2019.02.21-11.46.39:440][260]LogBlueprintUserMessages: [Tank_BP2_5] DONKEY:Tank_BP Construct
+[2019.02.21-11.46.39:442][260]LogBlueprintUserMessages: [Tank_BP_C_4] DONKEY:Tank_BP Construct
+[2019.02.21-11.46.39:443][260]LogBlueprintUserMessages: [Tank_BP_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.46.39:445][260]LogBlueprintUserMessages: [Tank_BP3_9] DONKEY:Tank_BP Construct
+[2019.02.21-11.46.39:446][260]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.46.39:448][260]LogHotReload: Re-instancing TankTrack after hot-reload.
+[2019.02.21-11.46.39:603][260]LogBlueprintUserMessages: [Tank_BP2_5] DONKEY:Tank_BP Construct
+[2019.02.21-11.46.39:605][260]LogBlueprintUserMessages: [Tank_BP_C_4] DONKEY:Tank_BP Construct
+[2019.02.21-11.46.39:606][260]LogBlueprintUserMessages: [Tank_BP_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.46.39:608][260]LogBlueprintUserMessages: [Tank_BP3_9] DONKEY:Tank_BP Construct
+[2019.02.21-11.46.39:609][260]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.46.39:610][260]LogHotReload: Re-instancing TankTurret after hot-reload.
+[2019.02.21-11.46.39:768][260]LogBlueprintUserMessages: [Tank_BP2_5] DONKEY:Tank_BP Construct
+[2019.02.21-11.46.39:770][260]LogBlueprintUserMessages: [Tank_BP_C_4] DONKEY:Tank_BP Construct
+[2019.02.21-11.46.39:771][260]LogBlueprintUserMessages: [Tank_BP_2] DONKEY:Tank_BP Construct
+[2019.02.21-11.46.39:772][260]LogBlueprintUserMessages: [Tank_BP3_9] DONKEY:Tank_BP Construct
+[2019.02.21-11.46.39:774][260]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.46.39:776][260]LogContentBrowser: Native class hierarchy updated for 'BattleTank' in 0.0004 seconds. Added 9 classes and 3 folders.
+[2019.02.21-11.46.39:781][260]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2019.02.21-11.46.40:076][260]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2661 classes and 625 folders.
+[2019.02.21-11.46.40:082][260]Display: HotReload took  7.3s.
+[2019.02.21-11.46.41:679][372]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.21-11.46.41:694][372]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel' has LevelScriptBlueprint '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading' with GeneratedClass '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading_C' with ClassGeneratedBy '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading'
+[2019.02.21-11.46.41:695][372]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.21-11.46.41:695][372]PIE: New page: PIE session: BattleGround_FlatShading (Feb 22, 2019, 5:46:41 AM)
+[2019.02.21-11.46.41:695][372]LogPlayLevel: Creating play world package: /Game/FlatShading/UEDPIE_0_BattleGround_FlatShading
+[2019.02.21-11.46.41:779][372]LogPlayLevel: PIE: StaticDuplicateObject took: (0.083296s)
+[2019.02.21-11.46.41:779][372]LogAIModule: Creating AISystem for world BattleGround_FlatShading
+[2019.02.21-11.46.41:779][372]LogPlayLevel: PIE: World Init took: (0.000631s)
+[2019.02.21-11.46.41:779][372]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading to /Game/FlatShading/UEDPIE_0_BattleGround_FlatShading.BattleGround_FlatShading (0.084365s)
+[2019.02.21-11.46.41:850][372]LogInit: XAudio2 using '헤드셋 이어폰(Corsair VOID PRO Surround USB Sound Adapter)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.02.21-11.46.41:973][372]LogInit: FAudioDevice initialized.
+[2019.02.21-11.46.42:006][372]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2019.02.21-11.46.42:011][372]LogWorld: Bringing World /Game/FlatShading/UEDPIE_0_BattleGround_FlatShading.BattleGround_FlatShading up for play (max tick rate 0) at 2019.02.21-20.46.42
+[2019.02.21-11.46.42:012][372]LogWorld: Bringing up level for play took: 0.004630
+[2019.02.21-11.46.42:024][372]LogBlueprintUserMessages: [Tank_BP_C_0] DONKEY:Tank_BP Construct
+[2019.02.21-11.46.42:024][372]PIE: Play in editor start time for /Game/FlatShading/UEDPIE_0_BattleGround_FlatShading 0.649
+[2019.02.21-11.46.42:025][372]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel' has LevelScriptBlueprint '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading' with GeneratedClass '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading_C' with ClassGeneratedBy '/Game/FlatShading/BattleGround_FlatShading.BattleGround_FlatShading:PersistentLevel.BattleGround_FlatShading'
+[2019.02.21-11.46.42:025][372]LogSpawn: Warning: SpawnActor failed because no class was specified
