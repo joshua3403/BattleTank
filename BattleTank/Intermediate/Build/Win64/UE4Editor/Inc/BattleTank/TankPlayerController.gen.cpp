@@ -17,9 +17,18 @@ void EmptyLinkFunctionForGeneratedCodeTankPlayerController() {}
 	BATTLETANK_API UClass* Z_Construct_UClass_ATankPlayerController();
 	ENGINE_API UClass* Z_Construct_UClass_APlayerController();
 	UPackage* Z_Construct_UPackage__Script_BattleTank();
+	BATTLETANK_API UFunction* Z_Construct_UFunction_ATankPlayerController_FoundAimingComponent();
+	BATTLETANK_API UClass* Z_Construct_UClass_UTankAmingComponent_NoRegister();
 	BATTLETANK_API UFunction* Z_Construct_UFunction_ATankPlayerController_GetControlledTank();
 	BATTLETANK_API UClass* Z_Construct_UClass_ATank_NoRegister();
 // End Cross Module References
+	static FName NAME_ATankPlayerController_FoundAimingComponent = FName(TEXT("FoundAimingComponent"));
+	void ATankPlayerController::FoundAimingComponent(UTankAmingComponent* AimCompRef)
+	{
+		TankPlayerController_eventFoundAimingComponent_Parms Parms;
+		Parms.AimCompRef=AimCompRef;
+		ProcessEvent(FindFunctionChecked(NAME_ATankPlayerController_FoundAimingComponent),&Parms);
+	}
 	void ATankPlayerController::StaticRegisterNativesATankPlayerController()
 	{
 		UClass* Class = ATankPlayerController::StaticClass();
@@ -27,6 +36,43 @@ void EmptyLinkFunctionForGeneratedCodeTankPlayerController() {}
 			{ "GetControlledTank", &ATankPlayerController::execGetControlledTank },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_ATankPlayerController_FoundAimingComponent_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AimCompRef_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_AimCompRef;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATankPlayerController_FoundAimingComponent_Statics::NewProp_AimCompRef_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ATankPlayerController_FoundAimingComponent_Statics::NewProp_AimCompRef = { UE4CodeGen_Private::EPropertyClass::Object, "AimCompRef", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000080080, 1, nullptr, STRUCT_OFFSET(TankPlayerController_eventFoundAimingComponent_Parms, AimCompRef), Z_Construct_UClass_UTankAmingComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_ATankPlayerController_FoundAimingComponent_Statics::NewProp_AimCompRef_MetaData, ARRAY_COUNT(Z_Construct_UFunction_ATankPlayerController_FoundAimingComponent_Statics::NewProp_AimCompRef_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ATankPlayerController_FoundAimingComponent_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATankPlayerController_FoundAimingComponent_Statics::NewProp_AimCompRef,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATankPlayerController_FoundAimingComponent_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Setup" },
+		{ "ModuleRelativePath", "Public/TankPlayerController.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATankPlayerController_FoundAimingComponent_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATankPlayerController, "FoundAimingComponent", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x08080800, sizeof(TankPlayerController_eventFoundAimingComponent_Parms), Z_Construct_UFunction_ATankPlayerController_FoundAimingComponent_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ATankPlayerController_FoundAimingComponent_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATankPlayerController_FoundAimingComponent_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ATankPlayerController_FoundAimingComponent_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ATankPlayerController_FoundAimingComponent()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATankPlayerController_FoundAimingComponent_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_ATankPlayerController_GetControlledTank_Statics
 	{
@@ -93,6 +139,7 @@ void EmptyLinkFunctionForGeneratedCodeTankPlayerController() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_BattleTank,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ATankPlayerController_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ATankPlayerController_FoundAimingComponent, "FoundAimingComponent" }, // 2158879180
 		{ &Z_Construct_UFunction_ATankPlayerController_GetControlledTank, "GetControlledTank" }, // 3442245297
 	};
 #if WITH_METADATA
@@ -100,6 +147,7 @@ void EmptyLinkFunctionForGeneratedCodeTankPlayerController() {}
 		{ "HideCategories", "Collision Rendering Utilities|Transformation" },
 		{ "IncludePath", "TankPlayerController.h" },
 		{ "ModuleRelativePath", "Public/TankPlayerController.h" },
+		{ "ToolTip", "Responsible for helping the player aim." },
 	};
 #endif
 #if WITH_METADATA
@@ -151,7 +199,7 @@ void EmptyLinkFunctionForGeneratedCodeTankPlayerController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATankPlayerController, 3644234057);
+	IMPLEMENT_CLASS(ATankPlayerController, 1952831119);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ATankPlayerController(Z_Construct_UClass_ATankPlayerController, &ATankPlayerController::StaticClass, TEXT("/Script/BattleTank"), TEXT("ATankPlayerController"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ATankPlayerController);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
