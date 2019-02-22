@@ -1,0 +1,38 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal4\Section_04\BattleTank-1\BattleTank).
+  Creating makefile for BattleTankEditor (no existing makefile)
+  Performing full C++ include scan (no include cache file)
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Parsing headers for BattleTankEditor
+    Running UnrealHeaderTool "E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\BattleTank.uproject" "E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\BattleTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for BattleTankEditor in 8.8724145 seconds
+  Building 24 actions with 16 processes...
+    [1/24] PCLaunch.rc
+    [2/24] SharedPCH.Engine.cpp
+    [3/24] BattleTank.init.gen.cpp
+    [4/24] TankTrack.cpp
+    [5/24] TankBarrel.gen.cpp
+    [6/24] TankTrack.gen.cpp
+    [7/24] TankBarrel.cpp
+    [8/24] TankPlayerController.gen.cpp
+    [9/24] Projectile.gen.cpp
+    [10/24] TankMovementComponent.gen.cpp
+    [11/24] Tank.cpp
+    [12/24] Tank.gen.cpp
+    [13/24] TankMovementComponent.cpp
+    [14/24] BattleTank.cpp
+    [15/24] Projectile.cpp
+    [16/24] TankAmingComponent.gen.cpp
+    [17/24] TankTurret.cpp
+    [18/24] TankPlayerController.cpp
+    [19/24] TankTurret.gen.cpp
+    [20/24] TankAmingComponent.cpp
+E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Source\BattleTank\Private\TankAmingComponent.cpp(14): warning C4996: 'UActorComponent::bWantsBeginPlay': bWantsBeginPlay was inconsistently enforced and is now unused. BeginPlay will now always be called for Actor Components. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    C:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Engine\Classes\Components/ActorComponent.h(211): note: see declaration of 'UActorComponent::bWantsBeginPlay'
+    [21/24] TankAIController.gen.cpp
+    [22/24] TankAIController.cpp
+    [23/24] UE4Editor-BattleTank.lib
+       Creating library E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank.lib and object E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank.exp
+    [24/24] UE4Editor-BattleTank.dll
+       Creating library E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank.suppressed.lib and object E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank.suppressed.exp
+  Deploying BattleTankEditor Win64 Development...
+  Total build time: 74.31 seconds (Parallel executor: 26.55 seconds)
