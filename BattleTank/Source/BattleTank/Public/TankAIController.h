@@ -16,6 +16,8 @@ class BATTLETANK_API ATankAIController : public AAIController
 
 public:
 
+
+
 private:
 
 	virtual void BeginPlay() override;
@@ -23,8 +25,10 @@ private:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+protected:
 	// How cloase can the AI tank get
-	float AcceptanceRadius = 3000;
+	UPROPERTY(EditDefaultsOnly, Category = "Setup")	// Consider EditDefaultsOnly
+	float AcceptanceRadius = 8000;
 
 };
 

@@ -31,6 +31,11 @@ void EmptyLinkFunctionForGeneratedCodeTankAIController() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AcceptanceRadius_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_AcceptanceRadius;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -45,6 +50,17 @@ void EmptyLinkFunctionForGeneratedCodeTankAIController() {}
 		{ "ModuleRelativePath", "Public/TankAIController.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATankAIController_Statics::NewProp_AcceptanceRadius_MetaData[] = {
+		{ "Category", "Setup" },
+		{ "ModuleRelativePath", "Public/TankAIController.h" },
+		{ "ToolTip", "How cloase can the AI tank get\nConsider EditDefaultsOnly" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATankAIController_Statics::NewProp_AcceptanceRadius = { UE4CodeGen_Private::EPropertyClass::Float, "AcceptanceRadius", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000001, 1, nullptr, STRUCT_OFFSET(ATankAIController, AcceptanceRadius), METADATA_PARAMS(Z_Construct_UClass_ATankAIController_Statics::NewProp_AcceptanceRadius_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATankAIController_Statics::NewProp_AcceptanceRadius_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATankAIController_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATankAIController_Statics::NewProp_AcceptanceRadius,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ATankAIController_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ATankAIController>::IsAbstract,
 	};
@@ -53,7 +69,7 @@ void EmptyLinkFunctionForGeneratedCodeTankAIController() {}
 		DependentSingletons, ARRAY_COUNT(DependentSingletons),
 		0x009002A0u,
 		nullptr, 0,
-		nullptr, 0,
+		Z_Construct_UClass_ATankAIController_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_ATankAIController_Statics::PropPointers),
 		nullptr,
 		&StaticCppClassTypeInfo,
 		nullptr, 0,
@@ -68,7 +84,7 @@ void EmptyLinkFunctionForGeneratedCodeTankAIController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATankAIController, 2858511915);
+	IMPLEMENT_CLASS(ATankAIController, 3761261092);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ATankAIController(Z_Construct_UClass_ATankAIController, &ATankAIController::StaticClass, TEXT("/Script/BattleTank"), TEXT("ATankAIController"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ATankAIController);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
