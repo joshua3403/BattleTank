@@ -13,8 +13,28 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BATTLETANK_Tank_generated_h
 
-#define BattleTank_Source_BattleTank_Public_Tank_h_12_RPC_WRAPPERS
-#define BattleTank_Source_BattleTank_Public_Tank_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define BattleTank_Source_BattleTank_Public_Tank_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetHealthPercent) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=P_THIS->GetHealthPercent(); \
+		P_NATIVE_END; \
+	}
+
+
+#define BattleTank_Source_BattleTank_Public_Tank_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetHealthPercent) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=P_THIS->GetHealthPercent(); \
+		P_NATIVE_END; \
+	}
+
+
 #define BattleTank_Source_BattleTank_Public_Tank_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATank(); \
@@ -57,7 +77,11 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATank); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ATank)
 
 
-#define BattleTank_Source_BattleTank_Public_Tank_h_12_PRIVATE_PROPERTY_OFFSET
+#define BattleTank_Source_BattleTank_Public_Tank_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__StartingHealth() { return STRUCT_OFFSET(ATank, StartingHealth); } \
+	FORCEINLINE static uint32 __PPO__CurrentHealth() { return STRUCT_OFFSET(ATank, CurrentHealth); }
+
+
 #define BattleTank_Source_BattleTank_Public_Tank_h_9_PROLOG
 #define BattleTank_Source_BattleTank_Public_Tank_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
