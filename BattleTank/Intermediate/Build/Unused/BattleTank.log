@@ -1,7 +1,19 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal4\Section_04\BattleTank-1\BattleTank).
-  Creating makefile for hot reloading BattleTankEditor (modules to compile have changed)
+  Creating makefile for hot reloading BattleTankEditor (game project files are newer)
   Compiling game modules for hot reload
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Target is up to date
+  Parsing headers for BattleTankEditor
+    Running UnrealHeaderTool "E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\BattleTank.uproject" "E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\BattleTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for BattleTankEditor in 8.150558 seconds
+  Building 7 actions with 16 processes...
+    [1/7] BattleTank.init.gen.cpp
+    [2/7] Tank.cpp
+    [3/7] Tank.gen.cpp
+    [4/7] TankAIController.gen.cpp
+    [5/7] TankAIController.cpp
+    [6/7] UE4Editor-BattleTank-5935.lib
+       Creating library E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-5935.lib and object E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-5935.exp
+    [7/7] UE4Editor-BattleTank-5935.dll
+       Creating library E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-5935.suppressed.lib and object E:\Unreal4\Section_04\BattleTank-1\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-5935.suppressed.exp
   Deploying BattleTankEditor Win64 Development...
-  Total build time: 5.14 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Total build time: 38.11 seconds (Parallel executor: 5.18 seconds)

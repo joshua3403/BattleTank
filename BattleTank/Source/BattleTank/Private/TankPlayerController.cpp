@@ -2,6 +2,7 @@
 
 #include "TankPlayerController.h"
 #include "TankAmingComponent.h"
+#include "Tank.h"
 
 // Called every frame
 void ATankPlayerController::Tick(float DeltaTime)
@@ -10,6 +11,24 @@ void ATankPlayerController::Tick(float DeltaTime)
 
 	AimTowardsCrosshair();
 
+}
+
+void ATankPlayerController::SetPawn(APawn * InPawn)
+{
+	Super::SetPawn(InPawn);
+	if (InPawn)
+	{
+		auto PossesseedTank = Cast<ATank>(InPawn);
+		if (!ensure(PossesseedTank)) { return; }
+
+		// Subscribe our local method to the tank's death event
+		PossesseedTank->OnDeath.AddUniqueDynamic(this, &ATankPlayerController::OnPossessedTankDeath);
+	}
+}
+
+void ATankPlayerController::OnPossessedTankDeath()
+{
+	StartSpectatingOnly();
 }
 
 void ATankPlayerController::BeginPlay()

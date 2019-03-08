@@ -13,12 +13,35 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeTank() {}
 // Cross Module References
+	BATTLETANK_API UFunction* Z_Construct_UDelegateFunction_BattleTank_TankDelegate__DelegateSignature();
+	UPackage* Z_Construct_UPackage__Script_BattleTank();
 	BATTLETANK_API UClass* Z_Construct_UClass_ATank_NoRegister();
 	BATTLETANK_API UClass* Z_Construct_UClass_ATank();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
-	UPackage* Z_Construct_UPackage__Script_BattleTank();
 	BATTLETANK_API UFunction* Z_Construct_UFunction_ATank_GetHealthPercent();
 // End Cross Module References
+	struct Z_Construct_UDelegateFunction_BattleTank_TankDelegate__DelegateSignature_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_BattleTank_TankDelegate__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Tank.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_BattleTank_TankDelegate__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_BattleTank, "TankDelegate__DelegateSignature", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00130000, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_BattleTank_TankDelegate__DelegateSignature_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UDelegateFunction_BattleTank_TankDelegate__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_BattleTank_TankDelegate__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_BattleTank_TankDelegate__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	void ATank::StaticRegisterNativesATank()
 	{
 		UClass* Class = ATank::StaticClass();

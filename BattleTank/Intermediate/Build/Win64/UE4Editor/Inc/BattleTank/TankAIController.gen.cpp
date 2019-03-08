@@ -17,9 +17,37 @@ void EmptyLinkFunctionForGeneratedCodeTankAIController() {}
 	BATTLETANK_API UClass* Z_Construct_UClass_ATankAIController();
 	AIMODULE_API UClass* Z_Construct_UClass_AAIController();
 	UPackage* Z_Construct_UPackage__Script_BattleTank();
+	BATTLETANK_API UFunction* Z_Construct_UFunction_ATankAIController_OnPossessedTankDeath();
 // End Cross Module References
 	void ATankAIController::StaticRegisterNativesATankAIController()
 	{
+		UClass* Class = ATankAIController::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "OnPossessedTankDeath", &ATankAIController::execOnPossessedTankDeath },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_ATankAIController_OnPossessedTankDeath_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATankAIController_OnPossessedTankDeath_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/TankAIController.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATankAIController_OnPossessedTankDeath_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATankAIController, "OnPossessedTankDeath", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00040401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATankAIController_OnPossessedTankDeath_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ATankAIController_OnPossessedTankDeath_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ATankAIController_OnPossessedTankDeath()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATankAIController_OnPossessedTankDeath_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_ATankAIController_NoRegister()
 	{
@@ -28,6 +56,7 @@ void EmptyLinkFunctionForGeneratedCodeTankAIController() {}
 	struct Z_Construct_UClass_ATankAIController_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -42,6 +71,9 @@ void EmptyLinkFunctionForGeneratedCodeTankAIController() {}
 	UObject* (*const Z_Construct_UClass_ATankAIController_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_AAIController,
 		(UObject* (*)())Z_Construct_UPackage__Script_BattleTank,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_ATankAIController_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ATankAIController_OnPossessedTankDeath, "OnPossessedTankDeath" }, // 4045408681
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATankAIController_Statics::Class_MetaDataParams[] = {
@@ -68,7 +100,7 @@ void EmptyLinkFunctionForGeneratedCodeTankAIController() {}
 		&ATankAIController::StaticClass,
 		DependentSingletons, ARRAY_COUNT(DependentSingletons),
 		0x009002A0u,
-		nullptr, 0,
+		FuncInfo, ARRAY_COUNT(FuncInfo),
 		Z_Construct_UClass_ATankAIController_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_ATankAIController_Statics::PropPointers),
 		nullptr,
 		&StaticCppClassTypeInfo,
@@ -84,7 +116,7 @@ void EmptyLinkFunctionForGeneratedCodeTankAIController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATankAIController, 1964815923);
+	IMPLEMENT_CLASS(ATankAIController, 1405192833);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ATankAIController(Z_Construct_UClass_ATankAIController, &ATankAIController::StaticClass, TEXT("/Script/BattleTank"), TEXT("ATankAIController"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ATankAIController);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
