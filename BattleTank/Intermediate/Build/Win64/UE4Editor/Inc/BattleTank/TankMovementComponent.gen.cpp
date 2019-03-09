@@ -71,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodeTankMovementComponent() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UTankMovementComponent_Initialise_Statics::Function_MetaDataParams[] = {
-		{ "Category", "Input" },
+		{ "Category", "Setup" },
 		{ "ModuleRelativePath", "Public/TankMovementComponent.h" },
 	};
 #endif
@@ -170,7 +170,7 @@ void EmptyLinkFunctionForGeneratedCodeTankMovementComponent() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_BattleTank,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UTankMovementComponent_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UTankMovementComponent_Initialise, "Initialise" }, // 2420694037
+		{ &Z_Construct_UFunction_UTankMovementComponent_Initialise, "Initialise" }, // 2517750202
 		{ &Z_Construct_UFunction_UTankMovementComponent_IntendMoveForward, "IntendMoveForward" }, // 108238486
 		{ &Z_Construct_UFunction_UTankMovementComponent_IntendTurnRight, "IntendTurnRight" }, // 1310162452
 	};
@@ -206,7 +206,7 @@ void EmptyLinkFunctionForGeneratedCodeTankMovementComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UTankMovementComponent, 2392105230);
+	IMPLEMENT_CLASS(UTankMovementComponent, 3911193112);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UTankMovementComponent(Z_Construct_UClass_UTankMovementComponent, &UTankMovementComponent::StaticClass, TEXT("/Script/BattleTank"), TEXT("UTankMovementComponent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UTankMovementComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
